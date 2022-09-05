@@ -135,3 +135,6 @@ users:
   - name: Cemil
     login: cedegi
     role: Member
+  - name: Alexander Diab
+    login: alexander-diab
+    role: Member
