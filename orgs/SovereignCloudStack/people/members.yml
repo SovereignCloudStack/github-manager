@@ -138,3 +138,9 @@ users:
   - name: Alexander Diab
     login: alexander-diab
     role: Member
+  - name: PJSINKA
+    login: pjsinka
+    role: Member
+  - name: Stefan Schmidt
+    login: ZaphodB
+    role: Member
