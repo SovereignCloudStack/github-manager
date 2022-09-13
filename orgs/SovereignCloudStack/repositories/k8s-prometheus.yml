@@ -1,9 +1,9 @@
 ---
 k8s-prometheus:
   default_branch: main
-  description: 'Deployment manifests for Prometheus®'
+  description: 'Deployment manifests for Prometheus®. Archived until needed again.'
   homepage: 'https://scs.community/'
-  archived: false
+  archived: true
   has_issues: true
   has_projects: false
   has_wiki: false

@@ -1,9 +1,9 @@
 ---
 k8s-grafana:
   default_branch: main
-  description: 'Deployment manifests for Grafana®'
+  description: 'Deployment manifests for Grafana®. Archived until needed again.'
   homepage: 'https://scs.community/'
-  archived: false
+  archived: true
   has_issues: true
   has_projects: false
   has_wiki: false

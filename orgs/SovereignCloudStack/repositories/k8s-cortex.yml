@@ -1,9 +1,9 @@
 ---
 k8s-cortex:
   default_branch: main
-  description: 'Deployment manifests for Cortex'
+  description: 'Deployment manifests for Cortex. Archived until needed again.'
   homepage: 'https://scs.community/'
-  archived: false
+  archived: true
   has_issues: true
   has_projects: false
   has_wiki: false

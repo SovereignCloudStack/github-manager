@@ -1,9 +1,9 @@
 ---
 k8s-cassandra:
   default_branch: main
-  description: 'Deployment manifests for Cassandra®/Scylla®'
+  description: 'Deployment manifests for Cassandra®/Scylla®. Archived until needed again.'
   homepage: 'https://scs.community/'
-  archived: false
+  archived: true
   has_issues: true
   has_projects: false
   has_wiki: false
