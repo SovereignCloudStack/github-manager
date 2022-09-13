@@ -12,10 +12,13 @@ users:
   - name: Christian Otto Stelter
     login: costelter
     role: Member
+  - name: Stephan Ilaender
+    login: coro1404
+    role: Member
   - name: Thorsten Schifferdecker
     login: curx
     role: Member
-  - name: ""
+  - name: Elena Zander
     login: elZander
     role: Member
   - name: Felix Kronlage-Dammers
@@ -87,7 +90,7 @@ users:
   - name: Andre Machowiak
     login: nerdicbynature
     role: Member
-  - name: ""
+  - name: Toens Bueker
     login: neuroserve
     role: Member
   - name: Oliver Otte
@@ -96,10 +99,10 @@ users:
   - name: Dr. Jens Harbott
     login: osfrickler
     role: Member
-  - name: ""
+  - name: Philipp Fell
     login: Phil9219
     role: Member
-  - name: ""
+  - name: René Lipkowsky
     login: PSwatchmen
     role: Member
   - name: ""
