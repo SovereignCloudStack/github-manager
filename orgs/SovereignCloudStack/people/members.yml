@@ -144,3 +144,9 @@ users:
   - name: Stefan Schmidt
     login: ZaphodB
     role: Member
+  - name: Nancy Buntfuss
+    login: nbuntfuss
+    role: Member
+  - name: Juan Pedro Torres
+    login: JuanPTM
+    role: Member
