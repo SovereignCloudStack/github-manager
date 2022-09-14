@@ -147,3 +147,6 @@ users:
   - name: Stefan Schmidt
     login: ZaphodB
     role: Member
+  - name: Katharina Heinritz
+    login: heinritzkat
+    role: Member
