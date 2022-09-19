@@ -1,7 +1,9 @@
 ---
 milestones:
-  - 'v3.0.0'
-  - 'v4.0.0'
+  - 'v3.0.0' # SCS R2
+  - 'v4.0.0' # SCS R3
+  - 'v5.0.0' # SCS R4
+  - 'v6.0.0' # SCS R5
 
 labels:
   - name: bug
