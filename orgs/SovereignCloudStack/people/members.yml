@@ -150,3 +150,9 @@ users:
   - name: Katharina Heinritz
     login: heinritzkat
     role: Member
+  - name: Nancy Buntfuss
+    login: nbuntfuss
+    role: Member
+  - name: Juan Pedro Torres
+    login: JuanPTM
+    role: Member
