@@ -156,3 +156,6 @@ users:
   - name: Juan Pedro Torres
     login: JuanPTM
     role: Member
+  - name: Christian Schilling
+    login: chschilling
+    role: Member
