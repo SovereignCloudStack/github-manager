@@ -159,3 +159,6 @@ users:
   - name: Christian Schilling
     login: chschilling
     role: Member
+  - name: Max Wolfs
+    login: maxwolfs
+    role: Member
