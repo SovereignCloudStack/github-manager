@@ -86,8 +86,9 @@ teams:
       - berendt
       - matfechner
       - tibeer
-      - ra-rau
+      - ra-beer
       - osfrickler
+      - itrich
   plusserver:
     description: PlusServer GmbH
     privacy: closed
