@@ -1,0 +1,341 @@
+---
+members:
+  - name: Andrej Friesen
+    login: ajfriesen
+    role: Member
+  - name: Sven Batista Steinbach
+    login: batistein
+    role: Member
+  - name: Christian Berendt
+    login: berendt
+    role: Owner
+  - name: Christian Otto Stelter
+    login: costelter
+    role: Member
+  - name: Stephan Ilaender
+    login: coro1404
+    role: Member
+  - name: Thorsten Schifferdecker
+    login: curx
+    role: Member
+  - name: Elena Zander
+    login: elZander
+    role: Member
+  - name: Felix Kronlage-Dammers
+    login: fkr
+    role: Owner
+  - name: Ralf Heiringhoff
+    login: frosty-geek
+    role: Member
+  - name: Fynn Späker
+    login: fynluk
+    role: Member
+  - name: Kurt Garloff
+    login: garloff
+    role: Owner
+  - name: Christian Rost
+    login: grischdian
+    role: Member
+  - name: Max Harmathy
+    login: harmathy
+    role: Member
+  - name: Jonas Schäfer
+    login: horazont
+    role: Member
+  - name: Philipp Westphal
+    login: isaacintactile
+    role: Member
+  - name: Ibrahim takouna
+    login: itakouna
+    role: Member
+  - name: Eduard Itrich
+    login: itrich
+    role: Owner
+  - name: ""
+    login: janiskemper
+    role: Member
+  - name: ""
+    login: jklippel
+    role: Member
+  - name: Jeff
+    login: jnull
+    role: Member
+  - name: Joshua Mühlfort
+    login: joshmue
+    role: Member
+  - name: ""
+    login: kgube
+    role: Member
+  - name: linwalth
+    login: linwalth
+    role: Member
+  - name: Markus Lindenblatt
+    login: maliblatt
+    role: Member
+  - name: Manuela Urban
+    login: ManuelaUr
+    role: Member
+  - name: Mark Goddard
+    login: markgoddard
+    role: Member
+  - name: ""
+    login: matfechner
+    role: Member
+  - name: ""
+    login: mauhau
+    role: Member
+  - name: Malte Münch
+    login: mxmxchere
+    role: Member
+  - name: Andre Machowiak
+    login: nerdicbynature
+    role: Member
+  - name: Toens Bueker
+    login: neuroserve
+    role: Member
+  - name: Oliver Otte
+    login: o-otte
+    role: Member
+  - name: Dr. Jens Harbott
+    login: osfrickler
+    role: Member
+  - name: Philipp Fell
+    login: Phil9219
+    role: Member
+  - name: René Lipkowsky
+    login: PSwatchmen
+    role: Member
+  - name: ""
+    login: ra-beer
+    role: Member
+  - name: Arvid Requate
+    login: reqa
+    role: Member
+  - name: ""
+    login: stunivention
+    role: Member
+  - name: Tim Beermann
+    login: tibeer
+    role: Member
+  - name: Florian Winkler
+    login: tinguin
+    role: Member
+  - name: Tobias Rydberg
+    login: tobberydberg
+    role: Member
+  - name: Thierry Carrez
+    login: ttx
+    role: Member
+  - name: Vadim Bauer
+    login: Vad1mo
+    role: Member
+  - name: Sebastian Wenner
+    login: wenners
+    role: Member
+  - name: Benjamin
+    login: master-caster
+    role: Member
+  - name: Cemil
+    login: cedegi
+    role: Member
+  - name: Alexander Diab
+    login: alexander-diab
+    role: Member
+  - name: PJSINKA
+    login: pjsinka
+    role: Member
+  - name: Stefan Schmidt
+    login: ZaphodB
+    role: Member
+  - name: Katharina Heinritz
+    login: heinritzkat
+    role: Member
+  - name: Nancy Buntfuss
+    login: nbuntfuss
+    role: Member
+  - name: Juan Pedro Torres
+    login: JuanPTM
+    role: Member
+  - name: Christian Schilling
+    login: chschilling
+    role: Member
+  - name: Max Wolfs
+    login: maxwolfs
+    role: Member
+# ==========================
+teams:
+  - slug: "23technologies"
+    description: "23technologies GmbH"
+    privacy: closed
+    parent:
+    maintainer:
+      - berendt
+    member:
+      - berendt
+      - mxmxchere
+      - fynluk
+  - slug: "8gears"
+    description: "8gears Ltd."
+    privacy: closed
+    parent:
+    maintainer:
+      - Vad1mo
+    member:
+      - Vad1mo
+  - slug: "b1-systems"
+    description: "B1 Systems GmbH"
+    privacy: closed
+    parent:
+    maintainer:
+      - curx
+    member:
+      - curx
+      - grischdian
+      - isaacintactile
+      - tinguin
+  - slug: "cloud-and-heat"
+    description: "Cloud&Heat Technologies GmbH"
+    privacy: closed
+    parent:
+    maintainer:
+      - horazont
+    member:
+      - horazont
+      - kgube
+  - slug: "gonicus"
+    description: "GONICUS GmbH"
+    privacy: closed
+    parent:
+    maintainer:
+      - o-otte
+    member:
+      - o-otte
+      - joshmue
+      - master-caster
+  - slug: "gridscale"
+    description: "gridscale GmbH"
+    privacy: closed
+    parent:
+    maintainer:
+      - ajfriesen
+    member:
+      - ajfriesen
+      - itakouna
+  - slug: "openinfra"
+    description: "OpenInfra Foundation"
+    privacy: closed
+    parent:
+    maintainer:
+      - ttx
+    member:
+      - ttx
+  - slug: "osba"
+    description: "Open Source Business Alliance – Bundesverband für digitale Souveränität e.V."
+    privacy: closed
+    parent:
+    maintainer:
+      - garloff
+    member:
+      - garloff
+      - fkr
+      - itrich
+      - ManuelaUr
+      - alexander-diab
+      - maxwolfs
+  - slug: "osism"
+    description: "OSISM GmbH"
+    visibility: closed
+    parent:
+    maintainer:
+      - berendt
+    member:
+      - berendt
+      - matfechner
+      - tibeer
+      - ra-beer
+      - osfrickler
+  - slug: "plusserver"
+    description: "PlusServer GmbH"
+    visibility: closed
+    parent:
+    maintainer:
+      - frosty-geek
+    member:
+      - frosty-geek
+      - neuroserve
+      - maliblatt
+      - nerdicbynature
+      - costelter
+      - Phil9219
+      - elZander
+      - PSwatchmen
+      - coro1404
+  - slug: "syself"
+    description: "Syself GmbH"
+    visibility: closed
+    parent:
+    maintainer:
+      - batistein
+      - janiskemper
+    member:
+      - batistein
+      - janiskemper
+  - slug: "uhurutec"
+    description: "UhuruTec AG"
+    visibility: closed
+    parent:
+    maintainer:
+      - jklippel
+    member:
+      - jklippel
+      - harmathy
+      - mauhau
+  - slug: "univention"
+    description: "Univention GmbH"
+    visibility: closed
+    parent:
+    maintainer:
+      - reqa
+    member:
+      - reqa
+      - stunivention
+      - JuanPTM
+      - nbuntfuss
+  - slug: "wavecon"
+    description: "Wavecon GmbH"
+    visibility: closed
+    parent:
+    maintainer:
+      - jnull
+    member:
+      - jnull
+      - linwalth
+      - cedegi
+      - ZaphodB
+      - cedegi
+      - heinritzkat
+      - pjsinka
+# ==========================
+branch_protection_templates:
+  main:
+    required_status_checks:
+      strict: true
+      checks:
+        - context: "DCO"
+          app_id: 29752456
+    enforce_admins: true
+    required_pull_request_reviews:
+      dismissal_restrictions:
+        users: [] # list of members or empty list
+        teams: [] # list of teams or empty list
+      dismiss_stale_reviews: true
+      require_code_owner_reviews: true
+      required_approving_review_count: 1
+    restrictions:
+      users: [] # list of members or empty list
+      teams: [] # list of teams or empty list
+      apps: [] # list of app slugs with push access
+    required_linear_history: false
+    allow_force_pushes: false
+    allow_deletions: false
+    required_signatures: true
