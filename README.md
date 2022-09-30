@@ -11,7 +11,7 @@ and [OSISM](https://github.com/osism/github-manager).
 python3 -m pip install --upgrade pip
 python3 -m pip install pipenv wheel
 pipenv install
-ansible-galaxy collection install otc.ansible-collection-gitcontrol
+ansible-galaxy collection install ansible-collection-gitcontrol
 ```
 
 ## Usage
