@@ -2,23 +2,57 @@
 - hosts: localhost
 
   vars:
-    gitstyring_root_dir: .
+    gitcontrol_root_dir: ./orgs
+    organization: SovereignCloudStack
+    git_type: github
 
   tasks:
-    - name: manage people
-      opentelekomcloud.gitcontrol.members:
-        root: "{{ gitstyring_root_dir }}"
-        token: "{{ github_token }}"
-      no_log: false
+    - name: Check {{ organization }} general data file
+      ansible.builtin.stat:
+        path: "{{ (gitcontrol_root_dir + '/' + organization + '/data.yaml') }}"
+      register: org_data
 
-    - name: manage teams
-      opentelekomcloud.gitcontrol.teams:
-        root: "{{ gitstyring_root_dir }}"
-        token: "{{ github_token }}"
-      no_log: false
+    - name: Read {{ organization }} organization target data
+      include_vars:
+        file: "{{ org_data.stat.path }}"
+        name: "org"
+      when: org_data.stat.exists
 
-    - name: manage repositories
-      opentelekomcloud.gitcontrol.repositories:
-        root: "{{ gitstyring_root_dir }}"
-        token: "{{ github_token }}"
-      no_log: false
+    - name: Apply {{ organization }} members
+      opentelekomcloud.gitcontrol.github_org_members:
+        token: "{{ api_token }}"
+        organization: "{{ organization }}"
+        members: "{{ org.members }}"
+      when:
+        - "org is defined"
+        - "org.members is defined"
+        - "git_type == 'github'"
+        - "api_token is defined"
+      register: members
+
+    - name: Apply {{ organization }} teams
+      opentelekomcloud.gitcontrol.github_org_teams:
+        token: "{{ api_token }}"
+        organization: "{{ organization }}"
+        teams: "{{ org.teams | default([]) }}"
+      when:
+        - "org is defined"
+        - "org.teams is defined"
+        - "git_type == 'github'"
+        - "api_token is defined"
+      register: teams
+
+    - name: Find {{ organization }} repositories data
+      ansible.builtin.find:
+        paths: "{{ gitcontrol_root_dir + '/' + organization + '/repositories' }}"
+        patterns: "*.yaml,*.yml"
+        file_type: "file"
+      register: repository_data
+
+    - include_tasks: "process_repository_file.yaml"
+      vars:
+        data: "{{ lookup('file', zj_repository_file.path) | from_yaml  }}"
+        type: "{{ org.type | default('github') }}"
+      loop: "{{ repository_data.files }}"
+      loop_control:
+        loop_var: "zj_repository_file"

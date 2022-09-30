@@ -6,10 +6,10 @@ from argparse import ArgumentParser
 
 logging.basicConfig(format='%(asctime)s - %(message)s', level=logging.INFO, datefmt='%Y-%m-%d %H:%M:%S')
 
-GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN")
+API_TOKEN = os.environ.get("API_TOKEN")
 ORGANIZATION = os.environ.get("ORGANIZATION", "sovereigncloudstack")
 
-gh = github.Github(login_or_token=GITHUB_TOKEN)
+gh = github.Github(login_or_token=API_TOKEN)
 
 parser = ArgumentParser()
 parser.add_argument("-d", "--dry", default=False, help="Dry run - if true does not change github items")

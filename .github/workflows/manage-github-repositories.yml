@@ -11,6 +11,14 @@ jobs:
   manage-github-repositories:
     runs-on: ubuntu-latest
     steps:
+      - name: Check token permissions
+        run: |
+          if [ -z "${{ secrets[format('GHP_{0}', github.actor)] }}" ]; then
+            echo "No valid PAT found for ${{github.actor}}"
+            exit 1
+          else
+            echo "Found valid PAT for ${{github.actor}}"
+          fi
       - name: Checkout repo
         uses: actions/checkout@v2
         with:
@@ -19,26 +27,28 @@ jobs:
       - name: Setup python
         uses: actions/setup-python@v2
         with:
-          python-version: '3.9'
+          python-version: '3.10'
 
       - name: Install dependencies
         run: |
-          python3 -m pip install --use-feature=2020-resolver --upgrade pip
-          python3 -m pip install --use-feature=2020-resolver pipenv wheel
+          python3 -m pip install --upgrade pip
+          python3 -m pip install pipenv wheel
           pipenv install
+
+      - name: Cache pipenv
+        uses: actions/cache@v1
+        with:
+          path: ~/.local/share/virtualenvs
+          key: ${{ runner.os }}-pipenv-${{ hashFiles('**/Pipfile.lock') }}
 
       - name: Install ansible collection
         run: |
-          ansible-galaxy collection install ansible-collection-gitcontrol
+          ansible-galaxy collection install otc.ansible-collection-gitcontrol
 
       - name: Manage github repositories with Ansible
         run: |
-          pipenv run ansible-playbook playbook.yaml -e github_token=$GITHUB_TOKEN
-        env:
-          GITHUB_TOKEN: ${{ secrets.GHP }}
+          pipenv run ansible-playbook playbook.yaml -e api_token=${{ secrets[format('GHP_{0}', github.actor)] }}
 
       - name: Manage github repositories with Python
         run: |
-          pipenv run python3 manage.py
-        env:
-          GITHUB_TOKEN: ${{ secrets.GHP }}
+          pipenv run python3 manage.py -e api_token=${{ secrets[format('GHP_{0}', github.actor)] }}
