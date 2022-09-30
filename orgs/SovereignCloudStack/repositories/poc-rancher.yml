@@ -3,6 +3,7 @@ poc-rancher:
   default_branch: main
   description: 'Automatically set up Rancher on SCS compliant IaaS'
   homepage: 'https://scs.community/'
+  topics: []
   archived: false
   has_issues: true
   has_projects: false
@@ -12,15 +13,8 @@ poc-rancher:
   allow_merge_commit: false
   allow_squash_merge: true
   allow_rebase_merge: true
-  teams:
-    maintain:
-    pull:
-    push:
-    admin:
-  collaborators:
-    maintain:
-    pull:
-    push:
-    admin:
-  topics: []
-  protection_rules: default
+  teams: []
+  collaborators: []
+  branch_protections:
+    - branch: "main"
+      template: "main"

@@ -3,6 +3,8 @@ minutes:
   default_branch: main
   description: Slides presented within SCS community
   homepage: 'https://scs.community/'
+  topics:
+    - community
   archived: false
   has_issues: true
   has_projects: false
@@ -12,16 +14,8 @@ minutes:
   allow_merge_commit: false
   allow_squash_merge: true
   allow_rebase_merge: true
-  teams:
-    maintain:
-    pull:
-    push:
-    admin:
-  collaborators:
-    maintain:
-    pull:
-    push:
-    admin:
-  topics:
-    - community
-  protection_rules: default
+  teams: []
+  collaborators: []
+  branch_protections:
+    - branch: "main"
+      template: "main"

@@ -3,6 +3,9 @@ testbed-gx-scs:
   default_branch: main
   description: GAIA-X Sovereign Cloud Stack (SCS) testbed
   homepage: 'https://scs.community/'
+  topics:
+    - openstack-environment
+    - gaia-x
   archived: false
   has_issues: true
   has_projects: false
@@ -12,17 +15,8 @@ testbed-gx-scs:
   allow_merge_commit: false
   allow_squash_merge: true
   allow_rebase_merge: true
-  teams:
-    maintain:
-    pull:
-    push:
-    admin:
-  collaborators:
-    maintain:
-    pull:
-    push:
-    admin:
-  topics:
-    - openstack-environment
-    - gaia-x
-  protection_rules: default
+  teams: []
+  collaborators: []
+  branch_protections:
+    - branch: "main"
+      template: "main"

@@ -3,6 +3,11 @@ testbed-gx-iam:
   default_branch: main
   description: GAIA-X SCS Identity and Access Management (IAM) testbed
   homepage: 'https://scs.community/'
+  topics:
+    - keycloak
+    - openstack-environment
+    - openstack-keystone
+    - gaia-x
   archived: true
   has_issues: true
   has_projects: false
@@ -12,19 +17,9 @@ testbed-gx-iam:
   allow_merge_commit: false
   allow_squash_merge: true
   allow_rebase_merge: true
-  teams:
-    maintain:
-    pull:
-    push:
-    admin:
-  collaborators:
-    maintain:
-    pull:
-    push:
-    admin:
-  topics:
-    - keycloak
-    - openstack-environment
-    - openstack-keystone
-    - gaia-x
+  teams: []
+  collaborators: []
+  branch_protections:
+    - branch: "main"
+      template: "main"
   protection_rules: default

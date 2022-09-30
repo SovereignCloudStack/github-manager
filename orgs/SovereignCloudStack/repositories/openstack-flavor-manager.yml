@@ -3,6 +3,8 @@ openstack-flavor-manager:
   default_branch: main
   description: ''
   homepage: 'https://scs.community/'
+  topics:
+    - openstack
   archived: false
   has_issues: true
   has_projects: false
@@ -12,16 +14,8 @@ openstack-flavor-manager:
   allow_merge_commit: false
   allow_squash_merge: true
   allow_rebase_merge: true
-  teams:
-    maintain:
-    pull:
-    push:
-    admin:
-  collaborators:
-    maintain:
-    pull:
-    push:
-    admin:
-  topics:
-    - openstack
-  protection_rules: default
+  teams: []
+  collaborators: []
+  branch_protections:
+    - branch: "main"
+      template: "main"

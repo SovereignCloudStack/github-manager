@@ -3,6 +3,8 @@
   default_branch: main
   description: SovereignCloudStack/.github is a special repository. The /profile/README.md will appear on the organization's profile!
   homepage: 'https://github.com/SovereignCloudStack'
+  topics:
+    - github
   archived: false
   has_issues: true
   has_projects: false
@@ -12,16 +14,8 @@
   allow_merge_commit: false
   allow_squash_merge: true
   allow_rebase_merge: true
-  teams:
-    maintain:
-    pull:
-    push:
-    admin:
-  collaborators:
-    maintain:
-    pull:
-    push:
-    admin:
-  topics:
-    - github
-  protection_rules: default
+  teams: []
+  collaborators: []
+  branch_protections:
+    - branch: "main"
+      template: "main"

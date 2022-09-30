@@ -3,6 +3,10 @@ openstack-vyos-image:
   default_branch: main
   description: VyOS on OpenStack
   homepage: 'https://scs.community/'
+  topics:
+    - openstack
+    - openstack-environment
+    - openstack-glance
   archived: false
   has_issues: true
   has_projects: false
@@ -12,18 +16,8 @@ openstack-vyos-image:
   allow_merge_commit: false
   allow_squash_merge: true
   allow_rebase_merge: true
-  teams:
-    maintain:
-    pull:
-    push:
-    admin:
-  collaborators:
-    maintain:
-    pull:
-    push:
-    admin:
-  topics:
-    - openstack
-    - openstack-environment
-    - openstack-glance
-  protection_rules: default
+  teams: []
+  collaborators: []
+  branch_protections:
+    - branch: "main"
+      template: "main"

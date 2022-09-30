@@ -3,6 +3,8 @@ k8s-open-policy-agent:
   default_branch: main
   description: 'Policies for OPA-Gatekeeper'
   homepage: 'https://scs.community/'
+  topics:
+    - k8s
   archived: false
   has_issues: true
   has_projects: false
@@ -12,16 +14,8 @@ k8s-open-policy-agent:
   allow_merge_commit: false
   allow_squash_merge: true
   allow_rebase_merge: true
-  teams:
-    maintain:
-    pull:
-    push:
-    admin:
-  collaborators:
-    maintain:
-    pull:
-    push:
-    admin:
-  topics:
-    - k8s
-  protection_rules: default
+  teams: []
+  collaborators: []
+  branch_protections:
+    - branch: "main"
+      template: "main"

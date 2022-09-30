@@ -3,6 +3,8 @@ open-operations-manifesto:
   default_branch: main
   description: Let’s start closing the gap to have open source style collaboration not just for the Dev piece in DevOps.
   homepage: 'https://openoperations.org/'
+  topics:
+    - community
   archived: false
   has_issues: true
   has_projects: false
@@ -12,16 +14,8 @@ open-operations-manifesto:
   allow_merge_commit: false
   allow_squash_merge: true
   allow_rebase_merge: true
-  teams:
-    maintain:
-    pull:
-    push:
-    admin:
-  collaborators:
-    maintain:
-    pull:
-    push:
-    admin:
-  topics:
-    - community
-  protection_rules: default
+  teams: []
+  collaborators: []
+  branch_protections:
+    - branch: "main"
+      template: "main"
