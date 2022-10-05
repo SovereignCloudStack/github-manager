@@ -171,7 +171,6 @@ teams:
     maintainer:
       - berendt
     member:
-      - berendt
       - mxmxchere
       - fynluk
   - slug: "8gears"
@@ -181,7 +180,6 @@ teams:
     maintainer:
       - Vad1mo
     member:
-      - Vad1mo
   - slug: "b1-systems"
     description: "B1 Systems GmbH"
     privacy: closed
@@ -189,7 +187,6 @@ teams:
     maintainer:
       - curx
     member:
-      - curx
       - grischdian
       - isaacintactile
       - tinguin
@@ -200,7 +197,6 @@ teams:
     maintainer:
       - horazont
     member:
-      - horazont
       - kgube
   - slug: "gonicus"
     description: "GONICUS GmbH"
@@ -209,7 +205,6 @@ teams:
     maintainer:
       - o-otte
     member:
-      - o-otte
       - joshmue
       - master-caster
   - slug: "gridscale"
@@ -219,7 +214,6 @@ teams:
     maintainer:
       - ajfriesen
     member:
-      - ajfriesen
       - itakouna
   - slug: "openinfra"
     description: "OpenInfra Foundation"
@@ -228,7 +222,6 @@ teams:
     maintainer:
       - ttx
     member:
-      - ttx
   - slug: "osba"
     description: "Open Source Business Alliance – Bundesverband für digitale Souveränität e.V."
     privacy: closed
@@ -236,7 +229,6 @@ teams:
     maintainer:
       - garloff
     member:
-      - garloff
       - fkr
       - itrich
       - ManuelaUr
@@ -249,7 +241,6 @@ teams:
     maintainer:
       - berendt
     member:
-      - berendt
       - matfechner
       - tibeer
       - ra-beer
@@ -261,7 +252,6 @@ teams:
     maintainer:
       - frosty-geek
     member:
-      - frosty-geek
       - neuroserve
       - maliblatt
       - nerdicbynature
@@ -278,8 +268,6 @@ teams:
       - batistein
       - janiskemper
     member:
-      - batistein
-      - janiskemper
   - slug: "uhurutec"
     description: "UhuruTec AG"
     visibility: closed
@@ -287,7 +275,6 @@ teams:
     maintainer:
       - jklippel
     member:
-      - jklippel
       - harmathy
       - mauhau
   - slug: "univention"
@@ -297,7 +284,6 @@ teams:
     maintainer:
       - reqa
     member:
-      - reqa
       - stunivention
       - JuanPTM
       - nbuntfuss
@@ -308,7 +294,6 @@ teams:
     maintainer:
       - jnull
     member:
-      - jnull
       - linwalth
       - cedegi
       - ZaphodB
