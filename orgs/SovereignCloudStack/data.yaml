@@ -301,6 +301,27 @@ teams:
       - heinritzkat
       - pjsinka
       - chschilling
+  - slug: "stackhpc"
+    description: "StackHPC"
+    privacy: closed
+    parent:
+    maintainer:
+      - markgoddard
+    member: []
+  - slug: "cleura"
+    description: "Cleura"
+    privacy: closed
+    parent:
+    maintainer:
+      - tobberydberg
+    member: []
+  - slug: "tsystems"
+    description: "T-Systems"
+    privacy: closed
+    parent:
+    maintainer:
+      - wenners
+    member: []
 # ==========================
 branch_protection_templates:
   main:
