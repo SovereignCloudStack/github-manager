@@ -13,7 +13,7 @@ gh = github.Github(login_or_token=API_TOKEN)
 
 parser = ArgumentParser()
 parser.add_argument("-d", "--dry", default=False, help="Dry run - if true does not change github items")
-parser.add_argument("-s", "--safe", default=True, help="Safe, non-desctructive run - if true does not remove non-defined issue labels")
+parser.add_argument("-s", "--safe", default=False, help="Safe, non-desctructive run - if true does not remove non-defined issue labels")
 args = parser.parse_args()
 
 with open("config.yaml") as fp:
