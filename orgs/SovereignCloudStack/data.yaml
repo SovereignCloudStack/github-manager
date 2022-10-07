@@ -300,6 +300,7 @@ teams:
       - cedegi
       - heinritzkat
       - pjsinka
+      - chschilling
 # ==========================
 branch_protection_templates:
   main:
