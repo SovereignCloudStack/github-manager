@@ -51,4 +51,4 @@ jobs:
 
       - name: Manage github repositories with Python
         run: |
-          pipenv run python3 manage.py -e api_token=${{ secrets[format('GHP_{0}', github.actor)] }}
+          pipenv run python3 manage.py --safe -e api_token=${{ secrets[format('GHP_{0}', github.actor)] }}
