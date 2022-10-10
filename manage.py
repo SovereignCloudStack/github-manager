@@ -13,7 +13,7 @@ gh = github.Github(login_or_token=API_TOKEN)
 
 parser = ArgumentParser()
 parser.add_argument("-d", "--dry", default=False, help="Dry run - if true does not change github items")
-parser.add_argument("-s", "--safe", default=False, help="Safe, non-desctructive run - if true does not remove non-defined issue labels")
+parser.add_argument("-kl", "--keep_labels", default=False, help="If true does not remove manually added, non-defined labels")
 args = parser.parse_args()
 
 with open("config.yaml") as fp:
@@ -61,7 +61,7 @@ for gh_repository in gh.get_organization(ORGANIZATION).get_repos(type='public'):
 
     for label in labels.keys():
         logging.info(f"{gh_repository.name} - {label} should not exist")
-        if args.dry is False and args.safe is False:
+        if args.dry is False and args.keep_labels is False:
             gh_label = labels[label]
             gh_label.delete()
             logging.info(f"{gh_repository.name} - {label} removed")
