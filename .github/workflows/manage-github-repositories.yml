@@ -19,6 +19,7 @@ jobs:
           else
             echo "Found valid PAT for ${{github.actor}}"
           fi
+
       - name: Checkout repo
         uses: actions/checkout@v2
         with:
@@ -47,8 +48,12 @@ jobs:
 
       - name: Manage github repositories with Ansible
         run: |
-          pipenv run ansible-playbook playbook.yaml -e api_token=${{ secrets[format('GHP_{0}', github.actor)] }}
+          pipenv run ansible-playbook playbook.yaml -e api_token=$API_TOKEN
+        env:
+          API_TOKEN: ${{ secrets[format('GHP_{0}', github.actor)] }}
 
       - name: Manage github repositories with Python
         run: |
-          pipenv run python3 manage.py -e api_token=${{ secrets[format('GHP_{0}', github.actor)] }}
+          pipenv run python3 manage.py --keep_labels TRUE
+        env:
+          API_TOKEN: ${{ secrets[format('GHP_{0}', github.actor)] }}
