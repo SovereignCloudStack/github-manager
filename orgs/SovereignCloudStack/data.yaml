@@ -339,9 +339,6 @@ branch_protection_templates:
       require_code_owner_reviews: false
       required_approving_review_count: 1
     restrictions:
-      users: []  # list of members or empty list
-      teams: []  # list of teams or empty list
-      apps: []  # list of app slugs with push access
     required_linear_history: false
     allow_force_pushes: false
     allow_deletions: false
