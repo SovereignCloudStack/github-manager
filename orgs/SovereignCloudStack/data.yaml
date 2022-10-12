@@ -162,6 +162,9 @@ members:
   - name: Max Wolfs
     login: maxwolfs
     role: member
+  - name: Dag Dammann
+    login: dagdammann
+    role: member
 # ==========================
 teams:
   - slug: "23technologies"
@@ -198,6 +201,7 @@ teams:
       - horazont
     member:
       - kgube
+      - dagdammann
   - slug: "gonicus"
     description: "GONICUS GmbH"
     privacy: closed
