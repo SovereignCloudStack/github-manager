@@ -90,3 +90,6 @@ labels:
   - name: longterm
     description: "Issues or pull requests that relevent for longterm support"
     color: "ff00ff"
+  - name: standards
+    description: "Issues / ADR / pull requests relevant for standardization & certification"
+    color: "50c3a5"
