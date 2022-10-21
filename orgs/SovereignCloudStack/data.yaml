@@ -165,6 +165,9 @@ members:
   - name: Dag Dammann
     login: dagdammann
     role: member
+  - name: Friederike Zelke
+    login: FriederikeZelke
+    role: member
 # ==========================
 teams:
   - slug: "23technologies"
@@ -325,6 +328,13 @@ teams:
     parent:
     maintainer:
       - wenners
+    member: []
+  - slug: "cloudical"
+    description: "Cloudical"
+    privacy: closed
+    parent:
+    maintainer:
+      - FriederikeZelke
     member: []
 # ==========================
 branch_protection_templates:
