@@ -27,6 +27,9 @@ members:
   - name: Ralf Heiringhoff
     login: frosty-geek
     role: member
+  - name: Johann Gnaucke
+    login: wieneo
+    role: member
   - name: Fynn Späker
     login: fynluk
     role: member
@@ -267,6 +270,7 @@ teams:
       - elZander
       - PSwatchmen
       - coro1404
+      - wieneo
   - slug: "syself"
     description: "Syself GmbH"
     privacy: closed
