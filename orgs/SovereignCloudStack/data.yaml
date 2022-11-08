@@ -171,6 +171,9 @@ members:
   - name: Friederike Zelke
     login: FriederikeZelke
     role: member
+  - name: Larissa
+    login: aeroflydesign
+    role: member
 # ==========================
 teams:
   - slug: "23technologies"
@@ -255,6 +258,7 @@ teams:
       - tibeer
       - ra-beer
       - osfrickler
+      - aeroflydesign
   - slug: "plusserver"
     description: "PlusServer GmbH"
     privacy: closed
