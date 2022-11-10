@@ -177,6 +177,9 @@ members:
   - name: Larissa
     login: aeroflydesign
     role: member
+  - name: Enrico Kern
+    login: flyersa
+    role: member
 # ==========================
 teams:
   - slug: "23technologies"
@@ -320,6 +323,7 @@ teams:
       - heinritzkat
       - pjsinka
       - chschilling
+      - flyersa
   - slug: "stackhpc"
     description: "StackHPC"
     privacy: closed
