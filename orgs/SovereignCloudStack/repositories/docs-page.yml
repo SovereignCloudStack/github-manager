@@ -1,5 +1,5 @@
 ---
-Docs:
+docs-page:
   default_branch: main
   description: Public static page for documentation
   homepage: 'https://scs.community/'
