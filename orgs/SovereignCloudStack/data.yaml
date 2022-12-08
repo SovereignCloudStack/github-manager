@@ -180,6 +180,9 @@ members:
   - name: Enrico Kern
     login: flyersa
     role: member
+  - name: Dirk Loßack
+    login: dirklossack
+    role: member
 # ==========================
 teams:
   - slug: "23technologies"
