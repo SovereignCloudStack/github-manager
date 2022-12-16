@@ -12,9 +12,6 @@ members:
   - name: Christian Otto Stelter
     login: costelter
     role: member
-  - name: Stephan Ilaender
-    login: coro1404
-    role: member
   - name: Thorsten Schifferdecker
     login: curx
     role: member
@@ -183,6 +180,9 @@ members:
   - name: Dirk Loßack
     login: dirklossack
     role: member
+  - name: Christian Schmitz
+    login: uselessbusinessclown
+    role: member
 # ==========================
 teams:
   - slug: "23technologies"
@@ -283,8 +283,8 @@ teams:
       - Phil9219
       - elZander
       - PSwatchmen
-      - coro1404
       - wieneo
+      - uselessbusinessclown
   - slug: "syself"
     description: "Syself GmbH"
     privacy: closed
