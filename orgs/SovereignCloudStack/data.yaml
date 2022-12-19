@@ -12,6 +12,9 @@ members:
   - name: Christian Otto Stelter
     login: costelter
     role: member
+  - name: Stephan Ilaender
+    login: coro1404
+    role: member
   - name: Thorsten Schifferdecker
     login: curx
     role: member
