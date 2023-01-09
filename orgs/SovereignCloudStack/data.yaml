@@ -186,6 +186,15 @@ members:
   - name: Christian Schmitz
     login: uselessbusinessclown
     role: member
+  - name: Martin Pilka
+    login: mpilka
+    role: member
+  - name: Matej Feder
+    login: matofeder
+    role: member
+  - name: Roman Hros
+    login: chess-knight
+    role: member
 # ==========================
 teams:
   - slug: "23technologies"
@@ -358,6 +367,15 @@ teams:
     maintainer:
       - FriederikeZelke
     member: []
+  - slug: "dnation"
+    description: "dNation"
+    privacy: closed
+    parent:
+    maintainer:
+      - mpilka
+    member:
+      - matofeder
+      - chess-knight
 # ==========================
 branch_protection_templates:
   main:
