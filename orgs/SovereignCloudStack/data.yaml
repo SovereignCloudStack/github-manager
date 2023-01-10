@@ -150,9 +150,6 @@ members:
   - name: Stefan Schmidt
     login: ZaphodB
     role: member
-  - name: Katharina Heinritz
-    login: heinritzkat
-    role: member
   - name: Nancy Buntfuss
     login: nbuntfuss
     role: member
@@ -335,7 +332,6 @@ teams:
       - cedegi
       - ZaphodB
       - cedegi
-      - heinritzkat
       - pjsinka
       - chschilling
       - flyersa
