@@ -150,6 +150,9 @@ members:
   - name: Stefan Schmidt
     login: ZaphodB
     role: member
+  - name: Wolodja Wentland
+    login: wwentland
+    role: member
   - name: Nancy Buntfuss
     login: nbuntfuss
     role: member
@@ -335,6 +338,7 @@ teams:
       - pjsinka
       - chschilling
       - flyersa
+      - wwentland
   - slug: "stackhpc"
     description: "StackHPC"
     privacy: closed
