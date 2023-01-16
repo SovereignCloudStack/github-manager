@@ -114,6 +114,9 @@ members:
   - name: Arvid Requate
     login: reqa
     role: member
+  - name: "Sascha Scherrer"
+    login: saschascherrer
+    role: member
   - name: ""
     login: stunivention
     role: member
@@ -297,6 +300,7 @@ teams:
       - PSwatchmen
       - wieneo
       - uselessbusinessclown
+      - saschascherrer
   - slug: "syself"
     description: "Syself GmbH"
     privacy: closed
