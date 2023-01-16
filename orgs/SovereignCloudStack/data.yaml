@@ -150,8 +150,8 @@ members:
   - name: Stefan Schmidt
     login: ZaphodB
     role: member
-  - name: Katharina Heinritz
-    login: heinritzkat
+  - name: Wolodja Wentland
+    login: wwentland
     role: member
   - name: Nancy Buntfuss
     login: nbuntfuss
@@ -185,6 +185,15 @@ members:
     role: member
   - name: Christian Schmitz
     login: uselessbusinessclown
+    role: member
+  - name: Martin Pilka
+    login: mpilka
+    role: member
+  - name: Matej Feder
+    login: matofeder
+    role: member
+  - name: Roman Hros
+    login: chess-knight
     role: member
 # ==========================
 teams:
@@ -326,10 +335,10 @@ teams:
       - cedegi
       - ZaphodB
       - cedegi
-      - heinritzkat
       - pjsinka
       - chschilling
       - flyersa
+      - wwentland
   - slug: "stackhpc"
     description: "StackHPC"
     privacy: closed
@@ -358,6 +367,15 @@ teams:
     maintainer:
       - FriederikeZelke
     member: []
+  - slug: "dnation"
+    description: "dNation"
+    privacy: closed
+    parent:
+    maintainer:
+      - mpilka
+    member:
+      - matofeder
+      - chess-knight
 # ==========================
 branch_protection_templates:
   main:
