@@ -164,7 +164,7 @@ members:
     role: member
   - name: Max Wolfs
     login: maxwolfs
-    role: member
+    role: admin
   - name: Dag Dammann
     login: dagdammann
     role: member
