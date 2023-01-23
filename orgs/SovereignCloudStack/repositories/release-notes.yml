@@ -4,7 +4,7 @@ release-notes:
   description: SCS Release notes
   homepage: 'https://scs.community/'
   topics:
-    - release notes
+    - release-notes
   archived: false
   has_issues: true
   has_projects: false
