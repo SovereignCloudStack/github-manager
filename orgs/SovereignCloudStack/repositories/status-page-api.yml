@@ -3,7 +3,7 @@ status-page-api:
   default_branch: main
   description: status page api server
   homepage: 'https://scs.community/'
-  topics:
+  topics: []
   archived: false
   has_issues: true
   has_projects: false
