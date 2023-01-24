@@ -2,7 +2,7 @@
 
 This repository manages the GitHub permissions for the SCS organization.
 
-The CI is based on the great work contributed by [OTC](https://github.com/opentelekomcloud/ansible-collection-gitcontrol).
+The CI is based on the great work contributed by [OTC](https://github.com/opentelekomcloud/ansible-collection-gitcontrol)
 and [OSISM](https://github.com/osism/github-manager).
 
 ## Installation

@@ -1,10 +1,9 @@
 ---
-docs:
+status-page-githubprojects:
   default_branch: main
-  description: Entry point for SCS Docs
+  description: status page with github projects as backend
   homepage: 'https://scs.community/'
-  topics:
-    - documentation
+  topics: []
   archived: false
   has_issues: true
   has_projects: false

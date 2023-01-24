@@ -1,10 +1,9 @@
 ---
-docs:
+status-page-openapi:
   default_branch: main
-  description: Entry point for SCS Docs
+  description: OpenAPI spec for the status page api
   homepage: 'https://scs.community/'
-  topics:
-    - documentation
+  topics: []
   archived: false
   has_issues: true
   has_projects: false
