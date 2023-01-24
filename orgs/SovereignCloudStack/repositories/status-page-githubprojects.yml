@@ -3,7 +3,7 @@ status-page-githubprojects:
   default_branch: main
   description: status page with github projects as backend
   homepage: 'https://scs.community/'
-  topics:
+  topics: []
   archived: false
   has_issues: true
   has_projects: false
