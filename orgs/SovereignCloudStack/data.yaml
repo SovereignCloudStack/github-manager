@@ -195,6 +195,9 @@ members:
   - name: Roman Hros
     login: chess-knight
     role: member
+  - name: Jan Schoone
+    login: jschoone
+    role: member
 # ==========================
 teams:
   - slug: "23technologies"
@@ -268,6 +271,7 @@ teams:
       - manuela-urban
       - alexander-diab
       - maxwolfs
+      - jschoone
   - slug: "osism"
     description: "OSISM GmbH"
     privacy: closed
