@@ -425,3 +425,21 @@ branch_protection_templates:
     required_linear_history: false
     allow_force_pushes: false
     allow_deletions: false
+  owner_bypass:
+    required_status_checks:
+      strict: true
+      checks:
+        - context: "DCO"
+          app_id: 29752456
+    enforce_admins: false
+    required_pull_request_reviews:
+      dismissal_restrictions:
+        users: []  # list of members or empty list
+        teams: []  # list of teams or empty list
+      dismiss_stale_reviews: true
+      require_code_owner_reviews: false
+      required_approving_review_count: 1
+    restrictions:
+    required_linear_history: false
+    allow_force_pushes: false
+    allow_deletions: false
