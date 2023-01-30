@@ -18,4 +18,4 @@ docs-page:
   collaborators: []
   branch_protections:
     - branch: "main"
-      template: "main"
+      template: "owner_bypass"
