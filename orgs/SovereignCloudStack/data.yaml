@@ -443,3 +443,4 @@ branch_protection_templates:
     required_linear_history: false
     allow_force_pushes: false
     allow_deletions: false
+    
