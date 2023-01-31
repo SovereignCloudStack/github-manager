@@ -200,7 +200,7 @@ members:
     role: member
   - name: Jan Schoone
     login: jschoone
-    role: member
+    role: admin
 # ==========================
 teams:
   - slug: "23technologies"
@@ -273,6 +273,7 @@ teams:
       - itrich
       - manuela-urban
       - alexander-diab
+      - dirklossack
       - maxwolfs
       - jschoone
   - slug: "osism"
