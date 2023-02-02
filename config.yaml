@@ -159,3 +159,6 @@ labels:
   - name: "SCS-VP13"
     description: "Related to tender lot SCS-VP13"
     color: "0F5FE1"
+  - name: "release-notes"
+    description: "This change needs to be highlighted in the upcoming release notes"
+    color: "50C3A5"
