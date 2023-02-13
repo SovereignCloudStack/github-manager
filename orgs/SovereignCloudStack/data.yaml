@@ -45,6 +45,9 @@ members:
   - name: Jonas Schäfer
     login: horazont
     role: member
+  - name: Heiko Ritter
+    login: cah-link
+    role: member
   - name: Philipp Westphal
     login: isaacintactile
     role: member
@@ -238,6 +241,7 @@ teams:
     member:
       - kgube
       - dagdammann
+      - cah-link
   - slug: "gonicus"
     description: "GONICUS GmbH"
     privacy: closed
