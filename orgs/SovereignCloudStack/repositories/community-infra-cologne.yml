@@ -1,0 +1,21 @@
+---
+community-infra-cologne:
+  default_branch: main
+  description: Docker Compose stacks of community infrastructure on cologne.scs.community
+  homepage: 'https://scs.community/'
+  topics:
+    - community
+  archived: false
+  has_issues: true
+  has_projects: false
+  has_wiki: false
+  private: false
+  delete_branch_on_merge: true
+  allow_merge_commit: false
+  allow_squash_merge: true
+  allow_rebase_merge: true
+  teams: []
+  collaborators: []
+  branch_protections:
+    - branch: "main"
+      template: "main"
