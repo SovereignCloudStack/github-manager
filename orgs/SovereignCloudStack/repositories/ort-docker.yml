@@ -1,5 +1,5 @@
 ---
-ort-action:
+ort-docker:
   default_branch: main
   description: Docker images for OSS Review Toolkit
   homepage: 'https://scs.community/'
