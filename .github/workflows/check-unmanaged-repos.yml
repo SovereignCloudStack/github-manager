@@ -44,9 +44,10 @@ jobs:
           key: ${{ runner.os }}-pipenv-${{ hashFiles('**/Pipfile.lock') }}
 
       - name: Call check_repositories.py
+        uses: mathiasvr/command-output@v1
         id: check
-        run: |
-          pipenv run python3 check_repositories.py
+        with:
+          run: pipenv run python3 check_repositories.py
         env:
           API_TOKEN: ${{ secrets[format('GHP_{0}', github.actor)] }}
 
@@ -55,7 +56,7 @@ jobs:
         uses: dacbd/create-issue-action@main
         with:
           token: ${{ github.token }}
-          title: There are unmanaged repositories.
+          title: There are unmanaged repositories
           body: |
             ${{ steps.check.outputs.stderr }}
           assignees: itrich
