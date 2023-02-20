@@ -7,7 +7,7 @@ name: Check for unmanaged repositories in organization
     branches:
       - main
   schedule:
-    - cron:  '30 5 * * *'
+    - cron: '30 5 * * *'
 jobs:
   check-unmanaged-repos:
     runs-on: ubuntu-latest
