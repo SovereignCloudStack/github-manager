@@ -5,7 +5,7 @@ ort-action:
   homepage: 'https://scs.community/'
   topics:
     - oss-review-toolkit
-  archived: false
+  archived: true
   has_issues: true
   has_projects: false
   has_wiki: false

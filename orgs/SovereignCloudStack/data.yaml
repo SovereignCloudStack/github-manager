@@ -402,7 +402,7 @@ branch_protection_templates:
       dismissal_restrictions:
         users: []  # list of members or empty list
         teams: []  # list of teams or empty list
-      dismiss_stale_reviews: true
+      dismiss_stale_reviews: false
       require_code_owner_reviews: false
       required_approving_review_count: 1
     restrictions:
@@ -420,7 +420,7 @@ branch_protection_templates:
       dismissal_restrictions:
         users: []  # list of members or empty list
         teams: []  # list of teams or empty list
-      dismiss_stale_reviews: true
+      dismiss_stale_reviews: false
       require_code_owner_reviews: false
       required_approving_review_count: 1
     restrictions:
@@ -441,7 +441,7 @@ branch_protection_templates:
       dismissal_restrictions:
         users: []  # list of members or empty list
         teams: []  # list of teams or empty list
-      dismiss_stale_reviews: true
+      dismiss_stale_reviews: false
       require_code_owner_reviews: false
       required_approving_review_count: 1
     restrictions:
