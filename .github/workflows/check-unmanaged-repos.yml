@@ -53,10 +53,11 @@ jobs:
 
       - name: Create issue on failed workflow
         if: ${{ failure() }}
-        uses: dacbd/create-issue-action@main
+        uses: JasonEtco/create-an-issue@v2
         with:
-          token: ${{ github.token }}
-          title: There are unmanaged repositories
-          body: |
-            ${{ steps.check.outputs.stderr }}
+          filename: .github/unmanaged-repos-issue.md
+          update_existing: true
           assignees: itrich
+          search_existing: open
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
