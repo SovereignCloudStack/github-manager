@@ -2,4 +2,4 @@
 title: There are unmanaged repositories
 labels: housekeeping
 ---
-${{ steps.check.outputs.stderr }}
+${{ steps.check.outputs.CHECK_RESULT }}

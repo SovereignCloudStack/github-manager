@@ -44,10 +44,9 @@ jobs:
           key: ${{ runner.os }}-pipenv-${{ hashFiles('**/Pipfile.lock') }}
 
       - name: Call check_repositories.py
-        uses: mathiasvr/command-output@v1
+        run: |
+          echo "CHECK_RESULT=$(pipenv run python3 check_repositories.py 2>&1)" >> $GITHUB_OUTPUT
         id: check
-        with:
-          run: pipenv run python3 check_repositories.py
         env:
           API_TOKEN: ${{ secrets[format('GHP_{0}', github.actor)] }}
 
