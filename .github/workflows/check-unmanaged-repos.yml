@@ -30,6 +30,7 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: '3.10'
+          cache: 'pipenv'
 
       - name: Install dependencies
         run: |
@@ -37,26 +38,20 @@ jobs:
           python3 -m pip install pipenv wheel
           pipenv install
 
-      - name: Cache pipenv
-        uses: actions/cache@v1
-        with:
-          path: ~/.local/share/virtualenvs
-          key: ${{ runner.os }}-pipenv-${{ hashFiles('**/Pipfile.lock') }}
-
       - name: Call check_repositories.py
-        uses: mathiasvr/command-output@v1
+        run: |
+          echo "CHECK_RESULT=$(pipenv run python3 check_repositories.py 2>&1)" >> $GITHUB_OUTPUT
         id: check
-        with:
-          run: pipenv run python3 check_repositories.py
         env:
           API_TOKEN: ${{ secrets[format('GHP_{0}', github.actor)] }}
 
       - name: Create issue on failed workflow
         if: ${{ failure() }}
-        uses: dacbd/create-issue-action@main
+        uses: JasonEtco/create-an-issue@v2
         with:
-          token: ${{ github.token }}
-          title: There are unmanaged repositories
-          body: |
-            ${{ steps.check.outputs.stderr }}
+          filename: .github/unmanaged-repos-issue.md
+          update_existing: true
           assignees: itrich
+          search_existing: open
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
