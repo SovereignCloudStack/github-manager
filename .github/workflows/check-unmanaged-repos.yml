@@ -41,8 +41,10 @@ jobs:
       - name: Call check_repositories.py
         id: check
         run: |
-          set -e
-          echo "CHECK_RESULT=$(pipenv run python3 check_repositories.py 2>&1)" >> $GITHUB_OUTPUT
+          OUTPUT="$(pipenv run python3 check_repositories.py 2>&1)"
+          RESULT=$?
+          echo "CHECK_RESULT=$OUTPUT" >> $GITHUB_OUTPUT
+          exit $RESULT
         env:
           API_TOKEN: ${{ secrets[format('GHP_{0}', github.actor)] }}
 
