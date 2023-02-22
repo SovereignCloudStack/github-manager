@@ -40,6 +40,7 @@ jobs:
 
       - name: Call check_repositories.py
         id: check
+        shell: sh
         run: |
           OUTPUT="$(pipenv run python3 check_repositories.py 2>&1)"
           RESULT=$?
