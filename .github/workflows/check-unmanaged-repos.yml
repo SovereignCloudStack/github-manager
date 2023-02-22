@@ -49,6 +49,7 @@ jobs:
           API_TOKEN: ${{ secrets[format('GHP_{0}', github.actor)] }}
 
       - name: Debug
+        if: ${{ always() }}
         run: |
           echo $GITHUB_OUTPUT
           cat $GITHUB_CONTENT
