@@ -49,11 +49,6 @@ jobs:
         env:
           API_TOKEN: ${{ secrets[format('GHP_{0}', github.actor)] }}
 
-      - name: Debug
-        if: ${{ always() }}
-        run: |
-          echo ${{ steps.check.outputs.CHECK_RESULT }}
-
       - name: Create issue on failed workflow
         if: ${{ failure() }}
         uses: dblock/create-a-github-issue@v3
@@ -64,3 +59,4 @@ jobs:
           search_existing: open
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BODY: ${{ steps.check.outputs.CHECK_RESULT }}

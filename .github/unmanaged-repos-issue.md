@@ -2,4 +2,8 @@
 title: There are unmanaged repositories
 labels: housekeeping
 ---
-{{ steps.check.outputs.CHECK_RESULT }}
+> **Warning**
+
+${{ env.BODY }}
+
+Last checked on  {{ date | date('YYYY-MM-DD') }}.
