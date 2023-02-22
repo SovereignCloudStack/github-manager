@@ -43,10 +43,15 @@ jobs:
         run: |
           OUTPUT="$(pipenv run python3 check_repositories.py 2>&1)"
           RESULT=$?
-          echo "CHECK_RESULT=$OUTPUT" >> $GITHUB_OUTPUT
+          echo "CHECK_RESULT=$OUTPUT" >> "$GITHUB_OUTPUT"
           exit $RESULT
         env:
           API_TOKEN: ${{ secrets[format('GHP_{0}', github.actor)] }}
+
+      - name: Debug
+        run: |
+          echo $GITHUB_OUTPUT
+          cat $GITHUB_CONTENT
 
       - name: Create issue on failed workflow
         if: ${{ failure() }}
