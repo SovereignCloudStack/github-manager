@@ -2,8 +2,6 @@
 title: There are unmanaged repositories
 labels: housekeeping
 ---
-> **Warning**
-
-${{ env.BODY }}
+{{ env.BODY }}
 
 Last checked on  {{ date | date('YYYY-MM-DD') }}.
