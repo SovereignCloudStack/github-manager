@@ -1,0 +1,21 @@
+---
+zuul:
+  default_branch: main
+  description: Zuul instance used by SCS for CI/CD purposes
+  homepage: 'https://github.com/SovereignCloudStack/zuul'
+  topics:
+    - community
+  archived: false
+  has_issues: true
+  has_projects: false
+  has_wiki: false
+  private: false
+  delete_branch_on_merge: true
+  allow_merge_commit: false
+  allow_squash_merge: true
+  allow_rebase_merge: true
+  teams: []
+  collaborators: []
+  branch_protections:
+    - branch: "main"
+      template: "main"
