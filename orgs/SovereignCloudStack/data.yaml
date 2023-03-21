@@ -204,6 +204,9 @@ members:
   - name: Jan Schoone
     login: jschoone
     role: admin
+  - name: Nils Arnold
+    login: Nils98Ar
+    role: member
 # ==========================
 teams:
   - slug: "23technologies"
