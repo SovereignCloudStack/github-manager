@@ -69,6 +69,9 @@ members:
   - name: Joshua Mühlfort
     login: joshmue
     role: member
+  - name: Joshua Irmer
+    login: JoshuaI96
+    role: member
   - name: ""
     login: kgube
     role: member
@@ -204,6 +207,9 @@ members:
   - name: Jan Schoone
     login: jschoone
     role: admin
+  - name: Nils Arnold
+    login: Nils98Ar
+    role: member
 # ==========================
 teams:
   - slug: "23technologies"
@@ -251,6 +257,7 @@ teams:
     member:
       - joshmue
       - master-caster
+      - JoshuaI96
   - slug: "gridscale"
     description: "gridscale GmbH"
     privacy: closed

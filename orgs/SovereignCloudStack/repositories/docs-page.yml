@@ -2,7 +2,7 @@
 docs-page:
   default_branch: main
   description: Public static page for documentation
-  homepage: 'https://scs.community/'
+  homepage: 'https://docs.scs.community/'
   topics:
     - documentation
   archived: false
