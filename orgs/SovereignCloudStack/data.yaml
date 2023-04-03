@@ -179,7 +179,7 @@ members:
     role: member
   - name: Friederike Zelke
     login: FriederikeZelke
-    role: member
+    role: owner
   - name: Paul-Philipp Kuschy
     login: ppkuschy
     role: member
@@ -297,6 +297,7 @@ teams:
       - dirklossack
       - maxwolfs
       - jschoone
+      - FriederikeZelke
   - slug: "osism"
     description: "OSISM GmbH"
     privacy: closed
@@ -394,8 +395,7 @@ teams:
     description: "Cloudical"
     privacy: closed
     parent:
-    maintainer:
-      - FriederikeZelke
+    maintainer: []
     member: []
   - slug: "dnation"
     description: "dNation"
