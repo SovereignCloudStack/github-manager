@@ -219,6 +219,9 @@ members:
   - name: Anja Strunk
     login: anja.strunk
     role: member
+  - name: Toni Finger
+    login: tonifinger
+  role: member
   - name: Markus Hentsch
     login: markus-hentsch
     role: member
@@ -262,6 +265,7 @@ teams:
       - dagdammann
       - cah-link
       - cah-hbaum
+      - tonifinger
   - slug: "gonicus"
     description: "GONICUS GmbH"
     privacy: closed
