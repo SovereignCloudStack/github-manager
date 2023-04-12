@@ -54,9 +54,6 @@ members:
   - name: Ibrahim takouna
     login: itakouna
     role: member
-  - name: Eduard Itrich
-    login: itrich
-    role: admin
   - name: ""
     login: janiskemper
     role: member
@@ -179,7 +176,7 @@ members:
     role: member
   - name: Friederike Zelke
     login: FriederikeZelke
-    role: owner
+    role: admin
   - name: Paul-Philipp Kuschy
     login: ppkuschy
     role: member
@@ -294,7 +291,6 @@ teams:
       - garloff
     member:
       - fkr
-      - itrich
       - manuela-urban
       - alexander-diab
       - dirklossack
