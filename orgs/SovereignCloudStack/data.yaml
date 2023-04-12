@@ -221,7 +221,7 @@ members:
     role: member
   - name: Toni Finger
     login: tonifinger
-  role: member
+    role: member
   - name: Markus Hentsch
     login: markus-hentsch
     role: member
