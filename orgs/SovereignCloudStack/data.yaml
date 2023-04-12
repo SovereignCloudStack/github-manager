@@ -217,7 +217,7 @@ members:
     login: josephineSei
     role: member
   - name: Anja Strunk
-    login: anja.strunk
+    login: anjastrunk
     role: member
   - name: Toni Finger
     login: tonifinger
@@ -259,7 +259,7 @@ teams:
     parent:
     maintainer:
       - horazont
-      - anja.strunk
+      - anjastrunk
     member:
       - kgube
       - dagdammann
