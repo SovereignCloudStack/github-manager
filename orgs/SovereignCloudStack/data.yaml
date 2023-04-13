@@ -216,6 +216,9 @@ members:
   - name: Markus Hentsch
     login: markus-hentsch
     role: member
+  - name: Thomas Güttler
+    login: guettli
+    role: member
 # ==========================
 teams:
   - slug: "23technologies"
@@ -331,7 +334,8 @@ teams:
     maintainer:
       - batistein
       - janiskemper
-    member: []
+    member:
+      - guettli
   - slug: "uhurutec"
     description: "UhuruTec AG"
     privacy: closed
