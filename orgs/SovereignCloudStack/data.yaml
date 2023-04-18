@@ -210,8 +210,14 @@ members:
   - name: Hannes Baum
     login: cah-hbaum
     role: member
-  - name: Josefine Seifert
+  - name: Josephine Seifert
     login: josephineSei
+    role: member
+  - name: Anja Strunk
+    login: anjastrunk
+    role: member
+  - name: Toni Finger
+    login: tonifinger
     role: member
   - name: Markus Hentsch
     login: markus-hentsch
@@ -253,11 +259,13 @@ teams:
     parent:
     maintainer:
       - horazont
+      - anjastrunk
     member:
       - kgube
       - dagdammann
       - cah-link
       - cah-hbaum
+      - tonifinger
   - slug: "gonicus"
     description: "GONICUS GmbH"
     privacy: closed
