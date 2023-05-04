@@ -109,7 +109,7 @@ labels:
     description: "SCS is understandable"
     color: "D4C5F9"
   - name: "SCS is opinionated"
-    description: "SCS is transparent"
+    description: "SCS has the courage to take decisions in its implementation choices to provide a clear focus"
     color: "D4C5F9"
   - name: "SCS is transparent"
     description: "SCS is transparent"
