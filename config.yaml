@@ -175,3 +175,6 @@ labels:
   - name: "Sprint Bratislava"
     description: "Sprint Bratislava (2023, cwk 18+19)"
     color: "4080c0"
+  - name: "Sprint Copenhagen"
+    description: "Sprint Copenhagen (2023, cwk 20+21)"
+    color: "4080c0"
