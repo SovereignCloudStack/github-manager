@@ -225,6 +225,9 @@ members:
   - name: Thomas Güttler
     login: guettli
     role: member
+  - name: Sven Kieske
+    login: artificial-intelligence
+    role: member
 # ==========================
 teams:
   - slug: "23technologies"
@@ -318,6 +321,7 @@ teams:
       - osfrickler
       - ppkuschy
       - aeroflydesign
+      - artificial-intelligence
   - slug: "plusserver"
     description: "PlusServer GmbH"
     privacy: closed
