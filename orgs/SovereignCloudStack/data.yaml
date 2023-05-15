@@ -228,6 +228,9 @@ members:
   - name: Sven Kieske
     login: artificial-intelligence
     role: member
+  - name: Matthias Büchse
+    login: mbuechse
+    role: member
 # ==========================
 teams:
   - slug: "23technologies"
@@ -269,6 +272,7 @@ teams:
       - cah-link
       - cah-hbaum
       - tonifinger
+      - mbuechse
   - slug: "gonicus"
     description: "GONICUS GmbH"
     privacy: closed
