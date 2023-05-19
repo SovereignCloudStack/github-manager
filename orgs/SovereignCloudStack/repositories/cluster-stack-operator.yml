@@ -1,0 +1,21 @@
+---
+cluster-stack-operator:
+  default_branch: main
+  description: The SCS Cluster Stack Operator takes care of life cycle management, configuration and provider specific tasks of Kubernetes clusters created with SCS Cluster Stacks
+  homepage: 'https://scs.community/'
+  topics:
+    - k8s
+  archived: false
+  has_issues: true
+  has_projects: false
+  has_wiki: false
+  private: false
+  delete_branch_on_merge: true
+  allow_merge_commit: false
+  allow_squash_merge: true
+  allow_rebase_merge: true
+  teams: []
+  collaborators: []
+  branch_protections:
+    - branch: "main"
+      template: "main"
