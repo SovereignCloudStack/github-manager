@@ -2,7 +2,7 @@
 zuul_sandbox:
   default_branch: main
   description: Repo for testing the Zuul-CI
-  homepage: 'http://zuul.scs.community:9000'
+  homepage: 'https://zuul.scs.community'
   topics:
     - zuul
   archived: false
