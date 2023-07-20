@@ -231,6 +231,9 @@ members:
   - name: Matthias Büchse
     login: mbuechse
     role: member
+  - name: Filip Dobrovolny
+    login: fdobrovolny
+    role: member    
 # ==========================
 teams:
   - slug: "23technologies"
@@ -422,6 +425,7 @@ teams:
     member:
       - matofeder
       - chess-knight
+      - fdobrovolny
   - slug: "secustack"
     description: "SecuNet"
     privacy: closed
