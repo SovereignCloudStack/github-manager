@@ -233,7 +233,7 @@ members:
     role: member
   - name: Filip Dobrovolny
     login: fdobrovolny
-    role: member    
+    role: member
 # ==========================
 teams:
   - slug: "23technologies"
