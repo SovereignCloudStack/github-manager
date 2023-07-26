@@ -231,6 +231,15 @@ members:
   - name: Filip Dobrovolny
     login: fdobrovolny
     role: member
+  - name: Nils Gondermann
+    login: gndrmnn
+    role: member
+  - name: Robin van der Linden
+    login: lindenb1
+    role: member
+  - name: Sebastian Neumann
+    login: sbstnnmnn
+    role: member
   - name: Tobias Wolf
     login: NotTheEvilOne
     role: member
@@ -333,6 +342,9 @@ teams:
       - ppkuschy
       - aeroflydesign
       - artificial-intelligence
+      - gndrmnn
+      - lindenb1
+      - sbstnnmnn
   - slug: "plusserver"
     description: "plusserver GmbH"
     privacy: closed
