@@ -78,6 +78,9 @@ labels:
   - name: epic
     description: "Issues that are spread across multiple sprints"
     color: "6a5acd"
+  - name: spike
+    description: "Issues used to turn known-unknowns into known-knowns"
+    color: "0366d6"
   - name: release3
     description: "Issues or pull requests that are aimed for release 3"
     color: "51e898"

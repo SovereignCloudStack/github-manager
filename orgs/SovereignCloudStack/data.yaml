@@ -346,7 +346,7 @@ teams:
       - lindenb1
       - sbstnnmnn
   - slug: "plusserver"
-    description: "PlusServer GmbH"
+    description: "plusserver GmbH"
     privacy: closed
     parent:
     maintainer:
