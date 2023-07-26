@@ -2,7 +2,7 @@
 zuul_config:
   default_branch: main
   description: Zuul Config Files
-  homepage: 'http://zuul.scs.community:9000/'
+  homepage: 'https://zuul.scs.community/'
   topics:
     - zuul
   archived: false

@@ -1,8 +1,8 @@
 ---
-zuul_sandbox:
+zuul:
   default_branch: main
-  description: Repo for testing the Zuul-CI
-  homepage: 'https://zuul.scs.community'
+  description: Deploy Zuul for SCS
+  homepage: 'https://zuul.scs.community/'
   topics:
     - zuul
   archived: false

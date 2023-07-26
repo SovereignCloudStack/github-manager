@@ -1,10 +1,10 @@
 ---
-zuul_sandbox:
+cluster-stack-operator:
   default_branch: main
-  description: Repo for testing the Zuul-CI
-  homepage: 'https://zuul.scs.community'
+  description: The SCS Cluster Stack Operator takes care of life cycle management, configuration and provider specific tasks of Kubernetes clusters created with SCS Cluster Stacks
+  homepage: 'https://scs.community/'
   topics:
-    - zuul
+    - k8s
   archived: false
   has_issues: true
   has_projects: false
