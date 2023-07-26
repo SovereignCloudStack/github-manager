@@ -123,9 +123,6 @@ members:
   - name: ""
     login: stunivention
     role: member
-  - name: Tim Beermann
-    login: tibeer
-    role: member
   - name: Florian Winkler
     login: tinguin
     role: member
@@ -231,6 +228,15 @@ members:
   - name: Matthias Büchse
     login: mbuechse
     role: member
+  - name: Filip Dobrovolny
+    login: fdobrovolny
+    role: member
+  - name: Tobias Wolf
+    login: NotTheEvilOne
+    role: member
+  - name: Danny Eiselt
+    login: DEiselt
+    role: member
 # ==========================
 teams:
   - slug: "23technologies"
@@ -240,7 +246,6 @@ teams:
     maintainer:
       - berendt
     member:
-      - mxmxchere
       - fynluk
   - slug: "8gears"
     description: "8gears Ltd."
@@ -254,11 +259,14 @@ teams:
     privacy: closed
     parent:
     maintainer:
+      - mxmxchere
       - curx
     member:
       - grischdian
       - isaacintactile
       - tinguin
+      - NotTheEvilOne
+      - DEiselt
   - slug: "cloud-and-heat"
     description: "Cloud&Heat Technologies GmbH"
     privacy: closed
@@ -320,7 +328,6 @@ teams:
       - berendt
     member:
       - matfechner
-      - tibeer
       - ra-beer
       - osfrickler
       - ppkuschy
@@ -422,6 +429,7 @@ teams:
     member:
       - matofeder
       - chess-knight
+      - fdobrovolny
   - slug: "secustack"
     description: "SecuNet"
     privacy: closed
