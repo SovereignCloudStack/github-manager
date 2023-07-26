@@ -54,9 +54,6 @@ members:
   - name: Ibrahim takouna
     login: itakouna
     role: member
-  - name: Eduard Itrich
-    login: itrich
-    role: admin
   - name: ""
     login: janiskemper
     role: member
@@ -126,9 +123,6 @@ members:
   - name: ""
     login: stunivention
     role: member
-  - name: Tim Beermann
-    login: tibeer
-    role: member
   - name: Florian Winkler
     login: tinguin
     role: member
@@ -179,7 +173,7 @@ members:
     role: member
   - name: Friederike Zelke
     login: FriederikeZelke
-    role: member
+    role: admin
   - name: Paul-Philipp Kuschy
     login: ppkuschy
     role: member
@@ -210,6 +204,39 @@ members:
   - name: Nils Arnold
     login: Nils98Ar
     role: member
+  - name: Hannes Baum
+    login: cah-hbaum
+    role: member
+  - name: Josephine Seifert
+    login: josephineSei
+    role: member
+  - name: Anja Strunk
+    login: anjastrunk
+    role: member
+  - name: Toni Finger
+    login: tonifinger
+    role: member
+  - name: Markus Hentsch
+    login: markus-hentsch
+    role: member
+  - name: Thomas Güttler
+    login: guettli
+    role: member
+  - name: Sven Kieske
+    login: artificial-intelligence
+    role: member
+  - name: Matthias Büchse
+    login: mbuechse
+    role: member
+  - name: Filip Dobrovolny
+    login: fdobrovolny
+    role: member
+  - name: Tobias Wolf
+    login: NotTheEvilOne
+    role: member
+  - name: Danny Eiselt
+    login: DEiselt
+    role: member
 # ==========================
 teams:
   - slug: "23technologies"
@@ -219,7 +246,6 @@ teams:
     maintainer:
       - berendt
     member:
-      - mxmxchere
       - fynluk
   - slug: "8gears"
     description: "8gears Ltd."
@@ -233,21 +259,28 @@ teams:
     privacy: closed
     parent:
     maintainer:
+      - mxmxchere
       - curx
     member:
       - grischdian
       - isaacintactile
       - tinguin
+      - NotTheEvilOne
+      - DEiselt
   - slug: "cloud-and-heat"
     description: "Cloud&Heat Technologies GmbH"
     privacy: closed
     parent:
     maintainer:
       - horazont
+      - anjastrunk
     member:
       - kgube
       - dagdammann
       - cah-link
+      - cah-hbaum
+      - tonifinger
+      - mbuechse
   - slug: "gonicus"
     description: "GONICUS GmbH"
     privacy: closed
@@ -281,12 +314,12 @@ teams:
       - garloff
     member:
       - fkr
-      - itrich
       - manuela-urban
       - alexander-diab
       - dirklossack
       - maxwolfs
       - jschoone
+      - FriederikeZelke
   - slug: "osism"
     description: "OSISM GmbH"
     privacy: closed
@@ -295,11 +328,11 @@ teams:
       - berendt
     member:
       - matfechner
-      - tibeer
       - ra-beer
       - osfrickler
       - ppkuschy
       - aeroflydesign
+      - artificial-intelligence
   - slug: "plusserver"
     description: "PlusServer GmbH"
     privacy: closed
@@ -324,7 +357,8 @@ teams:
     maintainer:
       - batistein
       - janiskemper
-    member: []
+    member:
+      - guettli
   - slug: "uhurutec"
     description: "UhuruTec AG"
     privacy: closed
@@ -384,8 +418,7 @@ teams:
     description: "Cloudical"
     privacy: closed
     parent:
-    maintainer:
-      - FriederikeZelke
+    maintainer: []
     member: []
   - slug: "dnation"
     description: "dNation"
@@ -396,6 +429,15 @@ teams:
     member:
       - matofeder
       - chess-knight
+      - fdobrovolny
+  - slug: "secustack"
+    description: "SecuNet"
+    privacy: closed
+    parent:
+    maintainer:
+      - markus-hentsch
+    member:
+      - josephineSei
 # ==========================
 branch_protection_templates:
   main:

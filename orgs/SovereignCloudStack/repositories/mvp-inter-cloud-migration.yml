@@ -1,10 +1,10 @@
 ---
-zuul_sandbox:
+mvp-inter-cloud-migration:
   default_branch: main
-  description: Repo for testing the Zuul-CI
-  homepage: 'https://zuul.scs.community'
+  description: MVP for migrating VMs from one SCS cloud to another seamlessly
+  homepage: 'https://scs.community/'
   topics:
-    - zuul
+    - mvp
   archived: false
   has_issues: true
   has_projects: false

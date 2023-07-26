@@ -1,10 +1,10 @@
 ---
-zuul_sandbox:
+cluster-stacks:
   default_branch: main
-  description: Repo for testing the Zuul-CI
-  homepage: 'https://zuul.scs.community'
+  description: Definition of Cluster Stacks based on the ClusterAPI ClusterClass feature
+  homepage: 'https://scs.community/'
   topics:
-    - zuul
+    - k8s
   archived: false
   has_issues: true
   has_projects: false

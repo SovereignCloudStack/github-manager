@@ -2,7 +2,7 @@
 zuul_deployment:
   default_branch: main
   description: 'SCS Zuul-CI deployment'
-  homepage: 'http://zuul.scs.community:9000/'
+  homepage: 'https://zuul.scs.community/'
   topics:
     - zuul
   archived: false

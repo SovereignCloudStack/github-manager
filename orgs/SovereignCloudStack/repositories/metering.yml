@@ -1,10 +1,9 @@
 ---
-zuul_sandbox:
+metering:
   default_branch: main
-  description: Repo for testing the Zuul-CI
-  homepage: 'https://zuul.scs.community'
-  topics:
-    - zuul
+  description: Metering for the purpose of billing
+  homepage: 'https://scs.community/'
+  topics: []
   archived: false
   has_issues: true
   has_projects: false
