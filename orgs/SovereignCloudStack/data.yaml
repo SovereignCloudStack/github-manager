@@ -334,7 +334,7 @@ teams:
       - aeroflydesign
       - artificial-intelligence
   - slug: "plusserver"
-    description: "PlusServer GmbH"
+    description: "plusserver GmbH"
     privacy: closed
     parent:
     maintainer:
