@@ -246,6 +246,9 @@ members:
   - name: Danny Eiselt
     login: DEiselt
     role: member
+  - name: Martin Loschwitz
+    login: madkiss
+    role: member
 # ==========================
 teams:
   - slug: "23technologies"
@@ -345,6 +348,7 @@ teams:
       - gndrmnn
       - lindenb1
       - sbstnnmnn
+      - madkiss
   - slug: "plusserver"
     description: "plusserver GmbH"
     privacy: closed
