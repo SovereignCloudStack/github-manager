@@ -249,6 +249,12 @@ members:
   - name: Martin Loschwitz
     login: madkiss
     role: member
+  - name: Michael Bayr
+    login: michaelbayr
+    role: member
+  - name: Robert Holling
+    login: rholling
+    role: member
 # ==========================
 teams:
   - slug: "23technologies"
