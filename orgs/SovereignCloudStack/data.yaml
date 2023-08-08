@@ -246,6 +246,15 @@ members:
   - name: Danny Eiselt
     login: DEiselt
     role: member
+  - name: Martin Loschwitz
+    login: madkiss
+    role: member
+  - name: Michael Bayr
+    login: michaelbayr
+    role: member
+  - name: Robert Holling
+    login: rholling
+    role: member
 # ==========================
 teams:
   - slug: "23technologies"
@@ -345,6 +354,7 @@ teams:
       - gndrmnn
       - lindenb1
       - sbstnnmnn
+      - madkiss
   - slug: "plusserver"
     description: "plusserver GmbH"
     privacy: closed

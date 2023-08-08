@@ -55,7 +55,7 @@ jobs:
         with:
           filename: .github/unmanaged-repos-issue.md
           update_existing: true
-          assignees: itrich
+          assignees: maxwolfs
           search_existing: open
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
