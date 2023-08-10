@@ -78,6 +78,9 @@ labels:
   - name: epic
     description: "Issues that are spread across multiple sprints"
     color: "6a5acd"
+  - name: spike
+    description: "Issues used to turn known-unknowns into known-knowns"
+    color: "0366d6"
   - name: release3
     description: "Issues or pull requests that are aimed for release 3"
     color: "51e898"
@@ -192,4 +195,7 @@ labels:
     color: "4080c0"
   - name: "Sprint Hobart"
     description: "Sprint Hobart (2023, cwk 30+31)"
+    color: "4080c0"
+  - name: "Sprint Izmir"
+    description: "Sprint Izmir (2023, cwk 32+33)"
     color: "4080c0"
