@@ -196,3 +196,6 @@ labels:
   - name: "Sprint Hobart"
     description: "Sprint Hobart (2023, cwk 30+31)"
     color: "4080c0"
+  - name: "Sprint Izmir"
+    description: "Sprint Izmir (2023, cwk 32+33)"
+    color: "4080c0"
