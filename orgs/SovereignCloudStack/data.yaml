@@ -255,6 +255,12 @@ members:
   - name: Robert Holling
     login: rholling
     role: member
+  - name: David Rodriguez Regueira
+    login: 90n20
+    role: member
+  - name: Miguel Angel Romero de los Llanos
+    login: seykotron
+    role: member
 # ==========================
 teams:
   - slug: "23technologies"
@@ -460,6 +466,13 @@ teams:
       - markus-hentsch
     member:
       - josephineSei
+  - slug: "mineryreport"
+    description: "Proventa/MineryReport"
+    privacy: closed
+    maintainer:
+      - 90n20
+    member:
+      - seykotron
 # ==========================
 branch_protection_templates:
   main:
