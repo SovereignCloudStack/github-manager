@@ -469,6 +469,7 @@ teams:
   - slug: "mineryreport"
     description: "Proventa/MineryReport"
     privacy: closed
+    parent:
     maintainer:
       - 90n20
     member:
