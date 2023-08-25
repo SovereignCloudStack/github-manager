@@ -261,6 +261,9 @@ members:
   - name: Miguel Angel Romero de los Llanos
     login: seykotron
     role: member
+  - name: Dominik Pataky
+    login: bitkeks
+    role: member
 # ==========================
 teams:
   - slug: "23technologies"
