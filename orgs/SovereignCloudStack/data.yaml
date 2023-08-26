@@ -57,6 +57,12 @@ members:
   - name: ""
     login: janiskemper
     role: member
+  - name: Aniruddha Basak
+    login: aniruddha2000
+    role: member
+  - name: Nitish Tiwari
+    login: nitisht
+    role: member
   - name: ""
     login: jklippel
     role: member
@@ -390,6 +396,8 @@ teams:
       - janiskemper
     member:
       - guettli
+      - nitisht
+      - aniruddha2000
   - slug: "uhurutec"
     description: "UhuruTec AG"
     privacy: closed
