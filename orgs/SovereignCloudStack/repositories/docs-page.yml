@@ -5,7 +5,7 @@ docs-page:
   homepage: 'https://docs.scs.community/'
   topics:
     - documentation
-  archived: false
+  archived: true
   has_issues: true
   has_projects: false
   has_wiki: false
