@@ -273,6 +273,9 @@ members:
   - name: Nadja Schieber
     login: nadja234
     role: member
+  - name: Marc Schöchlin
+    login: scoopex
+    role: member
 # ==========================
 teams:
   - slug: "23technologies"
@@ -357,6 +360,7 @@ teams:
       - jschoone
       - FriederikeZelke
       - nadja234
+      - scoopex
   - slug: "osism"
     description: "OSISM GmbH"
     privacy: closed
