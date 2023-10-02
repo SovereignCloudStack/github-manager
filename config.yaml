@@ -4,6 +4,8 @@ milestones:
   - 'R3 (v4.0.0)'
   - 'R4 (v5.0.0)'
   - 'R5 (v6.0.0)'
+  - 'R6 (v7.0.0)'
+  - 'R7 (v8.0.0)'
 
 labels:
   - name: bug
@@ -207,4 +209,10 @@ labels:
     color: "4080c0"
   - name: "Sprint Ljubljana"
     description: "Sprint Ljubljana (2023, cwk 38+39)"
+    color: "4080c0"
+  - name: "Sprint Montreal"
+    description: "Sprint Montreal (2023, cwk 40+41)"
+    color: "4080c0"
+  - name: "Sprint Nantes"
+    description: "Sprint Nantes (2023, cwk 42+43)"
     color: "4080c0"
