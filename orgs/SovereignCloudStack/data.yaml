@@ -8,7 +8,7 @@ members:
     role: member
   - name: Christian Berendt
     login: berendt
-    role: admin
+    role: member
   - name: Christian Otto Stelter
     login: costelter
     role: member
@@ -270,6 +270,9 @@ members:
   - name: Dominik Pataky
     login: bitkeks
     role: member
+  - name: Nadja Schieber
+    login: nadja234
+    role: member
 # ==========================
 teams:
   - slug: "23technologies"
@@ -353,6 +356,7 @@ teams:
       - maxwolfs
       - jschoone
       - FriederikeZelke
+      - nadja234
   - slug: "osism"
     description: "OSISM GmbH"
     privacy: closed
@@ -360,10 +364,7 @@ teams:
     maintainer:
       - berendt
     member:
-      - matfechner
-      - ra-beer
       - osfrickler
-      - ppkuschy
       - aeroflydesign
       - artificial-intelligence
       - gndrmnn
@@ -432,6 +433,7 @@ teams:
       - chschilling
       - flyersa
       - wwentland
+      - matfechner
   - slug: "stackhpc"
     description: "StackHPC"
     privacy: closed
