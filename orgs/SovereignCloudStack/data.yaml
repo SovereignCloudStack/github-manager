@@ -188,6 +188,8 @@ members:
     login: bitkeks
   - name: Nadja Schieber
     login: nadja234
+  - name: Marc Schöchlin
+    login: scoopex
 # ==========================
 teams:
   - slug: "23technologies"
@@ -264,6 +266,7 @@ teams:
       - jschoone
       - FriederikeZelke
       - nadja234
+      - scoopex
   - slug: "osism"
     description: "OSISM GmbH"
     privacy: closed
