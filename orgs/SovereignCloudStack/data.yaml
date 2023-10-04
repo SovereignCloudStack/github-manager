@@ -180,6 +180,8 @@ members:
     login: 90n20
   - name: Miguel Angel Romero de los Llanos
     login: seykotron
+  - name: Dominik Pataky
+    login: bitkeks
 # ==========================
 teams:
   - slug: "23technologies"
