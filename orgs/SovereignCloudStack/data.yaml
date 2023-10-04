@@ -41,6 +41,10 @@ members:
     login: itakouna
   - name: ""
     login: janiskemper
+  - name: Aniruddha Basak
+    login: aniruddha2000
+  - name: Nitish Tiwari
+    login: nitisht
   - name: ""
     login: jklippel
   - name: Jeff
@@ -297,6 +301,8 @@ teams:
       - janiskemper
     member:
       - guettli
+      - nitisht
+      - aniruddha2000
   - slug: "uhurutec"
     description: "UhuruTec AG"
     privacy: closed
