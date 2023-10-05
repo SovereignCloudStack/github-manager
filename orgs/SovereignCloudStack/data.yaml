@@ -390,6 +390,86 @@ teams:
       - 90n20
     member:
       - seykotron
+  - name: "VP01"
+    description: "OpsTooling, CI Tests Infra/IaaS, Metal as a Service, Life Cycle Management"
+    privacy: closed
+    maintainer:
+      - berendt
+    member:
+      - osfrickler
+      - artificial-intelligence
+      - gndrmnn
+      - lindenb1
+      - sbstnnmnn
+      - madkiss
+  - name: "VP05"
+    description: "K8s aaS Integration"
+    privacy: closed
+    maintainer:
+      - batistein
+      - janiskemper
+    member:
+      - guettli
+      - nitisht
+      - aniruddha2000
+  - name: "VP06a"
+    description: "Container Network and Storage Integration"
+    privacy: closed
+    maintainer:
+      - mxmxchere
+    member:
+      - NotTheEvilOne
+      - DEiselt
+  - name: "VP06c"
+    description: "Container Registry / Scanning"
+    maintainer:
+      - mpilka
+    member:
+      - matofeder
+      - chess-knight
+      - fdobrovolny
+    privacy: closed
+  - name: "VP06d"
+    description: "Container Monitoring / IaC / CI / Deployment Automation"
+    privacy: closed
+    maintainer:
+      - o-otte
+    member:
+      - joshmue
+      - master-caster
+      - JoshuaI96
+  - name: "VP08"
+    description: "User Management & Federation"
+    privacy: closed
+    maintainer:
+      - reqa
+    member:
+      - JuanPTM
+  - name: "VP09c"
+    description: "Penetration Testing"
+    privacy: closed
+    maintainer:
+      - 90n20
+    member:
+      - seykotron
+  - name: "VP10"
+    description: "SCS certification"
+    privacy: closed
+    maintainer:
+      - anjastrunk
+    member:
+      - josephineSei
+      - markus-hentsch
+      - cah-hbaum
+      - tonifinger
+      - mbuechse
+  - name: "VP13"
+    description: "Metering on IaaS layer"
+    privacy: closed
+    maintainer:
+      - horazont
+    member:
+      -cah-link
 # ==========================
 branch_protection_templates:
   main:
