@@ -390,7 +390,7 @@ teams:
       - 90n20
     member:
       - seykotron
-  - name: "VP01"
+  - slug: "VP01"
     description: "OpsTooling, CI Tests Infra/IaaS, Metal as a Service, Life Cycle Management"
     privacy: closed
     maintainer:
@@ -402,7 +402,7 @@ teams:
       - lindenb1
       - sbstnnmnn
       - madkiss
-  - name: "VP05"
+  - slug: "VP05"
     description: "K8s aaS Integration"
     privacy: closed
     maintainer:
@@ -412,7 +412,7 @@ teams:
       - guettli
       - nitisht
       - aniruddha2000
-  - name: "VP06a"
+  - slug: "VP06a"
     description: "Container Network and Storage Integration"
     privacy: closed
     maintainer:
@@ -420,7 +420,7 @@ teams:
     member:
       - NotTheEvilOne
       - DEiselt
-  - name: "VP06c"
+  - slug: "VP06c"
     description: "Container Registry / Scanning"
     maintainer:
       - mpilka
@@ -429,7 +429,7 @@ teams:
       - chess-knight
       - fdobrovolny
     privacy: closed
-  - name: "VP06d"
+  - slug: "VP06d"
     description: "Container Monitoring / IaC / CI / Deployment Automation"
     privacy: closed
     maintainer:
@@ -438,21 +438,21 @@ teams:
       - joshmue
       - master-caster
       - JoshuaI96
-  - name: "VP08"
+  - slug: "VP08"
     description: "User Management & Federation"
     privacy: closed
     maintainer:
       - reqa
     member:
       - JuanPTM
-  - name: "VP09c"
+  - slug: "VP09c"
     description: "Penetration Testing"
     privacy: closed
     maintainer:
       - 90n20
     member:
       - seykotron
-  - name: "VP10"
+  - slug: "VP10"
     description: "SCS certification"
     privacy: closed
     maintainer:
@@ -463,7 +463,7 @@ teams:
       - cah-hbaum
       - tonifinger
       - mbuechse
-  - name: "VP13"
+  - slug: "VP13"
     description: "Metering on IaaS layer"
     privacy: closed
     maintainer:
