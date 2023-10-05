@@ -19,3 +19,5 @@ k8s-cluster-api-provider:
   branch_protections:
     - branch: "main"
       template: "main"
+    - branch: "release/v6.0.0"
+      template: "main"
