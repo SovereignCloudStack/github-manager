@@ -190,6 +190,12 @@ members:
     login: nadja234
   - name: Marc Schöchlin
     login: scoopex
+  - name: Angel Kafazov
+    login: akafazov
+  - name: Bozhidar Ignatov
+    login: ignatov17
+  - name: Matus Jenca
+    login: MatusJenca2
 # ==========================
 teams:
   - slug: "23technologies"
@@ -370,6 +376,7 @@ teams:
       - matofeder
       - chess-knight
       - fdobrovolny
+      - MatusJenca2
   - slug: "secustack"
     description: "SecuNet"
     privacy: closed
@@ -390,6 +397,13 @@ teams:
       - 90n20
     member:
       - seykotron
+  - slug: "daiteap"
+    description: "Daiteap"
+    privacy: closed
+    maintainer:
+      - akafazov
+    member:
+      - ignatov17
   - slug: "VP01"
     description: "OpsTooling, CI Tests Infra/IaaS, Metal as a Service, Life Cycle Management"
     privacy: closed
@@ -402,6 +416,15 @@ teams:
       - lindenb1
       - sbstnnmnn
       - madkiss
+  - slug: "VP04"
+    description: "Networking"
+    privacy: closed
+    maintainer:
+      - fdobrovolny
+    member:
+      - akafazov
+      - ignatov17
+      - MatusJenca2
   - slug: "VP05"
     description: "K8s aaS Integration"
     privacy: closed
@@ -427,7 +450,6 @@ teams:
     member:
       - matofeder
       - chess-knight
-      - fdobrovolny
     privacy: closed
   - slug: "VP06d"
     description: "Container Monitoring / IaC / CI / Deployment Automation"
