@@ -492,6 +492,15 @@ teams:
       - horazont
     member:
       -cah-link
+  - slug: "VP18"
+    description: "The team which manages the scs test landscape"
+    privacy: closed
+    maintainer:
+      - scoopex
+    member:
+      - berendt
+      - fkr
+
 # ==========================
 branch_protection_templates:
   main:
