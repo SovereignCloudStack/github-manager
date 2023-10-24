@@ -13,8 +13,6 @@ members:
     login: coro1404
   - name: Thorsten Schifferdecker
     login: curx
-  - name: Elena Zander
-    login: elZander
   - name: Felix Kronlage-Dammers
     login: fkr
     role: admin
@@ -85,8 +83,6 @@ members:
     login: ra-beer
   - name: Arvid Requate
     login: reqa
-  - name: "Sascha Scherrer"
-    login: saschascherrer
   - name: ""
     login: stunivention
   - name: Florian Winkler
@@ -299,11 +295,9 @@ teams:
       - nerdicbynature
       - costelter
       - Phil9219
-      - elZander
       - PSwatchmen
       - wieneo
       - uselessbusinessclown
-      - saschascherrer
   - slug: "syself"
     description: "Syself GmbH"
     privacy: closed
@@ -496,6 +490,15 @@ teams:
       - horazont
     member:
       -cah-link
+  - slug: "VP18"
+    description: "The team which manages the scs test landscape"
+    privacy: closed
+    maintainer:
+      - scoopex
+    member:
+      - berendt
+      - fkr
+
 # ==========================
 branch_protection_templates:
   main:
