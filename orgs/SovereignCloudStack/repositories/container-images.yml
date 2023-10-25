@@ -1,0 +1,21 @@
+---
+container-images:
+  default_branch: main
+  description: Container images collection
+  homepage: 'https://scs.community/'
+  topics:
+    - docker
+  archived: false
+  has_issues: true
+  has_projects: false
+  has_wiki: false
+  private: false
+  delete_branch_on_merge: true
+  allow_merge_commit: false
+  allow_squash_merge: true
+  allow_rebase_merge: true
+  teams: []
+  collaborators: []
+  branch_protections:
+    - branch: "main"
+      template: "main"
