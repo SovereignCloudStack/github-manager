@@ -192,6 +192,8 @@ members:
     login: ignatov17
   - name: Matus Jenca
     login: MatusJenca2
+  - name: Michal Gubricky
+    login: michal-gubricky
 # ==========================
 teams:
   - slug: "23technologies"
@@ -371,6 +373,7 @@ teams:
       - chess-knight
       - fdobrovolny
       - MatusJenca2
+      - michal-gubricky
   - slug: "secustack"
     description: "SecuNet"
     privacy: closed
@@ -444,6 +447,7 @@ teams:
     member:
       - matofeder
       - chess-knight
+      - michal-gubricky
     privacy: closed
   - slug: "VP06d"
     description: "Container Monitoring / IaC / CI / Deployment Automation"
