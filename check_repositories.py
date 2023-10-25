@@ -11,7 +11,7 @@ existing_repos = set()
 defined_repos = set()
 error = 0
 
-for repo in gh.get_organization(ORGANIZATION).get_repos():
+for repo in gh.get_organization(ORGANIZATION).get_repos(type="public"):
     existing_repos.add(repo.name)
 
 repositories_dir = os.path.join("orgs/" + ORGANIZATION + "/repositories")

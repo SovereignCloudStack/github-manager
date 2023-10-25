@@ -13,8 +13,6 @@ members:
     login: coro1404
   - name: Thorsten Schifferdecker
     login: curx
-  - name: Elena Zander
-    login: elZander
   - name: Felix Kronlage-Dammers
     login: fkr
     role: admin
@@ -85,8 +83,6 @@ members:
     login: ra-beer
   - name: Arvid Requate
     login: reqa
-  - name: "Sascha Scherrer"
-    login: saschascherrer
   - name: ""
     login: stunivention
   - name: Florian Winkler
@@ -190,6 +186,14 @@ members:
     login: nadja234
   - name: Marc Schöchlin
     login: scoopex
+  - name: Angel Kafazov
+    login: akafazov
+  - name: Bozhidar Ignatov
+    login: ignatov17
+  - name: Matus Jenca
+    login: MatusJenca2
+  - name: Michal Gubricky
+    login: michal-gubricky
 # ==========================
 teams:
   - slug: "23technologies"
@@ -291,11 +295,9 @@ teams:
       - nerdicbynature
       - costelter
       - Phil9219
-      - elZander
       - PSwatchmen
       - wieneo
       - uselessbusinessclown
-      - saschascherrer
   - slug: "syself"
     description: "Syself GmbH"
     privacy: closed
@@ -370,6 +372,8 @@ teams:
       - matofeder
       - chess-knight
       - fdobrovolny
+      - MatusJenca2
+      - michal-gubricky
   - slug: "secustack"
     description: "SecuNet"
     privacy: closed
@@ -390,6 +394,111 @@ teams:
       - 90n20
     member:
       - seykotron
+  - slug: "daiteap"
+    description: "Daiteap"
+    privacy: closed
+    maintainer:
+      - akafazov
+    member:
+      - ignatov17
+  - slug: "VP01"
+    description: "OpsTooling, CI Tests Infra/IaaS, Metal as a Service, Life Cycle Management"
+    privacy: closed
+    maintainer:
+      - berendt
+    member:
+      - osfrickler
+      - artificial-intelligence
+      - gndrmnn
+      - lindenb1
+      - sbstnnmnn
+      - madkiss
+  - slug: "VP04"
+    description: "Networking"
+    privacy: closed
+    maintainer:
+      - fdobrovolny
+    member:
+      - akafazov
+      - ignatov17
+      - MatusJenca2
+  - slug: "VP05"
+    description: "K8s aaS Integration"
+    privacy: closed
+    maintainer:
+      - batistein
+      - janiskemper
+    member:
+      - guettli
+      - nitisht
+      - aniruddha2000
+  - slug: "VP06a"
+    description: "Container Network and Storage Integration"
+    privacy: closed
+    maintainer:
+      - mxmxchere
+    member:
+      - NotTheEvilOne
+      - DEiselt
+  - slug: "VP06c"
+    description: "Container Registry / Scanning"
+    maintainer:
+      - mpilka
+    member:
+      - matofeder
+      - chess-knight
+      - michal-gubricky
+    privacy: closed
+  - slug: "VP06d"
+    description: "Container Monitoring / IaC / CI / Deployment Automation"
+    privacy: closed
+    maintainer:
+      - o-otte
+    member:
+      - joshmue
+      - master-caster
+      - JoshuaI96
+  - slug: "VP08"
+    description: "User Management & Federation"
+    privacy: closed
+    maintainer:
+      - reqa
+    member:
+      - JuanPTM
+  - slug: "VP09c"
+    description: "Penetration Testing"
+    privacy: closed
+    maintainer:
+      - 90n20
+    member:
+      - seykotron
+  - slug: "VP10"
+    description: "SCS certification"
+    privacy: closed
+    maintainer:
+      - anjastrunk
+    member:
+      - josephineSei
+      - markus-hentsch
+      - cah-hbaum
+      - tonifinger
+      - mbuechse
+  - slug: "VP13"
+    description: "Metering on IaaS layer"
+    privacy: closed
+    maintainer:
+      - horazont
+    member:
+      -cah-link
+  - slug: "VP18"
+    description: "The team which manages the scs test landscape"
+    privacy: closed
+    maintainer:
+      - scoopex
+    member:
+      - berendt
+      - fkr
+
 # ==========================
 branch_protection_templates:
   main:

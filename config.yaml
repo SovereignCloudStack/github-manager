@@ -95,6 +95,33 @@ labels:
   - name: longterm
     description: "Issues or pull requests that relevent for longterm support"
     color: "ff00ff"
+  - name: stale
+    description: ""
+    color: "774527"
+  - name: e2e-test
+    description: ""
+    color: "1D76DB"
+  - name: e2e-quick-test
+    description: ""
+    color: "1D76DB"
+  - name: cancelled-e2e-test
+    description: ""
+    color: "BCD3CB"
+  - name: cancelled-e2e-quick-test
+    description: ""
+    color: "BCD3CB"
+  - name: failed-e2e-test
+    description: ""
+    color: "B60205"
+  - name: failed-e2e-quick-test
+    description: ""
+    color: "B60205"
+  - name: successful-e2e-test
+    description: ""
+    color: "59B40E"
+  - name: successful-e2e-quick-test
+    description: ""
+    color: "59B40E"
   - name: standards
     description: "Issues / ADR / pull requests relevant for standardization & certification"
     color: "50c3a5"
