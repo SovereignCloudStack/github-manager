@@ -71,8 +71,10 @@ members:
     login: nerdicbynature
   - name: Toens Bueker
     login: neuroserve
-  - name: Oliver Otte
+  - name: Oliver Kautz
     login: o-otte
+  - name: Sebastian Kaupe
+    login: snkaupe
   - name: Dr. Jens Harbott
     login: osfrickler
   - name: Philipp Fell
@@ -172,6 +174,8 @@ members:
     login: DEiselt
   - name: Martin Loschwitz
     login: madkiss
+  - name: Christian Schwaller
+    login: chrisschwa
   - name: Michael Bayr
     login: michaelbayr
   - name: Robert Holling
@@ -186,6 +190,7 @@ members:
     login: nadja234
   - name: Marc Schöchlin
     login: scoopex
+    role: admin
   - name: Angel Kafazov
     login: akafazov
   - name: Bozhidar Ignatov
@@ -243,6 +248,7 @@ teams:
       - joshmue
       - master-caster
       - JoshuaI96
+      - snkaupe
   - slug: "gridscale"
     description: "gridscale GmbH"
     privacy: closed

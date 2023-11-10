@@ -1,0 +1,21 @@
+---
+zuul-mqtt-matrix-bridge:
+  default_branch: main
+  description: Relay MQTT reports from Zuul-CI to the Matrix chat
+  homepage: 'https://zuul.scs.community/'
+  topics:
+    - zuul
+  archived: false
+  has_issues: true
+  has_projects: false
+  has_wiki: false
+  private: false
+  delete_branch_on_merge: true
+  allow_merge_commit: false
+  allow_squash_merge: true
+  allow_rebase_merge: true
+  teams: []
+  collaborators: []
+  branch_protections:
+    - branch: "main"
+      template: "main"
