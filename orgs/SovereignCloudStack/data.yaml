@@ -190,6 +190,7 @@ members:
     login: nadja234
   - name: Marc Schöchlin
     login: scoopex
+    role: admin
   - name: Angel Kafazov
     login: akafazov
   - name: Bozhidar Ignatov
