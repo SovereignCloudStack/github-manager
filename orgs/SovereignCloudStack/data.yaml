@@ -201,7 +201,7 @@ members:
     login: MatusJenca2
   - name: Michal Gubricky
     login: michal-gubricky
-# ==========================
+# ===========================
 teams:
   - slug: '23technologies'
     description: '23technologies GmbH'
