@@ -37,13 +37,13 @@ members:
     login: isaacintactile
   - name: Ibrahim takouna
     login: itakouna
-  - name: ""
+  - name: ''
     login: janiskemper
   - name: Aniruddha Basak
     login: aniruddha2000
   - name: Nitish Tiwari
     login: nitisht
-  - name: ""
+  - name: ''
     login: jklippel
   - name: Jeff
     login: jnull
@@ -51,7 +51,7 @@ members:
     login: joshmue
   - name: Joshua Irmer
     login: JoshuaI96
-  - name: ""
+  - name: ''
     login: kgube
   - name: linwalth
     login: linwalth
@@ -63,7 +63,7 @@ members:
     login: markgoddard
   - name: Mathias Fechner
     login: matfechner
-  - name: ""
+  - name: ''
     login: mauhau
   - name: Malte Münch
     login: mxmxchere
@@ -81,11 +81,11 @@ members:
     login: Phil9219
   - name: René Lipkowsky
     login: PSwatchmen
-  - name: ""
+  - name: ''
     login: ra-beer
   - name: Arvid Requate
     login: reqa
-  - name: ""
+  - name: ''
     login: stunivention
   - name: Florian Winkler
     login: tinguin
@@ -176,6 +176,8 @@ members:
     login: madkiss
   - name: Christian Schwaller
     login: chrisschwa
+  - name: Benjamin Fischer
+    login: befisch
   - name: Michael Bayr
     login: michaelbayr
   - name: Robert Holling
@@ -201,21 +203,21 @@ members:
     login: michal-gubricky
 # ==========================
 teams:
-  - slug: "23technologies"
-    description: "23technologies GmbH"
+  - slug: '23technologies'
+    description: '23technologies GmbH'
     privacy: closed
     maintainer:
       - berendt
     member:
       - fynluk
-  - slug: "8gears"
-    description: "8gears Ltd."
+  - slug: '8gears'
+    description: '8gears Ltd.'
     privacy: closed
     maintainer:
       - Vad1mo
     member: []
-  - slug: "b1-systems"
-    description: "B1 Systems GmbH"
+  - slug: 'b1-systems'
+    description: 'B1 Systems GmbH'
     privacy: closed
     maintainer:
       - mxmxchere
@@ -226,8 +228,8 @@ teams:
       - tinguin
       - NotTheEvilOne
       - DEiselt
-  - slug: "cloud-and-heat"
-    description: "Cloud&Heat Technologies GmbH"
+  - slug: 'cloud-and-heat'
+    description: 'Cloud&Heat Technologies GmbH'
     privacy: closed
     maintainer:
       - horazont
@@ -239,8 +241,8 @@ teams:
       - cah-hbaum
       - tonifinger
       - mbuechse
-  - slug: "gonicus"
-    description: "GONICUS GmbH"
+  - slug: 'gonicus'
+    description: 'GONICUS GmbH'
     privacy: closed
     maintainer:
       - o-otte
@@ -249,21 +251,21 @@ teams:
       - master-caster
       - JoshuaI96
       - snkaupe
-  - slug: "gridscale"
-    description: "gridscale GmbH"
+  - slug: 'gridscale'
+    description: 'gridscale GmbH'
     privacy: closed
     maintainer:
       - ajfriesen
     member:
       - itakouna
-  - slug: "openinfra"
-    description: "OpenInfra Foundation"
+  - slug: 'openinfra'
+    description: 'OpenInfra Foundation'
     privacy: closed
     maintainer:
       - ttx
     member: []
-  - slug: "osba"
-    description: "Open Source Business Alliance – Bundesverband für digitale Souveränität e.V."
+  - slug: 'osba'
+    description: 'Open Source Business Alliance – Bundesverband für digitale Souveränität e.V.'
     privacy: closed
     maintainer:
       - garloff
@@ -277,8 +279,8 @@ teams:
       - FriederikeZelke
       - nadja234
       - scoopex
-  - slug: "osism"
-    description: "OSISM GmbH"
+  - slug: 'osism'
+    description: 'OSISM GmbH'
     privacy: closed
     maintainer:
       - berendt
@@ -290,8 +292,8 @@ teams:
       - lindenb1
       - sbstnnmnn
       - madkiss
-  - slug: "plusserver"
-    description: "plusserver GmbH"
+  - slug: 'plusserver'
+    description: 'plusserver GmbH'
     privacy: closed
     maintainer:
       - frosty-geek
@@ -304,8 +306,8 @@ teams:
       - PSwatchmen
       - wieneo
       - uselessbusinessclown
-  - slug: "syself"
-    description: "Syself GmbH"
+  - slug: 'syself'
+    description: 'Syself GmbH'
     privacy: closed
     maintainer:
       - batistein
@@ -314,16 +316,16 @@ teams:
       - guettli
       - nitisht
       - aniruddha2000
-  - slug: "uhurutec"
-    description: "UhuruTec AG"
+  - slug: 'uhurutec'
+    description: 'UhuruTec AG'
     privacy: closed
     maintainer:
       - jklippel
     member:
       - harmathy
       - mauhau
-  - slug: "univention"
-    description: "Univention GmbH"
+  - slug: 'univention'
+    description: 'Univention GmbH'
     privacy: closed
     maintainer:
       - reqa
@@ -331,8 +333,8 @@ teams:
       - stunivention
       - JuanPTM
       - nbuntfuss
-  - slug: "wavecon"
-    description: "Wavecon GmbH"
+  - slug: 'wavecon'
+    description: 'Wavecon GmbH'
     privacy: closed
     maintainer:
       - jnull
@@ -346,31 +348,31 @@ teams:
       - flyersa
       - wwentland
       - matfechner
-  - slug: "stackhpc"
-    description: "StackHPC"
+  - slug: 'stackhpc'
+    description: 'StackHPC'
     privacy: closed
     maintainer:
       - markgoddard
     member: []
-  - slug: "cleura"
-    description: "Cleura"
+  - slug: 'cleura'
+    description: 'Cleura'
     privacy: closed
     maintainer:
       - tobberydberg
     member: []
-  - slug: "tsystems"
-    description: "T-Systems"
+  - slug: 'tsystems'
+    description: 'T-Systems'
     privacy: closed
     maintainer:
       - wenners
     member: []
-  - slug: "cloudical"
-    description: "Cloudical"
+  - slug: 'cloudical'
+    description: 'Cloudical'
     privacy: closed
     maintainer: []
     member: []
-  - slug: "dnation"
-    description: "dNation"
+  - slug: 'dnation'
+    description: 'dNation'
     privacy: closed
     maintainer:
       - mpilka
@@ -380,35 +382,35 @@ teams:
       - fdobrovolny
       - MatusJenca2
       - michal-gubricky
-  - slug: "secustack"
-    description: "SecuNet"
+  - slug: 'secustack'
+    description: 'SecuNet'
     privacy: closed
     maintainer:
       - markus-hentsch
     member:
       - josephineSei
-  - slug: "proventa"
-    description: "Proventa AG"
+  - slug: 'proventa'
+    description: 'Proventa AG'
     privacy: closed
     maintainer: []
     member: []
-  - slug: "mineryreport"
-    description: "Minery Report, S.L."
+  - slug: 'mineryreport'
+    description: 'Minery Report, S.L.'
     privacy: closed
-    parent: "proventa"
+    parent: 'proventa'
     maintainer:
       - 90n20
     member:
       - seykotron
-  - slug: "daiteap"
-    description: "Daiteap"
+  - slug: 'daiteap'
+    description: 'Daiteap'
     privacy: closed
     maintainer:
       - akafazov
     member:
       - ignatov17
-  - slug: "VP01"
-    description: "OpsTooling, CI Tests Infra/IaaS, Metal as a Service, Life Cycle Management"
+  - slug: 'VP01'
+    description: 'OpsTooling, CI Tests Infra/IaaS, Metal as a Service, Life Cycle Management'
     privacy: closed
     maintainer:
       - berendt
@@ -419,8 +421,8 @@ teams:
       - lindenb1
       - sbstnnmnn
       - madkiss
-  - slug: "VP04"
-    description: "Networking"
+  - slug: 'VP04'
+    description: 'Networking'
     privacy: closed
     maintainer:
       - fdobrovolny
@@ -428,8 +430,8 @@ teams:
       - akafazov
       - ignatov17
       - MatusJenca2
-  - slug: "VP05"
-    description: "K8s aaS Integration"
+  - slug: 'VP05'
+    description: 'K8s aaS Integration'
     privacy: closed
     maintainer:
       - batistein
@@ -438,16 +440,16 @@ teams:
       - guettli
       - nitisht
       - aniruddha2000
-  - slug: "VP06a"
-    description: "Container Network and Storage Integration"
+  - slug: 'VP06a'
+    description: 'Container Network and Storage Integration'
     privacy: closed
     maintainer:
       - mxmxchere
     member:
       - NotTheEvilOne
       - DEiselt
-  - slug: "VP06c"
-    description: "Container Registry / Scanning"
+  - slug: 'VP06c'
+    description: 'Container Registry / Scanning'
     maintainer:
       - mpilka
     member:
@@ -455,8 +457,8 @@ teams:
       - chess-knight
       - michal-gubricky
     privacy: closed
-  - slug: "VP06d"
-    description: "Container Monitoring / IaC / CI / Deployment Automation"
+  - slug: 'VP06d'
+    description: 'Container Monitoring / IaC / CI / Deployment Automation'
     privacy: closed
     maintainer:
       - o-otte
@@ -464,22 +466,22 @@ teams:
       - joshmue
       - master-caster
       - JoshuaI96
-  - slug: "VP08"
-    description: "User Management & Federation"
+  - slug: 'VP08'
+    description: 'User Management & Federation'
     privacy: closed
     maintainer:
       - reqa
     member:
       - JuanPTM
-  - slug: "VP09c"
-    description: "Penetration Testing"
+  - slug: 'VP09c'
+    description: 'Penetration Testing'
     privacy: closed
     maintainer:
       - 90n20
     member:
       - seykotron
-  - slug: "VP10"
-    description: "SCS certification"
+  - slug: 'VP10'
+    description: 'SCS certification'
     privacy: closed
     maintainer:
       - anjastrunk
@@ -489,15 +491,14 @@ teams:
       - cah-hbaum
       - tonifinger
       - mbuechse
-  - slug: "VP13"
-    description: "Metering on IaaS layer"
+  - slug: 'VP13'
+    description: 'Metering on IaaS layer'
     privacy: closed
     maintainer:
       - horazont
-    member:
-      -cah-link
-  - slug: "VP18"
-    description: "The team which manages the scs test landscape"
+    member: -cah-link
+  - slug: 'VP18'
+    description: 'The team which manages the scs test landscape'
     privacy: closed
     maintainer:
       - scoopex
@@ -511,13 +512,13 @@ branch_protection_templates:
     required_status_checks:
       strict: true
       checks:
-        - context: "DCO"
+        - context: 'DCO'
           app_id: 29752456
     enforce_admins: true
     required_pull_request_reviews:
       dismissal_restrictions:
-        users: []  # list of members or empty list
-        teams: []  # list of teams or empty list
+        users: [] # list of members or empty list
+        teams: [] # list of teams or empty list
       dismiss_stale_reviews: false
       require_code_owner_reviews: false
       required_approving_review_count: 1
@@ -529,20 +530,20 @@ branch_protection_templates:
     required_status_checks:
       strict: true
       checks:
-        - context: "DCO"
+        - context: 'DCO'
           app_id: 29752456
     enforce_admins: true
     required_pull_request_reviews:
       dismissal_restrictions:
-        users: []  # list of members or empty list
-        teams: []  # list of teams or empty list
+        users: [] # list of members or empty list
+        teams: [] # list of teams or empty list
       dismiss_stale_reviews: false
       require_code_owner_reviews: false
       required_approving_review_count: 1
     restrictions:
-      users: []  # list of members or empty list
-      teams: []  # list of teams or empty list
-      apps: []  # list of app slugs with push access
+      users: [] # list of members or empty list
+      teams: [] # list of teams or empty list
+      apps: [] # list of app slugs with push access
     required_linear_history: false
     allow_force_pushes: false
     allow_deletions: false
@@ -550,13 +551,13 @@ branch_protection_templates:
     required_status_checks:
       strict: true
       checks:
-        - context: "DCO"
+        - context: 'DCO'
           app_id: 29752456
     enforce_admins: false
     required_pull_request_reviews:
       dismissal_restrictions:
-        users: []  # list of members or empty list
-        teams: []  # list of teams or empty list
+        users: [] # list of members or empty list
+        teams: [] # list of teams or empty list
       dismiss_stale_reviews: false
       require_code_owner_reviews: false
       required_approving_review_count: 1
