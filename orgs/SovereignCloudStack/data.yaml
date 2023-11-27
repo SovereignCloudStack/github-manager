@@ -59,6 +59,8 @@ members:
     login: maliblatt
   - name: Manuela Urban
     login: manuela-urban
+  - name: Bianca Hollery-Pfister
+    login: BiancaHollery
   - name: Mark Goddard
     login: markgoddard
   - name: Mathias Fechner
@@ -499,13 +501,15 @@ teams:
     member:
       - cah-link
   - slug: "VP18"
-    description: "The team which manages the scs test landscape"
+    description: "The team which manages the scs system landscape or needs information about it"
     privacy: closed
     maintainer:
       - scoopex
     member:
       - berendt
       - fkr
+      - BiancaHollery
+      - manuela-urban
 
 # ==========================
 branch_protection_templates:
