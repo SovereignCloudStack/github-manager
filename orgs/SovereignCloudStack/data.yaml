@@ -204,6 +204,8 @@ members:
     login: MatusJenca2
   - name: Michal Gubricky
     login: michal-gubricky
+  - name: Markus Leberecht
+    login: mleberec
 # ==========================
 teams:
   - slug: "23technologies"
