@@ -37,13 +37,14 @@ members:
     login: isaacintactile
   - name: Ibrahim takouna
     login: itakouna
-  - name: ""
+  - name: "Janis Kemper"
     login: janiskemper
   - name: Aniruddha Basak
     login: aniruddha2000
   - name: Nitish Tiwari
     login: nitisht
-  - name: ""
+  - name: Anurag
+  - name: "kranurag7"
     login: jklippel
   - name: Jeff
     login: jnull
@@ -320,6 +321,7 @@ teams:
       - guettli
       - nitisht
       - aniruddha2000
+      - kranurag7
   - slug: "uhurutec"
     description: "UhuruTec AG"
     privacy: closed
@@ -442,8 +444,8 @@ teams:
       - janiskemper
     member:
       - guettli
-      - nitisht
       - aniruddha2000
+      - kranurag7
   - slug: "VP06a"
     description: "Container Network and Storage Integration"
     privacy: closed
