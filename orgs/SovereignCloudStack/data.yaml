@@ -1,5 +1,9 @@
 ---
 members:
+  - name: Robin Leib
+    login: RLeibJH
+  - name: Daniel Mack
+    login: DMackJH
   - name: Andrej Friesen
     login: ajfriesen
   - name: Sven Batista Steinbach
@@ -514,6 +518,8 @@ teams:
       - fkr
       - BiancaHollery
       - manuela-urban
+      - DMackJH
+      - RLeibJH
 
 # ==========================
 branch_protection_templates:
