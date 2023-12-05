@@ -1,5 +1,7 @@
 ---
 members:
+  - name: Marc Schoechlin GH Permissions Test
+    login: TestingGHPermissions
   - name: Robin Leib
     login: RLeibJH
   - name: Daniel Mack
@@ -39,24 +41,25 @@ members:
     login: cah-link
   - name: Philipp Westphal
     login: isaacintactile
-  - name: Ibrahim takouna
+  - name: Ibrahim Takouna
     login: itakouna
-  - name: "Janis Kemper"
+  - name: Janis Kemper
     login: janiskemper
   - name: Aniruddha Basak
     login: aniruddha2000
   - name: Nitish Tiwari
     login: nitisht
-  - name: Anurag
-  - name: "kranurag7"
+  - name: Jan Klippel
     login: jklippel
+  - name: Anurag
+    login: kranurag7
   - name: Jeff
     login: jnull
   - name: Joshua Mühlfort
     login: joshmue
   - name: Joshua Irmer
     login: JoshuaI96
-  - name: ""
+  - name: kgube
     login: kgube
   - name: linwalth
     login: linwalth
@@ -88,11 +91,11 @@ members:
     login: Phil9219
   - name: René Lipkowsky
     login: PSwatchmen
-  - name: ""
+  - name: ra-beer
     login: ra-beer
   - name: Arvid Requate
     login: reqa
-  - name: ""
+  - name: stunivention
     login: stunivention
   - name: Florian Winkler
     login: tinguin
@@ -538,6 +541,7 @@ branch_protection_templates:
       require_code_owner_reviews: false
       required_approving_review_count: 1
     restrictions:
+      allow_org_members: true
     required_linear_history: false
     allow_force_pushes: false
     allow_deletions: false
@@ -577,6 +581,7 @@ branch_protection_templates:
       require_code_owner_reviews: false
       required_approving_review_count: 1
     restrictions:
+      allow_org_members: true
     required_linear_history: false
     allow_force_pushes: false
     allow_deletions: false
