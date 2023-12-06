@@ -40,12 +40,11 @@ jobs:
 
       - name: Call check_repositories.py
         id: check
-        shell: sh {0}
+        shell: bash {0}
         run: |
-          OUTPUT="$(pipenv run python3 check_repositories.py 2>&1)"
-          RESULT=$?
-          echo "CHECK_RESULT=$OUTPUT" >> "$GITHUB_OUTPUT"
-          exit $RESULT
+          set -o pipefail
+          pipenv run python3 check_repositories.py | tee "$GITHUB_OUTPUT"
+          exit $?
         env:
           API_TOKEN: ${{ secrets[format('GHP_{0}', github.actor)] }}
 
