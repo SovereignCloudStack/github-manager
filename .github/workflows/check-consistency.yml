@@ -6,7 +6,6 @@ name: Check for unmanaged repositories in organization
   push:
     branches:
       - main
-      - check_users
   schedule:
     - cron: '30 5 * * *'
 jobs:
