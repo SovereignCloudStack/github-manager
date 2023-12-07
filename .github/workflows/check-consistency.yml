@@ -6,11 +6,10 @@ name: Check for unmanaged repositories in organization
   push:
     branches:
       - main
-      - fix_reporting
   schedule:
     - cron: '30 5 * * *'
 jobs:
-  check-unmanaged-repos:
+  check-consistency:
     runs-on: ubuntu-latest
     steps:
       - name: Check token permissions
@@ -39,12 +38,12 @@ jobs:
           python3 -m pip install pipenv wheel
           pipenv install
 
-      - name: Call check_repositories.py
+      - name: Call check_consistency.py
         id: check
         shell: bash {0}
         run: |
           set -o pipefail
-          pipenv run python3 check_repositories.py | tee "$GITHUB_OUTPUT"
+          pipenv run python3 check_consistency.py | tee "$GITHUB_OUTPUT"
           exit $?
         env:
           API_TOKEN: ${{ secrets[format('GHP_{0}', github.actor)] }}
@@ -53,7 +52,7 @@ jobs:
         if: ${{ failure() }}
         uses: dblock/create-a-github-issue@v3
         with:
-          filename: ${{GITHUB_WORKSPACE}}/.github/unmanaged-repos-issue.md
+          filename: ${{GITHUB_WORKSPACE}}/.github/check-consistency-issue.md
           update_existing: true
           assignees: scoopex
           search_existing: open
