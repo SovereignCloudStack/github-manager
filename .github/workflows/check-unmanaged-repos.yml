@@ -6,6 +6,7 @@ name: Check for unmanaged repositories in organization
   push:
     branches:
       - main
+      - fix_reporting
   schedule:
     - cron: '30 5 * * *'
 jobs:
@@ -52,9 +53,9 @@ jobs:
         if: ${{ failure() }}
         uses: dblock/create-a-github-issue@v3
         with:
-          filename: .github/unmanaged-repos-issue.md
+          filename: ${{GITHUB_WORKSPACE}}/.github/unmanaged-repos-issue.md
           update_existing: true
-          assignees: maxwolfs
+          assignees: scoopex
           search_existing: open
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
