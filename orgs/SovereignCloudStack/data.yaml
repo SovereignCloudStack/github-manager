@@ -217,6 +217,8 @@ members:
     login: michal-gubricky
   - name: Markus Leberecht
     login: mleberec
+  - name: Till Raubaum
+    login: Till769
 # ==========================
 teams:
   - slug: "23technologies"
@@ -426,6 +428,12 @@ teams:
       - akafazov
     member:
       - ignatov17
+  - slug: "dataport"
+    description: "dataport AöR"
+    privacy: closed
+    maintainer:
+      - Till769
+    member: []
   - slug: "VP01"
     description: "OpsTooling, CI Tests Infra/IaaS, Metal as a Service, Life Cycle Management"
     privacy: closed
