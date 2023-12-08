@@ -25,13 +25,17 @@ You can use the following procedure to test, debug or improve github manager on 
 * Create a [personal access token - classic (PAT)](https://github.com/settings/tokens)
   This should only have a short validity and must be renewed regularly.
   (The rights ``repo`` and ``admin:org`` are required)
-* Execute
+* Execute Manager
   ```sh
   export API_TOKEN="<github-token>"
   pipenv run ansible-playbook playbook.yaml -e api_token=${API_TOKEN}
 
   # Debugging with Ansiballs: https://docs.ansible.com/ansible/latest/dev_guide/debugging.html
   ANSIBLE_KEEP_REMOTE_FILES=1 pipenv run ansible-playbook playbook.yaml -e api_token=${API_TOKEN} -vvv
+  ```
+* Execute Consistency Check
+  ```
+  pipenv run ./check_consistency.py
   ```
 
 ## Limitiations

@@ -1,11 +1,12 @@
 ---
-name: Check for unmanaged repositories in organization
+name: Check consistency of github org configuration
 
 "on":
   workflow_dispatch:
   push:
     branches:
       - main
+      - repositiory-cleanup
   schedule:
     - cron: '30 5 * * *'
 jobs:
@@ -43,7 +44,7 @@ jobs:
         shell: bash {0}
         run: |
           set -o pipefail
-          pipenv run python3 check_consistency.py | tee "$GITHUB_OUTPUT"
+          pipenv run python3 check_consistency.py | tee "$GITHUB_STEP_SUMMARY"
           exit $?
         env:
           API_TOKEN: ${{ secrets[format('GHP_{0}', github.actor)] }}
@@ -52,11 +53,11 @@ jobs:
         if: ${{ failure() }}
         uses: dblock/create-a-github-issue@v3
         with:
-          filename: ${{GITHUB_WORKSPACE}}/.github/check-consistency-issue.md
+          filename: ${{ github.workspace }}/.github/check-consistency-issue.md
           update_existing: true
           assignees: scoopex
           search_existing: open
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BODY: ${{ steps.check.outputs.CHECK_RESULT }}
-          URL_REF: ${{ GITHUB_SERVER_URL }}/${{ GITHUB_REPOSITORY }}/actions/runs/${{ GITHUB_RUN_ID }}
+          URL_REF: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}

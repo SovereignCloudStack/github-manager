@@ -2,10 +2,6 @@
 members:
   - name: Marc Schoechlin GH Permissions Test
     login: TestingGHPermissions
-  - name: Sascha Scherrer
-    login: saschascherrer
-  - name: elZander
-    login: elZander
   - name: Robin Leib
     login: RLeibJH
   - name: Daniel Mack
