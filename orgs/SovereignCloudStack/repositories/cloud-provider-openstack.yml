@@ -1,6 +1,6 @@
 ---
 cloud-provider-openstack:
-  default_branch: main
+  default_branch: master
   description: A fork of kubernetes/cloud-provider-openstack
   homepage: 'https://scs.community/contribute/'
   topics:
@@ -17,5 +17,5 @@ cloud-provider-openstack:
   teams: []
   collaborators: []
   branch_protections:
-    - branch: "main"
+    - branch: "master"
       template: "main"
