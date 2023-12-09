@@ -1,0 +1,19 @@
+---
+cluster-stacks-playground:
+  default_branch: main
+  description: This is a clone of SovereignCloudStack/cluster-stacks which is used for experimentation
+  homepage: 'https://scs.community/contribute/'
+  topics:
+    - community
+  archived: false
+  has_issues: true
+  has_projects: false
+  has_wiki: false
+  private: false
+  delete_branch_on_merge: true
+  allow_merge_commit: false
+  allow_squash_merge: true
+  allow_rebase_merge: true
+  teams: []
+  collaborators: []
+  branch_protections: []

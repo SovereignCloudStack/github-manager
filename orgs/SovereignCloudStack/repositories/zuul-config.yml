@@ -1,11 +1,10 @@
 ---
-openstack-orphaned-resource-cleaner:
+zuul-config:
   default_branch: main
-  description: With this script it is possible to easily list and cleanup orphaned resources on an OpenStack cloud environment
-  homepage: 'https://scs.community/'
+  description: The configuration of our zuul instances
+  homepage: 'https://scs.community/contribute/'
   topics:
-    - openstack
-    - openstack-environment
+    - zuul
   archived: false
   has_issues: true
   has_projects: false
@@ -16,7 +15,9 @@ openstack-orphaned-resource-cleaner:
   allow_squash_merge: true
   allow_rebase_merge: true
   teams: []
-  collaborators: []
+  collaborators:
+    - username: master-caster
+      permission: write
   branch_protections:
     - branch: "main"
       template: "main"
