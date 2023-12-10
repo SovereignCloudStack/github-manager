@@ -15,9 +15,6 @@ zuul-config:
   allow_squash_merge: true
   allow_rebase_merge: true
   teams: []
-  collaborators:
-    - username: master-caster
-      permission: write
   branch_protections:
     - branch: "main"
       template: "main"
