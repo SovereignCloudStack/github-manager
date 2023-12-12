@@ -1,5 +1,7 @@
 ---
 members:
+  - name: Regina Metz
+    login: reginametz
   - name: Marc Schoechlin GH Permissions Test
     login: TestingGHPermissions
   - name: Robin Leib
