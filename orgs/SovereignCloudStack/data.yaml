@@ -79,6 +79,8 @@ members:
     login: mauhau
   - name: Malte Münch
     login: mxmxchere
+  - name: Paul Hildebrandt
+    login: paulphys
   - name: Andre Machowiak
     login: nerdicbynature
   - name: Toens Bueker
@@ -244,6 +246,7 @@ teams:
       - tinguin
       - NotTheEvilOne
       - DEiselt
+      - paulphys
   - slug: "cloud-and-heat"
     description: "Cloud&Heat Technologies GmbH"
     privacy: closed
@@ -471,6 +474,7 @@ teams:
     member:
       - NotTheEvilOne
       - DEiselt
+      - paulphys
   - slug: "VP06c"
     description: "Container Registry / Scanning"
     maintainer:
