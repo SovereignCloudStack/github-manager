@@ -289,6 +289,7 @@ teams:
     maintainer:
       - garloff
       - fkr
+      - scoopex
     member:
       - manuela-urban
       - alexander-diab
@@ -297,7 +298,9 @@ teams:
       - jschoone
       - FriederikeZelke
       - nadja234
-      - scoopex
+      - reginametz
+      - bitkeks
+      - BiancaHollery
   - slug: "osism"
     description: "OSISM GmbH"
     privacy: closed
