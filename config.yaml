@@ -252,3 +252,6 @@ labels:
   - name: "Sprint Quito"
     description: "Sprint Quito (2023, cwk 48+49)"
     color: "4080c0"
+  - name: "Sprint Reykjavik"
+    description: "Sprint Reykjavik (2023, cwk 50+51)"
+    color: "4080c0"
