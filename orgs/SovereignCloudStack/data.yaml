@@ -79,10 +79,14 @@ members:
     login: mauhau
   - name: Malte Münch
     login: mxmxchere
+  - name: Mario Minners
+    login: mario-minners
   - name: Paul Hildebrandt
     login: paulphys
   - name: Andre Machowiak
     login: nerdicbynature
+  - name: Aleksandr Gerasimenko
+    login: alexgesser
   - name: Toens Bueker
     login: neuroserve
   - name: Oliver Kautz
@@ -91,8 +95,6 @@ members:
     login: snkaupe
   - name: Dr. Jens Harbott
     login: osfrickler
-  - name: Philipp Fell
-    login: Phil9219
   - name: René Lipkowsky
     login: PSwatchmen
   - name: ra-beer
@@ -324,10 +326,11 @@ teams:
       - maliblatt
       - nerdicbynature
       - costelter
-      - Phil9219
       - PSwatchmen
       - wieneo
       - uselessbusinessclown
+      - mario-minners
+      - alexgesser
   - slug: "syself"
     description: "Syself GmbH"
     privacy: closed
