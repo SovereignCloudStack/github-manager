@@ -93,6 +93,8 @@ members:
     login: o-otte
   - name: Sebastian Kaupe
     login: snkaupe
+  - name: Roy Farrell
+    login: PixelPhantomX
   - name: Dr. Jens Harbott
     login: osfrickler
   - name: René Lipkowsky
@@ -272,6 +274,7 @@ teams:
       - master-caster
       - JoshuaI96
       - snkaupe
+      - PixelPhantomX
   - slug: "gridscale"
     description: "gridscale GmbH"
     privacy: closed
