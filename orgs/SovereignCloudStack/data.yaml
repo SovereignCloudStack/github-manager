@@ -26,6 +26,10 @@ members:
     role: admin
   - name: Ralf Heiringhoff
     login: frosty-geek
+  - name: Saif Bilal
+    login: saifbilal81
+  - name: Christian Stein
+    login: keyboardinterrupt
   - name: Johann Gnaucke
     login: wieneo
   - name: Fynn Späker
@@ -334,6 +338,8 @@ teams:
       - uselessbusinessclown
       - mario-minners
       - alexgesser
+      - Keyboardinterrupt
+      - saifbila81
   - slug: "syself"
     description: "Syself GmbH"
     privacy: closed
