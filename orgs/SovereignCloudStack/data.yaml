@@ -227,6 +227,14 @@ members:
     login: mleberec
   - name: Till Raubaum
     login: Till769
+  - Name: Eike Waldt
+    login: yeoldegrove
+  - Name: Tilman Luetje
+    login: b1-luettje
+  - Name: Jan-Marten Brüggemann
+    login: brueggemann
+  - Name: Rafael te Boekhorst
+    login: boekhorstb1
 # ==========================
 teams:
   - slug: "23technologies"
@@ -255,6 +263,10 @@ teams:
       - NotTheEvilOne
       - DEiselt
       - paulphys
+      - yeoldegrove
+      - b1-luettje
+      - brueggemann
+      - boekhorstb1
   - slug: "cloud-and-heat"
     description: "Cloud&Heat Technologies GmbH"
     privacy: closed
@@ -462,6 +474,16 @@ teams:
       - lindenb1
       - sbstnnmnn
       - madkiss
+  - slug: "VP03"
+    description: "Software defined Storage"
+    privacy: closed
+    maintainer:
+      - b1-luettje
+    member:
+      - NotTheEvilOne
+      - yeoldegrove
+      - brueggemann
+      - boekhorstb1
   - slug: "VP04"
     description: "Networking"
     privacy: closed
