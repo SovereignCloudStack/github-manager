@@ -227,13 +227,13 @@ members:
     login: mleberec
   - name: Till Raubaum
     login: Till769
-  - Name: Eike Waldt
+  - name: Eike Waldt
     login: yeoldegrove
-  - Name: Tilman Luetje
+  - name: Tilman Luetje
     login: b1-luettje
-  - Name: Jan-Marten Brüggemann
+  - name: Jan-Marten Brüggemann
     login: brueggemann
-  - Name: Rafael te Boekhorst
+  - name: Rafael te Boekhorst
     login: boekhorstb1
 # ==========================
 teams:
