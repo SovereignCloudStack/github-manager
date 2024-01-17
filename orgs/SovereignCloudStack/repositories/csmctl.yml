@@ -20,3 +20,4 @@ csmctl:
   # soon as the repo is set up
   branch_protections:
     - branch: "main"
+      template: "main"
