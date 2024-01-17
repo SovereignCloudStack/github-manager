@@ -19,5 +19,4 @@ csmctl:
   # The protection is intentionally switched off and will be switched on as
   # soon as the repo is set up
   branch_protections:
-  branch_protections:
     - branch: "main"
