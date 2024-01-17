@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 
 import os, sys
+from pprint import pformat
+
 import github
 import yaml
 from github import Github
@@ -59,6 +61,14 @@ def check_repos(gh: Github) -> int:
     return errors_repos
 
 
+def check_user(data: dict) -> bool:
+    valid = True
+    for key in data.keys():
+        if key not in ["login", "name", "role"]:
+            valid = False
+    return valid
+
+
 def check_users(gh: Github) -> int:
     data_file = os.path.join("orgs/" + ORGANIZATION + "/data.yaml")
 
@@ -66,10 +76,14 @@ def check_users(gh: Github) -> int:
     defined_users = dict()
     existing_users = dict()
 
+    broken_users = []
     with open(data_file) as f:
         yaml_data = yaml.safe_load(f)
         for member in yaml_data["members"]:
-            defined_users[member["login"].lower()] = member["name"]
+            if check_user(member):
+                defined_users[member["login"].lower()] = member["name"]
+            else:
+                broken_users.append(f"* User not correctly defined:  >>>{pformat(member)}<<<")
 
     for member in gh.get_organization(ORGANIZATION).get_members():
         existing_users[member.login.lower()] = member.name
@@ -77,20 +91,25 @@ def check_users(gh: Github) -> int:
     users_not_on_github = set(defined_users.keys()).difference(set(existing_users.keys()))
     users_not_defined = set(existing_users.keys()).difference(set(defined_users.keys()))
 
+    if len(broken_users) != 0:
+        print(f"\n# Users which are defined but are broken:\n")
+        for user in  broken_users:
+            print(user)
+        print()
+        errors_users += len(broken_users)
+
     if len(users_not_on_github) != 0:
         out_tmp = [f"\n# Users not (yet) assigned to the github organization:\n"]
         for user in sorted(users_not_on_github):
             out_tmp.append(f"* [{user} - {defined_users[user]}](https://www.github.com/{user})")
-        if len(out_tmp) > 1:
-            print("\n".join(out_tmp))
+        print("\n".join(out_tmp))
 
     if len(users_not_defined) != 0:
-        out_tmp = [f"\n# Users which are not defined in github manager:\n"]
+        out_tmp = [ f"\n# Users which are not defined in github manager:\n" ]
         for user in sorted(users_not_defined):
             out_tmp.append(f"* [{user} - {existing_users[user]}](https://www.github.com/{user})")
             errors_users += 1
-        if len(out_tmp) > 1:
-            print("\n".join(out_tmp))
+        print("\n".join(out_tmp))
     return errors_users
 
 
