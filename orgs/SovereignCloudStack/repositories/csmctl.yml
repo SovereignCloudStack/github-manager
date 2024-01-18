@@ -21,3 +21,4 @@ csmctl:
   branch_protections:
     - branch: "main"
       template: "main"
+
