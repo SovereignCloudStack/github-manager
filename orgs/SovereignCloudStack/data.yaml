@@ -235,6 +235,8 @@ members:
     login: brueggemann
   - name: Rafael te Boekhorst
     login: boekhorstb1
+  - name: Patrick Thiem
+    login: cah-patrickthiem
 # ==========================
 teams:
   - slug: "23technologies"
@@ -280,6 +282,7 @@ teams:
       - cah-hbaum
       - tonifinger
       - mbuechse
+      - cah-patrickthiem
   - slug: "gonicus"
     description: "GONICUS GmbH"
     privacy: closed
