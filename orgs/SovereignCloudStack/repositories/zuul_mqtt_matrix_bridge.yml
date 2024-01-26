@@ -1,11 +1,11 @@
 ---
-docs-page:
+zuul-mqtt-matrix-bridge:
   default_branch: main
-  description: Public static page for documentation
-  homepage: 'https://docs.scs.community/'
+  description: Relay MQTT reports from Zuul-CI to the Matrix chat
+  homepage: 'https://zuul.scs.community/'
   topics:
-    - documentation
-  archived: true
+    - zuul
+  archived: false
   has_issues: true
   has_projects: false
   has_wiki: false
@@ -18,4 +18,4 @@ docs-page:
   collaborators: []
   branch_protections:
     - branch: "main"
-      template: "owner_bypass"
+      template: "main"

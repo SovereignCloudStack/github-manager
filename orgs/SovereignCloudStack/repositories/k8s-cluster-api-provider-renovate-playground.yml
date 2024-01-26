@@ -1,11 +1,11 @@
 ---
-docs-page:
+k8s-cluster-api-provider-renovate-playground:
   default_branch: main
-  description: Public static page for documentation
-  homepage: 'https://docs.scs.community/'
+  description: A clone of SovereignCloudStack/k8s-cluster-api-provider
+  homepage: 'https://scs.community/contribute/'
   topics:
-    - documentation
-  archived: true
+    - community
+  archived: false
   has_issues: true
   has_projects: false
   has_wiki: false
@@ -16,6 +16,4 @@ docs-page:
   allow_rebase_merge: true
   teams: []
   collaborators: []
-  branch_protections:
-    - branch: "main"
-      template: "owner_bypass"
+  branch_protections: []

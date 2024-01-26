@@ -1,11 +1,11 @@
 ---
-docs-page:
-  default_branch: main
-  description: Public static page for documentation
-  homepage: 'https://docs.scs.community/'
+cloud-provider-openstack:
+  default_branch: master
+  description: A fork of kubernetes/cloud-provider-openstack
+  homepage: 'https://scs.community/contribute/'
   topics:
-    - documentation
-  archived: true
+    - community
+  archived: false
   has_issues: true
   has_projects: false
   has_wiki: false
@@ -17,5 +17,5 @@ docs-page:
   teams: []
   collaborators: []
   branch_protections:
-    - branch: "main"
-      template: "owner_bypass"
+    - branch: "master"
+      template: "main"

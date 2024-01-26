@@ -1,11 +1,12 @@
 ---
-docs-page:
-  default_branch: main
-  description: Public static page for documentation
-  homepage: 'https://docs.scs.community/'
+kolla-ansible:
+  default_branch: master
+  description: Ansible deployment of the Kolla containers. Mirror of code maintained at opendev.org.
+  homepage: 'opendev.org/openstack/kolla-ansible'
   topics:
-    - documentation
-  archived: true
+    - openstack-environment
+    - openstack
+  archived: false
   has_issues: true
   has_projects: false
   has_wiki: false
@@ -17,5 +18,5 @@ docs-page:
   teams: []
   collaborators: []
   branch_protections:
-    - branch: "main"
+    - branch: "master"
       template: "owner_bypass"

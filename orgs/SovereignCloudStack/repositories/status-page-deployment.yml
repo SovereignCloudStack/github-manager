@@ -1,11 +1,10 @@
 ---
-docs-page:
+status-page-deployment:
   default_branch: main
-  description: Public static page for documentation
-  homepage: 'https://docs.scs.community/'
-  topics:
-    - documentation
-  archived: true
+  description: Deployment information for the status page
+  homepage: 'https://scs.community/'
+  topics: []
+  archived: false
   has_issues: true
   has_projects: false
   has_wiki: false
@@ -18,4 +17,4 @@ docs-page:
   collaborators: []
   branch_protections:
     - branch: "main"
-      template: "owner_bypass"
+      template: "main"

@@ -39,7 +39,8 @@ jobs:
 
       - name: Install ansible collection
         run: |
-          ansible-galaxy collection install ansible-collection-gitcontrol
+          #ansible-galaxy collection install ansible-collection-gitcontrol
+          ansible-galaxy collection install git+https://github.com/SovereignCloudStack/ansible-collection-gitcontrol.git
 
       - name: Manage github repositories with Ansible
         run: |

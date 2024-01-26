@@ -1,11 +1,11 @@
 ---
-docs-page:
+zuul-config:
   default_branch: main
-  description: Public static page for documentation
-  homepage: 'https://docs.scs.community/'
+  description: The configuration of our zuul instances
+  homepage: 'https://scs.community/contribute/'
   topics:
-    - documentation
-  archived: true
+    - zuul
+  archived: false
   has_issues: true
   has_projects: false
   has_wiki: false
@@ -15,7 +15,6 @@ docs-page:
   allow_squash_merge: true
   allow_rebase_merge: true
   teams: []
-  collaborators: []
   branch_protections:
     - branch: "main"
-      template: "owner_bypass"
+      template: "main"

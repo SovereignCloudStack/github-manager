@@ -1,11 +1,9 @@
 ---
-openstack-orphaned-resource-cleaner:
+central-api:
   default_branch: main
-  description: With this script it is possible to easily list and cleanup orphaned resources on an OpenStack cloud environment
+  description: 'MVP for SCS Central API'
   homepage: 'https://scs.community/'
-  topics:
-    - openstack
-    - openstack-environment
+  topics: []
   archived: false
   has_issues: true
   has_projects: false

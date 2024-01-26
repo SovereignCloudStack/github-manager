@@ -1,11 +1,11 @@
 ---
-docs-page:
+cluster-stack-provider-openstack:
   default_branch: main
-  description: Public static page for documentation
-  homepage: 'https://docs.scs.community/'
+  description: Cluster Stack Provider Openstack
+  homepage: 'https://scs.community/'
   topics:
-    - documentation
-  archived: true
+    - k8s
+  archived: false
   has_issues: true
   has_projects: false
   has_wiki: false
@@ -18,4 +18,4 @@ docs-page:
   collaborators: []
   branch_protections:
     - branch: "main"
-      template: "owner_bypass"
+      template: "main"

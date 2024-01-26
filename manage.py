@@ -94,7 +94,10 @@ for gh_repository in gh.get_organization(ORGANIZATION).get_repos(type="public"):
                 f"{gh_repository.name} - {gh_milestone.title} should be in state 'closed'"
             )
             if args.dry is False:
-                gh_milestone.edit(title=gh_milestone.title, state="closed")
+                try:
+                    gh_milestone.edit(title=gh_milestone.title, state="closed")
+                except:
+                    logging.info(f"{gh_repository.name} - milestone {milestone} - Failed to close milestone")
 
     gh_milestone_titles = []
     for gh_milestone in gh_milestones:
@@ -106,4 +109,7 @@ for gh_repository in gh.get_organization(ORGANIZATION).get_repos(type="public"):
         else:
             logging.info(f"{gh_repository.name} - milestone {milestone} does not exist")
             if args.dry is False:
-                gh_repository.create_milestone(title=milestone, state="open")
+                try:
+                    gh_repository.create_milestone(title=milestone, state="open")
+                except:
+                    logging.info(f"{gh_repository.name} - milestone {milestone} - Failed to create milestone")

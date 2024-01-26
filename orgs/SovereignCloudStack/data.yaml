@@ -1,272 +1,247 @@
 ---
 members:
+  - name: Regina Metz
+    login: reginametz
+  - name: Marc Schoechlin GH Permissions Test
+    login: TestingGHPermissions
+  - name: Robin Leib
+    login: RLeibJH
+  - name: Daniel Mack
+    login: DMackJH
   - name: Andrej Friesen
     login: ajfriesen
-    role: member
   - name: Sven Batista Steinbach
     login: batistein
-    role: member
   - name: Christian Berendt
     login: berendt
-    role: admin
+    role: member
   - name: Christian Otto Stelter
     login: costelter
-    role: member
   - name: Stephan Ilaender
     login: coro1404
-    role: member
   - name: Thorsten Schifferdecker
     login: curx
-    role: member
-  - name: Elena Zander
-    login: elZander
-    role: member
   - name: Felix Kronlage-Dammers
     login: fkr
     role: admin
   - name: Ralf Heiringhoff
     login: frosty-geek
-    role: member
+  - name: Saif Bilal
+    login: saifbilal81
+  - name: Christian Stein
+    login: keyboardinterrupt
   - name: Johann Gnaucke
     login: wieneo
-    role: member
   - name: Fynn Späker
     login: fynluk
-    role: member
   - name: Kurt Garloff
     login: garloff
     role: admin
   - name: Christian Rost
     login: grischdian
-    role: member
   - name: Max Harmathy
     login: harmathy
-    role: member
   - name: Jonas Schäfer
     login: horazont
-    role: member
   - name: Heiko Ritter
     login: cah-link
-    role: member
   - name: Philipp Westphal
     login: isaacintactile
-    role: member
-  - name: Ibrahim takouna
+  - name: Ibrahim Takouna
     login: itakouna
-    role: member
-  - name: ""
+  - name: Janis Kemper
     login: janiskemper
-    role: member
-  - name: ""
+  - name: Aniruddha Basak
+    login: aniruddha2000
+  - name: Nitish Tiwari
+    login: nitisht
+  - name: Jan Klippel
     login: jklippel
-    role: member
+  - name: Anurag
+    login: kranurag7
   - name: Jeff
     login: jnull
-    role: member
   - name: Joshua Mühlfort
     login: joshmue
-    role: member
   - name: Joshua Irmer
     login: JoshuaI96
-    role: member
-  - name: ""
+  - name: kgube
     login: kgube
-    role: member
   - name: linwalth
     login: linwalth
-    role: member
   - name: Markus Lindenblatt
     login: maliblatt
-    role: member
   - name: Manuela Urban
     login: manuela-urban
-    role: member
+  - name: Bianca Hollery-Pfister
+    login: BiancaHollery
   - name: Mark Goddard
     login: markgoddard
-    role: member
   - name: Mathias Fechner
     login: matfechner
-    role: member
   - name: ""
     login: mauhau
-    role: member
   - name: Malte Münch
     login: mxmxchere
-    role: member
+  - name: Mario Minners
+    login: mario-minners
+  - name: Paul Hildebrandt
+    login: paulphys
   - name: Andre Machowiak
     login: nerdicbynature
-    role: member
+  - name: Aleksandr Gerasimenko
+    login: alexgesser
   - name: Toens Bueker
     login: neuroserve
-    role: member
-  - name: Oliver Otte
+  - name: Oliver Kautz
     login: o-otte
-    role: member
+  - name: Sebastian Kaupe
+    login: snkaupe
+  - name: Roy Farrell
+    login: PixelPhantomX
   - name: Dr. Jens Harbott
     login: osfrickler
-    role: member
-  - name: Philipp Fell
-    login: Phil9219
-    role: member
   - name: René Lipkowsky
     login: PSwatchmen
-    role: member
-  - name: ""
+  - name: ra-beer
     login: ra-beer
-    role: member
   - name: Arvid Requate
     login: reqa
-    role: member
-  - name: "Sascha Scherrer"
-    login: saschascherrer
-    role: member
-  - name: ""
+  - name: stunivention
     login: stunivention
-    role: member
   - name: Florian Winkler
     login: tinguin
-    role: member
   - name: Tobias Rydberg
     login: tobberydberg
-    role: member
   - name: Thierry Carrez
     login: ttx
-    role: member
   - name: Vadim Bauer
     login: Vad1mo
-    role: member
   - name: Sebastian Wenner
     login: wenners
-    role: member
   - name: Benjamin
     login: master-caster
-    role: member
   - name: Cemil
     login: cedegi
-    role: member
   - name: Alexander Diab
     login: alexander-diab
-    role: member
   - name: PJSINKA
     login: pjsinka
-    role: member
   - name: Stefan Schmidt
     login: ZaphodB
-    role: member
   - name: Wolodja Wentland
     login: wwentland
-    role: member
   - name: Nancy Buntfuss
     login: nbuntfuss
-    role: member
   - name: Juan Pedro Torres
     login: JuanPTM
-    role: member
   - name: Christian Schilling
     login: chschilling
-    role: member
   - name: Max Wolfs
     login: maxwolfs
     role: admin
   - name: Dag Dammann
     login: dagdammann
-    role: member
   - name: Friederike Zelke
     login: FriederikeZelke
     role: admin
   - name: Paul-Philipp Kuschy
     login: ppkuschy
-    role: member
   - name: Larissa
     login: aeroflydesign
-    role: member
   - name: Enrico Kern
     login: flyersa
-    role: member
   - name: Dirk Loßack
     login: dirklossack
-    role: member
   - name: Christian Schmitz
     login: uselessbusinessclown
-    role: member
   - name: Martin Pilka
     login: mpilka
-    role: member
   - name: Matej Feder
     login: matofeder
-    role: member
   - name: Roman Hros
     login: chess-knight
-    role: member
   - name: Jan Schoone
     login: jschoone
     role: admin
   - name: Nils Arnold
     login: Nils98Ar
-    role: member
   - name: Hannes Baum
     login: cah-hbaum
-    role: member
   - name: Josephine Seifert
     login: josephineSei
-    role: member
   - name: Anja Strunk
     login: anjastrunk
-    role: member
   - name: Toni Finger
     login: tonifinger
-    role: member
   - name: Markus Hentsch
     login: markus-hentsch
-    role: member
   - name: Thomas Güttler
     login: guettli
-    role: member
   - name: Sven Kieske
     login: artificial-intelligence
-    role: member
   - name: Matthias Büchse
     login: mbuechse
-    role: member
   - name: Filip Dobrovolny
     login: fdobrovolny
-    role: member
   - name: Nils Gondermann
     login: gndrmnn
-    role: member
   - name: Robin van der Linden
     login: lindenb1
-    role: member
   - name: Sebastian Neumann
     login: sbstnnmnn
-    role: member
   - name: Tobias Wolf
     login: NotTheEvilOne
-    role: member
   - name: Danny Eiselt
     login: DEiselt
-    role: member
   - name: Martin Loschwitz
     login: madkiss
-    role: member
+  - name: Christian Schwaller
+    login: chrisschwa
+  - name: Benjamin Fischer
+    login: befisch
   - name: Michael Bayr
     login: michaelbayr
-    role: member
   - name: Robert Holling
     login: rholling
-    role: member
   - name: David Rodriguez Regueira
     login: 90n20
-    role: member
   - name: Miguel Angel Romero de los Llanos
     login: seykotron
-    role: member
+  - name: Dominik Pataky
+    login: bitkeks
+  - name: Nadja Schieber
+    login: nadja234
+  - name: Marc Schöchlin
+    login: scoopex
+    role: admin
+  - name: Angel Kafazov
+    login: akafazov
+  - name: Bozhidar Ignatov
+    login: ignatov17
+  - name: Matus Jenca
+    login: MatusJenca2
+  - name: Michal Gubricky
+    login: michal-gubricky
+  - name: Markus Leberecht
+    login: mleberec
+  - name: Till Raubaum
+    login: Till769
+  - name: Eike Waldt
+    login: yeoldegrove
+  - name: Tilman Luetje
+    login: b1-luettje
+  - name: Jan-Marten Brüggemann
+    login: brueggemann
+  - name: Rafael te Boekhorst
+    login: boekhorstb1
+  - name: Patrick Thiem
+    login: cah-patrickthiem
 # ==========================
 teams:
   - slug: "23technologies"
     description: "23technologies GmbH"
     privacy: closed
-    parent:
     maintainer:
       - berendt
     member:
@@ -274,14 +249,12 @@ teams:
   - slug: "8gears"
     description: "8gears Ltd."
     privacy: closed
-    parent:
     maintainer:
       - Vad1mo
     member: []
   - slug: "b1-systems"
     description: "B1 Systems GmbH"
     privacy: closed
-    parent:
     maintainer:
       - mxmxchere
       - curx
@@ -291,10 +264,14 @@ teams:
       - tinguin
       - NotTheEvilOne
       - DEiselt
+      - paulphys
+      - yeoldegrove
+      - b1-luettje
+      - brueggemann
+      - boekhorstb1
   - slug: "cloud-and-heat"
     description: "Cloud&Heat Technologies GmbH"
     privacy: closed
-    parent:
     maintainer:
       - horazont
       - anjastrunk
@@ -305,20 +282,21 @@ teams:
       - cah-hbaum
       - tonifinger
       - mbuechse
+      - cah-patrickthiem
   - slug: "gonicus"
     description: "GONICUS GmbH"
     privacy: closed
-    parent:
     maintainer:
       - o-otte
     member:
       - joshmue
       - master-caster
       - JoshuaI96
+      - snkaupe
+      - PixelPhantomX
   - slug: "gridscale"
     description: "gridscale GmbH"
     privacy: closed
-    parent:
     maintainer:
       - ajfriesen
     member:
@@ -326,35 +304,34 @@ teams:
   - slug: "openinfra"
     description: "OpenInfra Foundation"
     privacy: closed
-    parent:
     maintainer:
       - ttx
     member: []
   - slug: "osba"
     description: "Open Source Business Alliance – Bundesverband für digitale Souveränität e.V."
     privacy: closed
-    parent:
     maintainer:
       - garloff
-    member:
       - fkr
+      - scoopex
+    member:
       - manuela-urban
       - alexander-diab
       - dirklossack
       - maxwolfs
       - jschoone
       - FriederikeZelke
+      - nadja234
+      - reginametz
+      - bitkeks
+      - BiancaHollery
   - slug: "osism"
     description: "OSISM GmbH"
     privacy: closed
-    parent:
     maintainer:
       - berendt
     member:
-      - matfechner
-      - ra-beer
       - osfrickler
-      - ppkuschy
       - aeroflydesign
       - artificial-intelligence
       - gndrmnn
@@ -364,7 +341,6 @@ teams:
   - slug: "plusserver"
     description: "plusserver GmbH"
     privacy: closed
-    parent:
     maintainer:
       - frosty-geek
     member:
@@ -372,25 +348,27 @@ teams:
       - maliblatt
       - nerdicbynature
       - costelter
-      - Phil9219
-      - elZander
       - PSwatchmen
       - wieneo
       - uselessbusinessclown
-      - saschascherrer
+      - mario-minners
+      - alexgesser
+      - Keyboardinterrupt
+      - saifbila81
   - slug: "syself"
     description: "Syself GmbH"
     privacy: closed
-    parent:
     maintainer:
       - batistein
       - janiskemper
     member:
       - guettli
+      - nitisht
+      - aniruddha2000
+      - kranurag7
   - slug: "uhurutec"
     description: "UhuruTec AG"
     privacy: closed
-    parent:
     maintainer:
       - jklippel
     member:
@@ -399,7 +377,6 @@ teams:
   - slug: "univention"
     description: "Univention GmbH"
     privacy: closed
-    parent:
     maintainer:
       - reqa
     member:
@@ -409,7 +386,6 @@ teams:
   - slug: "wavecon"
     description: "Wavecon GmbH"
     privacy: closed
-    parent:
     maintainer:
       - jnull
     member:
@@ -421,58 +397,188 @@ teams:
       - chschilling
       - flyersa
       - wwentland
+      - matfechner
   - slug: "stackhpc"
     description: "StackHPC"
     privacy: closed
-    parent:
     maintainer:
       - markgoddard
     member: []
   - slug: "cleura"
     description: "Cleura"
     privacy: closed
-    parent:
     maintainer:
       - tobberydberg
     member: []
   - slug: "tsystems"
     description: "T-Systems"
     privacy: closed
-    parent:
     maintainer:
       - wenners
     member: []
   - slug: "cloudical"
     description: "Cloudical"
     privacy: closed
-    parent:
     maintainer: []
     member: []
   - slug: "dnation"
     description: "dNation"
     privacy: closed
-    parent:
     maintainer:
       - mpilka
     member:
       - matofeder
       - chess-knight
       - fdobrovolny
+      - MatusJenca2
+      - michal-gubricky
   - slug: "secustack"
     description: "SecuNet"
     privacy: closed
-    parent:
     maintainer:
       - markus-hentsch
     member:
       - josephineSei
+  - slug: "proventa"
+    description: "Proventa AG"
+    privacy: closed
+    maintainer: []
+    member: []
   - slug: "mineryreport"
-    description: "Proventa/MineryReport"
+    description: "Minery Report, S.L."
+    privacy: closed
+    parent: "proventa"
+    maintainer:
+      - 90n20
+    member:
+      - seykotron
+  - slug: "daiteap"
+    description: "Daiteap"
+    privacy: closed
+    maintainer:
+      - akafazov
+    member:
+      - ignatov17
+  - slug: "dataport"
+    description: "dataport AöR"
+    privacy: closed
+    maintainer:
+      - Till769
+    member: []
+  - slug: "VP01"
+    description: "OpsTooling, CI Tests Infra/IaaS, Metal as a Service, Life Cycle Management"
+    privacy: closed
+    maintainer:
+      - berendt
+    member:
+      - osfrickler
+      - artificial-intelligence
+      - gndrmnn
+      - lindenb1
+      - sbstnnmnn
+      - madkiss
+  - slug: "VP03"
+    description: "Software defined Storage"
+    privacy: closed
+    maintainer:
+      - b1-luettje
+    member:
+      - NotTheEvilOne
+      - yeoldegrove
+      - brueggemann
+      - boekhorstb1
+  - slug: "VP04"
+    description: "Networking"
+    privacy: closed
+    maintainer:
+      - fdobrovolny
+    member:
+      - akafazov
+      - ignatov17
+      - MatusJenca2
+  - slug: "VP05"
+    description: "K8s aaS Integration"
+    privacy: closed
+    maintainer:
+      - batistein
+      - janiskemper
+    member:
+      - guettli
+      - aniruddha2000
+      - kranurag7
+  - slug: "VP06a"
+    description: "Container Network and Storage Integration"
+    privacy: closed
+    maintainer:
+      - mxmxchere
+    member:
+      - NotTheEvilOne
+      - DEiselt
+      - paulphys
+  - slug: "VP06c"
+    description: "Container Registry / Scanning"
+    maintainer:
+      - mpilka
+    member:
+      - matofeder
+      - chess-knight
+      - michal-gubricky
+    privacy: closed
+  - slug: "VP06d"
+    description: "Container Monitoring / IaC / CI / Deployment Automation"
+    privacy: closed
+    maintainer:
+      - o-otte
+    member:
+      - joshmue
+      - master-caster
+      - JoshuaI96
+  - slug: "VP08"
+    description: "User Management & Federation"
+    privacy: closed
+    maintainer:
+      - reqa
+    member:
+      - JuanPTM
+  - slug: "VP09c"
+    description: "Penetration Testing"
     privacy: closed
     maintainer:
       - 90n20
     member:
       - seykotron
+  - slug: "VP10"
+    description: "SCS certification"
+    privacy: closed
+    maintainer:
+      - anjastrunk
+    member:
+      - josephineSei
+      - markus-hentsch
+      - cah-hbaum
+      - tonifinger
+      - mbuechse
+  - slug: "VP13"
+    description: "Metering on IaaS layer"
+    privacy: closed
+    maintainer:
+      - horazont
+    member:
+      - cah-link
+  - slug: "VP18"
+    description: "The team which manages the scs system landscape or needs information about it"
+    privacy: closed
+    maintainer:
+      - scoopex
+    member:
+      - berendt
+      - fkr
+      - BiancaHollery
+      - manuela-urban
+      - DMackJH
+      - RLeibJH
+      - osfrickler
+
 # ==========================
 branch_protection_templates:
   main:
@@ -490,6 +596,7 @@ branch_protection_templates:
       require_code_owner_reviews: false
       required_approving_review_count: 1
     restrictions:
+      allow_org_members: true
     required_linear_history: false
     allow_force_pushes: false
     allow_deletions: false
@@ -529,6 +636,7 @@ branch_protection_templates:
       require_code_owner_reviews: false
       required_approving_review_count: 1
     restrictions:
+      allow_org_members: true
     required_linear_history: false
     allow_force_pushes: false
     allow_deletions: false

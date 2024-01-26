@@ -1,10 +1,10 @@
 ---
-gx-self-description-generator:
+csmctl:
   default_branch: main
-  description: Tools for craeting Gaia-X Self-Descriptions (OpenStack, k8s, ...)
-  homepage: 'https://scs.community/'
+  description: csmctl
+  homepage: 'https://github.com/SovereignCloudStack/csmctl'
   topics:
-    - gaia-x
+    - k8s
   archived: false
   has_issues: true
   has_projects: false
@@ -16,6 +16,8 @@ gx-self-description-generator:
   allow_rebase_merge: true
   teams: []
   collaborators: []
+  # The protection is intentionally switched off and will be switched on as
+  # soon as the repo is set up
   branch_protections:
     - branch: "main"
       template: "main"
