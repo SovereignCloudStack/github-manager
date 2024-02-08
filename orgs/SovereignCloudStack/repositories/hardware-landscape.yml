@@ -1,10 +1,10 @@
 ---
-cluster-stack-provider-openstack:
+hardware-landscape:
   default_branch: main
-  description: Cluster Stack Provider OpenStack
+  description: 'The management repo and the documentation of the SCS hardware landscape'
   homepage: 'https://scs.community/'
   topics:
-    - k8s
+    - landscape
   archived: false
   has_issues: true
   has_projects: false
@@ -14,7 +14,9 @@ cluster-stack-provider-openstack:
   allow_merge_commit: false
   allow_squash_merge: true
   allow_rebase_merge: true
-  teams: []
+  teams:
+    - slug: "hardware-landscape"
+      permission: "maintain"
   collaborators: []
   branch_protections:
     - branch: "main"

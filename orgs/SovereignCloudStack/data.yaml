@@ -237,6 +237,8 @@ members:
     login: boekhorstb1
   - name: Patrick Thiem
     login: cah-patrickthiem
+  - name: Martin Morgenstern
+    login: martinmo
 # ==========================
 teams:
   - slug: "23technologies"
@@ -283,6 +285,7 @@ teams:
       - tonifinger
       - mbuechse
       - cah-patrickthiem
+      - martinmo
   - slug: "gonicus"
     description: "GONICUS GmbH"
     privacy: closed
@@ -565,6 +568,13 @@ teams:
       - horazont
     member:
       - cah-link
+  - slug: "hardware-landscape"
+    description: "The team which manages the scs system landscape or needs information about it"
+    privacy: closed
+    maintainer:
+      - scoopex
+      - bitkeks
+      - berendt
   - slug: "VP18"
     description: "The team which manages the scs system landscape or needs information about it"
     privacy: closed
