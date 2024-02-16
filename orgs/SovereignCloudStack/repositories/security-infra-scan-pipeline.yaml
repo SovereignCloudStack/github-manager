@@ -1,0 +1,23 @@
+---
+security-infra-scan-pipeline:
+  default_branch: main
+  description: 'Security scanning pipeline in Zuul focussed on dynamic infra tests'
+  homepage: 'https://scs.community/'
+  topics:
+    - security
+  archived: false
+  has_issues: true
+  has_projects: false
+  has_wiki: false
+  private: false
+  delete_branch_on_merge: true
+  allow_merge_commit: false
+  allow_squash_merge: true
+  allow_rebase_merge: true
+  teams:
+    - slug: "VP09c"
+      permission: "maintain"
+  collaborators: []
+  branch_protections:
+    - branch: "main"
+      template: "main"
