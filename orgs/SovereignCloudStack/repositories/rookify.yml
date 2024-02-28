@@ -1,0 +1,24 @@
+---
+rookify:
+  default_branch: main
+  description: 'Enable Ceph-Cluster migrations to Rook'
+  homepage: 'https://scs.community/'
+  topics:
+    - ceph
+    - k8s
+  archived: false
+  has_issues: true
+  has_projects: false
+  has_wiki: true
+  private: false
+  delete_branch_on_merge: true
+  allow_merge_commit: false
+  allow_squash_merge: true
+  allow_rebase_merge: true
+  teams:
+    - slug: "VP03"
+      permission: "maintain"
+  collaborators: []
+  branch_protections:
+    - branch: "main"
+      template: "main"
