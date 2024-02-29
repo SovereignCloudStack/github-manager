@@ -17,7 +17,7 @@ rookify:
   allow_rebase_merge: true
   teams:
     - slug: "VP03"
-      permission: "maintain"
+      permission: "admin"
   collaborators: []
   branch_protections:
     - branch: "main"
