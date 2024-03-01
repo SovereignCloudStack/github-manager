@@ -2,7 +2,7 @@
 calendar:
   default_branch: main
   description: Public calendar of community related events, meetings and other interesting happenings
-  homepage: 'https://scs.community/contribute/'
+  homepage: 'https://docs.scs.community/community/collaboration/'
   topics:
     - community
   archived: false
