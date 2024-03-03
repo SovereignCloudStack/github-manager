@@ -200,6 +200,9 @@ labels:
   - name: "release-notes"
     description: "This change needs to be highlighted in the upcoming release notes"
     color: "50C3A5"
+  - name: "kaas-hackathon"
+    description: ""
+    color: "0dce67"
   # Sprint names
   - name: "Sprint Amsterdam"
     description: "Sprint Amsterdam (2023, cwk 16+17)"
