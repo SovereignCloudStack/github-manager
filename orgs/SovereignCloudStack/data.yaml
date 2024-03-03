@@ -561,6 +561,11 @@ teams:
       - cah-hbaum
       - tonifinger
       - mbuechse
+  - slug: "VP12"
+    description: "Infra Scanning / Isolation / Policy Management"
+    privacy: closed
+    maintainer:
+      - bitkeks
   - slug: "VP13"
     description: "Metering on IaaS layer"
     privacy: closed
