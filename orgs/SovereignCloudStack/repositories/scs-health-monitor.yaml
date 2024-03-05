@@ -18,7 +18,8 @@ scs-health-monitor:
   allow_squash_merge: true
   allow_rebase_merge: true
   teams:
-    - "VP12"
+    - slug: "VP12"
+      permission: "maintain"
   collaborators: []
   branch_protections:
     - branch: "main"
