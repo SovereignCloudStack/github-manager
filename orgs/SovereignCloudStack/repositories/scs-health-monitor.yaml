@@ -1,0 +1,25 @@
+---
+scs-health-monitor:
+  default_branch: main
+  description: The new health monitor for IaaS and KaaS to test real-life scenarios
+  homepage: 'https://scs.community/'
+  topics:
+    - openstack
+    - kubernetes
+    - testing
+    - python
+  archived: false
+  has_issues: true
+  has_projects: false
+  has_wiki: false
+  private: false
+  delete_branch_on_merge: true
+  allow_merge_commit: false
+  allow_squash_merge: true
+  allow_rebase_merge: true
+  teams:
+    - "VP12"
+  collaborators: []
+  branch_protections:
+    - branch: "main"
+      template: "main"
