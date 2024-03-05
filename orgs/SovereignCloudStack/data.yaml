@@ -239,6 +239,12 @@ members:
     login: cah-patrickthiem
   - name: Martin Morgenstern
     login: martinmo
+  - name: Piotr Bigos
+    login: piobig2871
+  - name: Katharina Trentau
+    login: fraugabel
+  - name: Erik Kostelansky
+    login: Erik-Kostelansky-dNation
 # ==========================
 teams:
   - slug: "23technologies"
@@ -561,6 +567,14 @@ teams:
       - cah-hbaum
       - tonifinger
       - mbuechse
+  - slug: "VP12"
+    description: "Cloud/Containerplatform Health Monitoring"
+    privacy: closed
+    maintainer:
+      - piobig2871
+    member:
+      - Erik-Kostelansky-dNation
+      - fraugabel
   - slug: "VP13"
     description: "Metering on IaaS layer"
     privacy: closed
