@@ -1,10 +1,13 @@
 ---
-calendar:
+scs-health-monitor:
   default_branch: main
-  description: Public calendar of community related events, meetings and other interesting happenings
-  homepage: 'https://docs.scs.community/community/collaboration/'
+  description: The new health monitor for IaaS and KaaS to test real-life scenarios
+  homepage: 'https://scs.community/'
   topics:
-    - community
+    - openstack
+    - kubernetes
+    - testing
+    - python
   archived: false
   has_issues: true
   has_projects: false
@@ -14,7 +17,8 @@ calendar:
   allow_merge_commit: false
   allow_squash_merge: true
   allow_rebase_merge: true
-  teams: []
+  teams:
+    - "VP12"
   collaborators: []
   branch_protections:
     - branch: "main"

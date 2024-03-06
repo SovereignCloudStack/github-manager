@@ -1,20 +1,23 @@
 ---
-calendar:
+rookify:
   default_branch: main
-  description: Public calendar of community related events, meetings and other interesting happenings
-  homepage: 'https://docs.scs.community/community/collaboration/'
+  description: 'Enable Ceph-Cluster migrations to Rook'
+  homepage: 'https://scs.community/'
   topics:
-    - community
+    - ceph
+    - k8s
   archived: false
   has_issues: true
   has_projects: false
-  has_wiki: false
+  has_wiki: true
   private: false
   delete_branch_on_merge: true
   allow_merge_commit: false
   allow_squash_merge: true
   allow_rebase_merge: true
-  teams: []
+  teams:
+    - slug: "VP03"
+      permission: "admin"
   collaborators: []
   branch_protections:
     - branch: "main"
