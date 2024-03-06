@@ -119,8 +119,6 @@ members:
     login: Vad1mo
   - name: Sebastian Wenner
     login: wenners
-  - name: Benjamin
-    login: master-caster
   - name: Cemil
     login: cedegi
   - name: Alexander Diab
@@ -299,7 +297,6 @@ teams:
       - o-otte
     member:
       - joshmue
-      - master-caster
       - JoshuaI96
       - snkaupe
       - PixelPhantomX
@@ -540,8 +537,9 @@ teams:
       - o-otte
     member:
       - joshmue
-      - master-caster
       - JoshuaI96
+      - snkaupe
+      - PixelPhantomX
   - slug: "VP08"
     description: "User Management & Federation"
     privacy: closed
