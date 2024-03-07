@@ -243,6 +243,8 @@ members:
     login: fraugabel
   - name: Erik Kostelansky
     login: Erik-Kostelansky-dNation
+  - name: Lubomir Dobrovodsky
+    login: dobrovodskydnation
 # ==========================
 teams:
   - slug: "23technologies"
@@ -573,6 +575,7 @@ teams:
     member:
       - Erik-Kostelansky-dNation
       - fraugabel
+      - dobrovodskydnation
   - slug: "VP13"
     description: "Metering on IaaS layer"
     privacy: closed
