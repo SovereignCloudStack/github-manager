@@ -382,6 +382,8 @@ teams:
     member:
       - harmathy
       - mauhau
+      - belgeron
+      - varkeen
   - slug: "univention"
     description: "Univention GmbH"
     privacy: closed
@@ -485,6 +487,8 @@ teams:
       - lindenb1
       - sbstnnmnn
       - madkiss
+      - belgeron
+      - varkeen
   - slug: "VP03"
     description: "Software defined Storage"
     privacy: closed
