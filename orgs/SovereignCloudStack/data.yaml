@@ -285,7 +285,6 @@ teams:
       - anjastrunk
     member:
       - kgube
-      - dagdammann
       - cah-link
       - cah-hbaum
       - tonifinger
@@ -571,6 +570,9 @@ teams:
       - cah-hbaum
       - tonifinger
       - mbuechse
+      - cah-patrickthiem
+      - martinmo
+      - kgube
   - slug: "VP12"
     description: "Cloud/Containerplatform Health Monitoring"
     privacy: closed
