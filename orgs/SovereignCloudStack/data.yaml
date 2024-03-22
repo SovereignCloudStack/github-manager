@@ -65,7 +65,7 @@ members:
     login: joshmue
   - name: Joshua Irmer
     login: JoshuaI96
-  - name: kgube
+  - name: Konrad Gube
     login: kgube
   - name: linwalth
     login: linwalth
@@ -283,15 +283,16 @@ teams:
     maintainer:
       - horazont
       - anjastrunk
+      - mbuechse
     member:
       - kgube
-      - dagdammann
       - cah-link
       - cah-hbaum
       - tonifinger
-      - mbuechse
+      - josephineSei
       - cah-patrickthiem
       - martinmo
+      - markus-hentsch
   - slug: "gonicus"
     description: "GONICUS GmbH"
     privacy: closed
@@ -565,12 +566,15 @@ teams:
     privacy: closed
     maintainer:
       - anjastrunk
+      - mbuechse
     member:
       - josephineSei
       - markus-hentsch
       - cah-hbaum
       - tonifinger
-      - mbuechse
+      - cah-patrickthiem
+      - martinmo
+      - kgube
   - slug: "VP12"
     description: "Cloud/Containerplatform Health Monitoring"
     privacy: closed
