@@ -283,12 +283,12 @@ teams:
     maintainer:
       - horazont
       - anjastrunk
+      - mbuechse
     member:
       - kgube
       - cah-link
       - cah-hbaum
       - tonifinger
-      - mbuechse
       - josephineSei
       - cah-patrickthiem
       - martinmo
@@ -566,12 +566,12 @@ teams:
     privacy: closed
     maintainer:
       - anjastrunk
+      - mbuechse
     member:
       - josephineSei
       - markus-hentsch
       - cah-hbaum
       - tonifinger
-      - mbuechse
       - cah-patrickthiem
       - martinmo
       - kgube
