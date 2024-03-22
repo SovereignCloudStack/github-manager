@@ -289,8 +289,10 @@ teams:
       - cah-hbaum
       - tonifinger
       - mbuechse
+      - josephineSei
       - cah-patrickthiem
       - martinmo
+      - markus-hentsch
   - slug: "gonicus"
     description: "GONICUS GmbH"
     privacy: closed
