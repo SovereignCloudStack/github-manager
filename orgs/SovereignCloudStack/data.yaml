@@ -26,6 +26,8 @@ members:
     role: admin
   - name: Ralf Heiringhoff
     login: frosty-geek
+  - name: Kilian Ischtschuk
+    login: kilianischtschuk
   - name: Saif Bilal
     login: saifbilal81
   - name: Christian Stein
@@ -366,6 +368,7 @@ teams:
       - alexgesser
       - Keyboardinterrupt
       - saifbila81
+      - kilianischtschuk
   - slug: "syself"
     description: "Syself GmbH"
     privacy: closed
