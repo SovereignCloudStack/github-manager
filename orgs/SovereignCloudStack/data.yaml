@@ -245,6 +245,8 @@ members:
     login: Erik-Kostelansky-dNation
   - name: Lubomir Dobrovodsky
     login: dobrovodskydnation
+  - name: Antonio Juanilla
+    login: spectertj
 # ==========================
 teams:
   - slug: "23technologies"
@@ -463,6 +465,7 @@ teams:
       - 90n20
     member:
       - seykotron
+      - spectertj
   - slug: "daiteap"
     description: "Daiteap"
     privacy: closed
@@ -561,6 +564,7 @@ teams:
       - 90n20
     member:
       - seykotron
+      - spectertj
   - slug: "VP10"
     description: "SCS certification"
     privacy: closed
