@@ -617,6 +617,16 @@ teams:
       - DMackJH
       - RLeibJH
       - osfrickler
+  - slug: "cluster-admins"
+    description: "Kubernetes Admins on shared clusters which use GitHub as auth service"
+    privacy: closed
+    maintainer:
+      - jschoone
+    member:
+      - bitkeks
+      - fkr
+      - garloff
+      - scoopex
 
 # ==========================
 branch_protection_templates:
