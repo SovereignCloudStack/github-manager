@@ -512,6 +512,7 @@ teams:
     maintainer:
       - fdobrovolny
     member:
+      - matofeder
       - akafazov
       - ignatov17
       - MatusJenca2
@@ -531,16 +532,14 @@ teams:
     maintainer:
       - mxmxchere
     member:
-      - NotTheEvilOne
       - DEiselt
       - paulphys
   - slug: "VP06c"
     description: "Container Registry / Scanning"
     maintainer:
       - mpilka
-    member:
-      - matofeder
       - chess-knight
+    member:
       - michal-gubricky
     privacy: closed
   - slug: "VP06d"
