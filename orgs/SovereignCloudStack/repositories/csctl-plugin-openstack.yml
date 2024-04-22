@@ -1,11 +1,11 @@
 ---
-openstack-flavor-manager:
+csctl-plugin-openstack:
   default_branch: main
-  description: ''
+  description: Build Openstack node images with csctl
   homepage: 'https://scs.community/'
   topics:
-    - openstack
-  archived: true
+    - k8s
+  archived: false
   has_issues: true
   has_projects: false
   has_wiki: false
@@ -14,7 +14,9 @@ openstack-flavor-manager:
   allow_merge_commit: false
   allow_squash_merge: true
   allow_rebase_merge: true
-  teams: []
+  teams:
+    - slug: "VP06c"
+      permission: "admin"
   collaborators: []
   branch_protections:
     - branch: "main"

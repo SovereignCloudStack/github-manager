@@ -1,11 +1,11 @@
 ---
-openstack-flavor-manager:
+cluster-stackathon:
   default_branch: main
-  description: ''
+  description: Collection for everything we hack on KaaS during the SCS Hackathon @ GONICUS
   homepage: 'https://scs.community/'
   topics:
-    - openstack
-  archived: true
+    - k8s
+  archived: false
   has_issues: true
   has_projects: false
   has_wiki: false

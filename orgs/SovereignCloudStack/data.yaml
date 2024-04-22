@@ -26,6 +26,8 @@ members:
     role: admin
   - name: Ralf Heiringhoff
     login: frosty-geek
+  - name: Kilian Ischtschuk
+    login: kilianischtschuk
   - name: Saif Bilal
     login: saifbilal81
   - name: Christian Stein
@@ -245,6 +247,8 @@ members:
     login: Erik-Kostelansky-dNation
   - name: Lubomir Dobrovodsky
     login: dobrovodskydnation
+  - name: Antonio Juanilla
+    login: spectertj
 # ==========================
 teams:
   - slug: "23technologies"
@@ -364,6 +368,7 @@ teams:
       - alexgesser
       - Keyboardinterrupt
       - saifbila81
+      - kilianischtschuk
   - slug: "syself"
     description: "Syself GmbH"
     privacy: closed
@@ -463,6 +468,7 @@ teams:
       - 90n20
     member:
       - seykotron
+      - spectertj
   - slug: "daiteap"
     description: "Daiteap"
     privacy: closed
@@ -561,6 +567,7 @@ teams:
       - 90n20
     member:
       - seykotron
+      - spectertj
   - slug: "VP10"
     description: "SCS certification"
     privacy: closed
@@ -611,6 +618,16 @@ teams:
       - DMackJH
       - RLeibJH
       - osfrickler
+  - slug: "cluster-admins"
+    description: "Kubernetes Admins on shared clusters which use GitHub as auth service"
+    privacy: closed
+    maintainer:
+      - jschoone
+    member:
+      - bitkeks
+      - fkr
+      - garloff
+      - scoopex
 
 # ==========================
 branch_protection_templates:
