@@ -249,6 +249,8 @@ members:
     login: dobrovodskydnation
   - name: Antonio Juanilla
     login: spectertj
+  - name: Ivan Vnučko
+    login: OgarOgarovic
 # ==========================
 teams:
   - slug: "23technologies"
@@ -448,6 +450,7 @@ teams:
       - fdobrovolny
       - MatusJenca2
       - michal-gubricky
+      - OgarOgarovic
   - slug: "secustack"
     description: "SecuNet"
     privacy: closed
@@ -516,6 +519,7 @@ teams:
       - akafazov
       - ignatov17
       - MatusJenca2
+      - OgarOgarovic
   - slug: "VP05"
     description: "K8s aaS Integration"
     privacy: closed
