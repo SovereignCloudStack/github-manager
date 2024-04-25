@@ -1,5 +1,7 @@
 ---
 members:
+  - name: Freerk-Ole Zakfeld
+    login: fzakfeld
   - name: Regina Metz
     login: reginametz
   - name: Marc Schoechlin GH Permissions Test
@@ -399,6 +401,11 @@ teams:
       - stunivention
       - JuanPTM
       - nbuntfuss
+  - slug: "scaleup"
+    description: "ScaleUp Technologies GmbH & Co. KG"
+    privacy: closed
+    member:
+      - fzakfeld
   - slug: "wavecon"
     description: "Wavecon GmbH"
     privacy: closed
