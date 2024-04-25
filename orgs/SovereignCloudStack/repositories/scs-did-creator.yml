@@ -3,9 +3,7 @@ scs-did-creator:
   default_branch: main
   description: Tools for managing did:web DIDs for SCS clouds.
   homepage: 'https://scs.community/'
-  topics:
-    - gaia-x
-    - DID
+  topics: []
   archived: false
   has_issues: true
   has_projects: false
