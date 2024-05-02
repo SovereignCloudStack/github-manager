@@ -1,9 +1,10 @@
 ---
-scs-did-creator:
+moin-cluster-config:
   default_branch: main
-  description: Tools for managing did:web DIDs for SCS clouds.
+  description: Configuration for our community cluster moin.k8s.scs.community
   homepage: 'https://scs.community/'
-  topics: []
+  topics:
+    - k8s
   archived: false
   has_issues: true
   has_projects: false
