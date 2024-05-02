@@ -251,6 +251,8 @@ members:
     login: dobrovodskydnation
   - name: Antonio Juanilla
     login: spectertj
+  - name: Artem Goncharov
+    login: gtema
 # ==========================
 teams:
   - slug: "23technologies"
@@ -340,6 +342,7 @@ teams:
       - reginametz
       - bitkeks
       - BiancaHollery
+      - gtema
   - slug: "osism"
     description: "OSISM GmbH"
     privacy: closed
