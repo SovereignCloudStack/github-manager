@@ -253,6 +253,9 @@ members:
     login: spectertj
   - name: Artem Goncharov
     login: gtema
+  - name: Ilja Shmelkin
+    login: shmelkin
+
 # ==========================
 teams:
   - slug: "23technologies"
@@ -301,6 +304,7 @@ teams:
       - cah-patrickthiem
       - martinmo
       - markus-hentsch
+      - shmelkin
   - slug: "gonicus"
     description: "GONICUS GmbH"
     privacy: closed
@@ -591,6 +595,7 @@ teams:
       - cah-patrickthiem
       - martinmo
       - kgube
+      - shmelkin
   - slug: "VP12"
     description: "Cloud/Containerplatform Health Monitoring"
     privacy: closed
