@@ -245,8 +245,6 @@ members:
     login: piobig2871
   - name: Katharina Trentau
     login: fraugabel
-  - name: Erik Kostelansky
-    login: Erik-Kostelansky-dNation
   - name: Lubomir Dobrovodsky
     login: dobrovodskydnation
   - name: Antonio Juanilla
@@ -606,7 +604,6 @@ teams:
     maintainer:
       - piobig2871
     member:
-      - Erik-Kostelansky-dNation
       - fraugabel
       - dobrovodskydnation
   - slug: "VP13"
