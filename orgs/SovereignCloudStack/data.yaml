@@ -1,5 +1,7 @@
 ---
 members:
+  - name: Freerk-Ole Zakfeld
+    login: fzakfeld
   - name: Regina Metz
     login: reginametz
   - name: Josefine Kipke
@@ -245,12 +247,17 @@ members:
     login: piobig2871
   - name: Katharina Trentau
     login: fraugabel
-  - name: Erik Kostelansky
-    login: Erik-Kostelansky-dNation
   - name: Lubomir Dobrovodsky
     login: dobrovodskydnation
   - name: Antonio Juanilla
     login: spectertj
+  - name: Ivan Vnučko
+    login: OgarOgarovic
+  - name: Artem Goncharov
+    login: gtema
+  - name: Ilja Shmelkin
+    login: shmelkin
+
 # ==========================
 teams:
   - slug: "23technologies"
@@ -299,6 +306,7 @@ teams:
       - cah-patrickthiem
       - martinmo
       - markus-hentsch
+      - shmelkin
   - slug: "gonicus"
     description: "GONICUS GmbH"
     privacy: closed
@@ -340,6 +348,7 @@ teams:
       - reginametz
       - bitkeks
       - BiancaHollery
+      - gtema
   - slug: "osism"
     description: "OSISM GmbH"
     privacy: closed
@@ -401,6 +410,11 @@ teams:
       - stunivention
       - JuanPTM
       - nbuntfuss
+  - slug: "scaleup"
+    description: "ScaleUp Technologies GmbH & Co. KG"
+    privacy: closed
+    member:
+      - fzakfeld
   - slug: "wavecon"
     description: "Wavecon GmbH"
     privacy: closed
@@ -450,6 +464,7 @@ teams:
       - fdobrovolny
       - MatusJenca2
       - michal-gubricky
+      - OgarOgarovic
   - slug: "secustack"
     description: "SecuNet"
     privacy: closed
@@ -518,6 +533,7 @@ teams:
       - akafazov
       - ignatov17
       - MatusJenca2
+      - OgarOgarovic
   - slug: "VP05"
     description: "K8s aaS Integration"
     privacy: closed
@@ -583,13 +599,13 @@ teams:
       - cah-patrickthiem
       - martinmo
       - kgube
+      - shmelkin
   - slug: "VP12"
     description: "Cloud/Containerplatform Health Monitoring"
     privacy: closed
     maintainer:
       - piobig2871
     member:
-      - Erik-Kostelansky-dNation
       - fraugabel
       - dobrovodskydnation
   - slug: "VP13"
