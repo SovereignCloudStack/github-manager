@@ -2,6 +2,8 @@
 members:
   - name: Regina Metz
     login: reginametz
+  - name: Josefine Kipke
+    login: zuse-z3
   - name: Marc Schoechlin GH Permissions Test
     login: TestingGHPermissions
   - name: Robin Leib
@@ -617,6 +619,7 @@ teams:
       - DMackJH
       - RLeibJH
       - osfrickler
+      - zuse-z3
   - slug: "cluster-admins"
     description: "Kubernetes Admins on shared clusters which use GitHub as auth service"
     privacy: closed
