@@ -2,6 +2,8 @@
 members:
   - name: Freerk-Ole Zakfeld
     login: fzakfeld
+  - name: Josefine Kipke
+    login: zuse-z3
   - name: Regina Metz
     login: reginametz
   - name: Marc Schoechlin GH Permissions Test
@@ -633,6 +635,7 @@ teams:
       - DMackJH
       - RLeibJH
       - osfrickler
+      - zuse-z3
   - slug: "cluster-admins"
     description: "Kubernetes Admins on shared clusters which use GitHub as auth service"
     privacy: closed
