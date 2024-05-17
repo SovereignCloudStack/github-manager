@@ -257,6 +257,8 @@ members:
     login: gtema
   - name: Ilja Shmelkin
     login: shmelkin
+  - name: Tomas Smado
+    login: tsmado
 
 # ==========================
 teams:
@@ -608,6 +610,7 @@ teams:
     member:
       - fraugabel
       - dobrovodskydnation
+      - tsmado
   - slug: "VP13"
     description: "Metering on IaaS layer"
     privacy: closed
