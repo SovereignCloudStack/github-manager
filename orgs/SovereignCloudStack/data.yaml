@@ -259,6 +259,12 @@ members:
     login: shmelkin
   - name: Tomas Smado
     login: tsmado
+  - name: Dominik Kaminski
+    login: dominikkaminski
+  - name: Rene Fischer
+    login: securitykernel
+  - name: Thorsten Rossner
+    login: thorsten-frlncr
 
 # ==========================
 teams:
@@ -649,6 +655,14 @@ teams:
       - fkr
       - garloff
       - scoopex
+  - slug: "zendis"
+    description: "Colleagues from Zendis"
+    privacy: closed
+    maintainer:
+      - thorsten-frlncr
+    member:
+      - dominikkaminski
+      - securitykernel
 
 # ==========================
 branch_protection_templates:
