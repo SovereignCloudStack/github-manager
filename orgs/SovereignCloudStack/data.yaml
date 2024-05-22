@@ -2,6 +2,8 @@
 members:
   - name: Freerk-Ole Zakfeld
     login: fzakfeld
+  - name: Josefine Kipke
+    login: zuse-z3
   - name: Regina Metz
     login: reginametz
   - name: Marc Schoechlin GH Permissions Test
@@ -255,6 +257,14 @@ members:
     login: gtema
   - name: Ilja Shmelkin
     login: shmelkin
+  - name: Tomas Smado
+    login: tsmado
+  - name: Dominik Kaminski
+    login: dominikkaminski
+  - name: Rene Fischer
+    login: securitykernel
+  - name: Thorsten Rossner
+    login: thorsten-frlncr
 
 # ==========================
 teams:
@@ -606,6 +616,7 @@ teams:
     member:
       - fraugabel
       - dobrovodskydnation
+      - tsmado
   - slug: "VP13"
     description: "Metering on IaaS layer"
     privacy: closed
@@ -633,6 +644,7 @@ teams:
       - DMackJH
       - RLeibJH
       - osfrickler
+      - zuse-z3
   - slug: "cluster-admins"
     description: "Kubernetes Admins on shared clusters which use GitHub as auth service"
     privacy: closed
@@ -643,6 +655,14 @@ teams:
       - fkr
       - garloff
       - scoopex
+  - slug: "zendis"
+    description: "Colleagues from Zendis"
+    privacy: closed
+    maintainer:
+      - thorsten-frlncr
+    member:
+      - dominikkaminski
+      - securitykernel
 
 # ==========================
 branch_protection_templates:
