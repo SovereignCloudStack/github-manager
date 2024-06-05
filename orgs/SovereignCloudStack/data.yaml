@@ -620,6 +620,8 @@ teams:
       - reqa
     member:
       - JuanPTM
+      - tbreiden
+      - slkmeyer
   - slug: "VP09c"
     description: "Penetration Testing"
     privacy: closed
