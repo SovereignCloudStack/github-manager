@@ -265,6 +265,10 @@ members:
     login: securitykernel
   - name: Thorsten Rossner
     login: thorsten-frlncr
+  - name: Johannes Hübner
+    login: b1-huebner
+  - name: Axel Lender
+    login: b1-lender
 
 # ==========================
 teams:
@@ -550,6 +554,8 @@ teams:
       - yeoldegrove
       - brueggemann
       - boekhorstb1
+      - b1-huebner
+      - b1-lender
   - slug: "VP04"
     description: "Networking"
     privacy: closed
