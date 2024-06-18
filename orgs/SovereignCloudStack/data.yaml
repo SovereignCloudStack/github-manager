@@ -707,6 +707,12 @@ teams:
       - fkr
       - matofeder
       - scoopex
+  - slug: "SysEleven"
+    description: "Colleagues from SysEleven"
+    privacy: closed
+    maintainer:
+      - Adri2000
+    member: []
 
 # ==========================
 branch_protection_templates:
