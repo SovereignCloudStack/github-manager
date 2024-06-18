@@ -269,6 +269,8 @@ members:
     login: b1-huebner
   - name: Axel Lender
     login: b1-lender
+  - name: Adrien Cunin
+    login: Adri2000
 
 # ==========================
 teams:
@@ -699,6 +701,12 @@ teams:
       - fkr
       - matofeder
       - scoopex
+  - slug: "SysEleven"
+    description: "Colleagues from SysEleven"
+    privacy: closed
+    maintainer:
+      - Adri2000
+    member: []
 
 # ==========================
 branch_protection_templates:
