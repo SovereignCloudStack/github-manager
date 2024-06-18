@@ -269,6 +269,8 @@ members:
     login: b1-huebner
   - name: Axel Lender
     login: b1-lender
+  - name: Adrien Cunin
+    login: Adri2000
 
 # ==========================
 teams:
@@ -529,6 +531,12 @@ teams:
     privacy: closed
     maintainer:
       - Till769
+    member: []
+  - slug: "syseleven"
+    description: "SysEleven GmbH"
+    privacy: closed
+    maintainer:
+      - Adri2000
     member: []
   - slug: "VP01"
     description: "OpsTooling, CI Tests Infra/IaaS, Metal as a Service, Life Cycle Management"
