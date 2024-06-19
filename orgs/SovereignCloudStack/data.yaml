@@ -294,6 +294,7 @@ teams:
       - garloff
       - fkr
       - scoopex
+      - martinmo
   - slug: "23technologies"
     description: "23technologies GmbH"
     privacy: closed
