@@ -255,6 +255,7 @@ members:
     login: OgarOgarovic
   - name: Artem Goncharov
     login: gtema
+    role: admin
   - name: Ilja Shmelkin
     login: shmelkin
   - name: Tomas Smado
