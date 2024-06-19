@@ -266,6 +266,10 @@ members:
     login: securitykernel
   - name: Thorsten Rossner
     login: thorsten-frlncr
+  - name: Silke Meyer
+    login: slkmeyer
+  - name: Tim Breidenbach
+    login: tbreiden
   - name: Johannes Hübner
     login: b1-huebner
   - name: Axel Lender
@@ -441,10 +445,12 @@ teams:
     privacy: closed
     maintainer:
       - reqa
+      - JuanPTM
     member:
       - stunivention
-      - JuanPTM
       - nbuntfuss
+      - slkmeyer
+      - tbreiden
   - slug: "scaleup"
     description: "ScaleUp Technologies GmbH & Co. KG"
     privacy: closed
