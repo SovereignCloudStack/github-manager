@@ -287,6 +287,7 @@ teams:
     member:
       - jschoone
       - paulphys
+      
   - slug: "moin-cluster-playground1"
     description: "Members of this team have access to tenant namespace playground1 moin-cluster"
     privacy: closed
