@@ -292,18 +292,10 @@ teams:
       - chess-knight
       - DEiselt
       - matofeder
-  - slug: "moin-cluster-playground1"
-    description: "Members of this team have access to tenant namespace playground1 moin-cluster"
-    privacy: closed
-    maintainer:
-      - mxmxchere
-    member:
-      - DEiselt
-      - chess-knight
       - garloff
       - fkr
       - scoopex
-      - martinmo
+      - curx
   - slug: "23technologies"
     description: "23technologies GmbH"
     privacy: closed
