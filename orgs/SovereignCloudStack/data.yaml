@@ -30,8 +30,8 @@ members:
     role: admin
   - name: Ralf Heiringhoff
     login: frosty-geek
-  - name: Kilian Ischtschuk
-    login: kilianischtschuk
+  - name: Marc Vorwerk
+    login: marcvorwerk
   - name: Saif Bilal
     login: saifbilal81
   - name: Christian Stein
@@ -403,8 +403,8 @@ teams:
     privacy: closed
     maintainer:
       - frosty-geek
-    member:
       - neuroserve
+    member:
       - maliblatt
       - nerdicbynature
       - costelter
@@ -415,7 +415,7 @@ teams:
       - alexgesser
       - Keyboardinterrupt
       - saifbila81
-      - kilianischtschuk
+      - marcvorwerk
   - slug: "syself"
     description: "Syself GmbH"
     privacy: closed
