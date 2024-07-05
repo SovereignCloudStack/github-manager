@@ -63,8 +63,6 @@ members:
     login: nitisht
   - name: Jan Klippel
     login: jklippel
-  - name: Anurag
-    login: kranurag7
   - name: Jeff
     login: jnull
   - name: Joshua Mühlfort
@@ -426,7 +424,6 @@ teams:
       - guettli
       - nitisht
       - aniruddha2000
-      - kranurag7
   - slug: "uhurutec"
     description: "UhuruTec AG"
     privacy: closed
@@ -583,7 +580,6 @@ teams:
     member:
       - guettli
       - aniruddha2000
-      - kranurag7
   - slug: "VP06a"
     description: "Container Network and Storage Integration"
     privacy: closed
