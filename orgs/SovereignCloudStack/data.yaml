@@ -294,6 +294,7 @@ teams:
       - fkr
       - scoopex
       - curx
+      - joshmue
   - slug: "23technologies"
     description: "23technologies GmbH"
     privacy: closed
