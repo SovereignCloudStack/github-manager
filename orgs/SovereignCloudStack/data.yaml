@@ -686,6 +686,7 @@ teams:
       - fkr
       - garloff
       - scoopex
+      - joshmue
   - slug: "zendis"
     description: "Colleagues from Zendis"
     privacy: closed
