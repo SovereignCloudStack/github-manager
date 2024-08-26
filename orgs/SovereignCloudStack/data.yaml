@@ -639,6 +639,7 @@ teams:
       - martinmo
       - kgube
       - shmelkin
+      - fraugabel
   - slug: "VP12"
     description: "Cloud/Containerplatform Health Monitoring"
     privacy: closed
