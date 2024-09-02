@@ -342,6 +342,7 @@ teams:
       - martinmo
       - markus-hentsch
       - shmelkin
+      - fraugabel
   - slug: "gonicus"
     description: "GONICUS GmbH"
     privacy: closed
@@ -501,6 +502,8 @@ teams:
       - MatusJenca2
       - michal-gubricky
       - OgarOgarovic
+      - piobig2871
+      - tsmado
   - slug: "secustack"
     description: "SecuNet"
     privacy: closed
@@ -639,6 +642,10 @@ teams:
       - martinmo
       - kgube
       - shmelkin
+      - fraugabel
+      - piobig2871
+      - michal-gubricky
+      - tsmado
   - slug: "VP12"
     description: "Cloud/Containerplatform Health Monitoring"
     privacy: closed
