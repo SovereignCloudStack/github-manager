@@ -12,8 +12,6 @@ members:
     login: RLeibJH
   - name: Daniel Mack
     login: DMackJH
-  - name: Andrej Friesen
-    login: ajfriesen
   - name: Sven Batista Steinbach
     login: batistein
   - name: Christian Berendt
@@ -21,10 +19,6 @@ members:
     role: member
   - name: Christian Otto Stelter
     login: costelter
-  - name: Stephan Ilaender
-    login: coro1404
-  - name: Thorsten Schifferdecker
-    login: curx
   - name: Felix Kronlage-Dammers
     login: fkr
     role: admin
@@ -53,8 +47,6 @@ members:
     login: cah-link
   - name: Philipp Westphal
     login: isaacintactile
-  - name: Ibrahim Takouna
-    login: itakouna
   - name: Janis Kemper
     login: janiskemper
   - name: Aniruddha Basak
@@ -79,8 +71,6 @@ members:
     login: manuela-urban
   - name: Bianca Hollery-Pfister
     login: BiancaHollery
-  - name: Mark Goddard
-    login: markgoddard
   - name: Mathias Fechner
     login: matfechner
   - name: ""
@@ -107,20 +97,14 @@ members:
     login: osfrickler
   - name: René Lipkowsky
     login: PSwatchmen
-  - name: ra-beer
-    login: ra-beer
   - name: Arvid Requate
     login: reqa
   - name: stunivention
     login: stunivention
   - name: Florian Winkler
     login: tinguin
-  - name: Tobias Rydberg
-    login: tobberydberg
   - name: Thierry Carrez
     login: ttx
-  - name: Vadim Bauer
-    login: Vad1mo
   - name: Sebastian Wenner
     login: wenners
   - name: Cemil
@@ -131,8 +115,6 @@ members:
     login: pjsinka
   - name: Stefan Schmidt
     login: ZaphodB
-  - name: Wolodja Wentland
-    login: wwentland
   - name: Nancy Buntfuss
     login: nbuntfuss
   - name: Juan Pedro Torres
@@ -149,8 +131,6 @@ members:
     role: admin
   - name: Paul-Philipp Kuschy
     login: ppkuschy
-  - name: Larissa
-    login: aeroflydesign
   - name: Enrico Kern
     login: flyersa
   - name: Dirk Loßack
@@ -196,8 +176,6 @@ members:
     login: NotTheEvilOne
   - name: Danny Eiselt
     login: DEiselt
-  - name: Martin Loschwitz
-    login: madkiss
   - name: Christian Schwaller
     login: chrisschwa
   - name: Benjamin Fischer
@@ -302,12 +280,6 @@ teams:
       - berendt
     member:
       - fynluk
-  - slug: "8gears"
-    description: "8gears Ltd."
-    privacy: closed
-    maintainer:
-      - Vad1mo
-    member: []
   - slug: "b1-systems"
     description: "B1 Systems GmbH"
     privacy: closed
@@ -353,13 +325,6 @@ teams:
       - JoshuaI96
       - snkaupe
       - PixelPhantomX
-  - slug: "gridscale"
-    description: "gridscale GmbH"
-    privacy: closed
-    maintainer:
-      - ajfriesen
-    member:
-      - itakouna
   - slug: "openinfra"
     description: "OpenInfra Foundation"
     privacy: closed
@@ -392,12 +357,10 @@ teams:
       - berendt
     member:
       - osfrickler
-      - aeroflydesign
       - artificial-intelligence
       - gndrmnn
       - lindenb1
       - sbstnnmnn
-      - madkiss
   - slug: "plusserver"
     description: "plusserver GmbH"
     privacy: closed
@@ -464,32 +427,7 @@ teams:
       - cedegi
       - pjsinka
       - chschilling
-      - flyersa
-      - wwentland
       - matfechner
-  - slug: "stackhpc"
-    description: "StackHPC"
-    privacy: closed
-    maintainer:
-      - markgoddard
-    member: []
-  - slug: "cleura"
-    description: "Cleura"
-    privacy: closed
-    maintainer:
-      - tobberydberg
-    member: []
-  - slug: "tsystems"
-    description: "T-Systems"
-    privacy: closed
-    maintainer:
-      - wenners
-    member: []
-  - slug: "cloudical"
-    description: "Cloudical"
-    privacy: closed
-    maintainer: []
-    member: []
   - slug: "dnation"
     description: "dNation"
     privacy: closed
@@ -504,13 +442,6 @@ teams:
       - OgarOgarovic
       - piobig2871
       - tsmado
-  - slug: "secustack"
-    description: "SecuNet"
-    privacy: closed
-    maintainer:
-      - markus-hentsch
-    member:
-      - josephineSei
   - slug: "proventa"
     description: "Proventa AG"
     privacy: closed
