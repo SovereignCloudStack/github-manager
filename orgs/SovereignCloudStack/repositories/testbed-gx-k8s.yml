@@ -6,7 +6,7 @@ testbed-gx-k8s:
   topics:
     - kubernetes
     - gaia-x
-  archived: false
+  archived: true
   has_issues: true
   has_projects: false
   has_wiki: false

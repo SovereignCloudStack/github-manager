@@ -5,7 +5,7 @@ slides:
   homepage: 'https://scs.community/'
   topics:
     - community
-  archived: false
+  archived: true
   has_issues: true
   has_projects: false
   has_wiki: false
