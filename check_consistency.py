@@ -30,7 +30,9 @@ def check_repos(gh: Github) -> int:
             with open(os.path.join(repositories_dir, filename)) as f:
                 yaml_data = yaml.safe_load(f)
                 if yaml_data is not None:
-                    defined_repos.add(list(yaml_data.keys())[0])
+                    for r_name in yaml_data.keys():
+                        if "archived" in yaml_data[r_name] and not yaml_data[r_name]["archived"]:
+                            defined_repos.add(list(yaml_data.keys())[0])
 
     repos_not_on_github = defined_repos.difference(existing_repos)
     repos_not_defined = existing_repos.difference(defined_repos)
