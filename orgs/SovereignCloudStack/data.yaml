@@ -1,4 +1,8 @@
 ---
+
+# This removes automatically all users which are not defined here
+exclusive: true
+
 members:
   - name: Freerk-Ole Zakfeld
     login: fzakfeld
@@ -73,8 +77,12 @@ members:
     login: BiancaHollery
   - name: Mathias Fechner
     login: matfechner
-  - name: ""
+  - name: Matthias Haag
     login: mauhau
+  - name: Andreas Schrogl
+    login: belgeron
+  - name: Volker Arendt
+    login: varkeen
   - name: Malte Münch
     login: mxmxchere
   - name: Mario Minners
@@ -225,6 +233,8 @@ members:
     login: fraugabel
   - name: Lubomir Dobrovodsky
     login: dobrovodskydnation
+  - name: Erik Kostelanský
+    login: erik-kostelansky-dnation
   - name: Antonio Juanilla
     login: spectertj
   - name: Ivan Vnučko
