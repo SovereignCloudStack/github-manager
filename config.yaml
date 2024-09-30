@@ -6,6 +6,7 @@ milestones:
   - 'R5 (v6.0.0)'
   - 'R6 (v7.0.0)'
   - 'R7 (v8.0.0)'
+  - 'R8 (v9.0.0)'
 
 labels:
   - name: bug

@@ -4,7 +4,7 @@ poc-kubermatic:
   description: 'Automatically set up Kubermatic on SCS compliant IaaS'
   homepage: 'https://scs.community/'
   topics: []
-  archived: false
+  archived: true
   has_issues: true
   has_projects: false
   has_wiki: false
