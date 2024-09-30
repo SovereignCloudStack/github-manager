@@ -677,8 +677,7 @@ branch_protection_templates:
       dismiss_stale_reviews: false
       require_code_owner_reviews: false
       required_approving_review_count: 1
-    restrictions:
-      allow_org_members: true
+    restrictions: null
     required_linear_history: false
     allow_force_pushes: false
     allow_deletions: false
@@ -717,8 +716,7 @@ branch_protection_templates:
       dismiss_stale_reviews: false
       require_code_owner_reviews: false
       required_approving_review_count: 1
-    restrictions:
-      allow_org_members: true
+    restrictions: null
     required_linear_history: false
     allow_force_pushes: false
     allow_deletions: false
