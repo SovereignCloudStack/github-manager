@@ -5,7 +5,7 @@ scs-bootstrap-clusterstacks-openstack:
   homepage: 'https://scs.community/'
   topics:
     - k8s
-    - cluster stacks
+    - cluster-stacks
   archived: false
   has_issues: true
   has_projects: false
