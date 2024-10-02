@@ -3,6 +3,9 @@ name: Manage github repositories
 
 "on":
   workflow_dispatch:
+  push:
+    branches-ignore:
+      - main
   pull_request:
     branches-ignore:
       - main
