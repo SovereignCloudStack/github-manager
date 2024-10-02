@@ -18,9 +18,7 @@ You can use the following procedure to test, debug or improve github manager on 
   python3 -m pip install --upgrade pip
   python3 -m pip install pipenv wheel
   pipenv install
-  # Use this until https://github.com/opentelekomcloud/ansible-collection-gitcontrol/pull/43 is merged
-  pipenv run ansible-galaxy collection install git+https://github.com/SovereignCloudStack/ansible-collection-gitcontrol.git
-  # pipenv run ansible-galaxy collection install git+https://github.com/opentelekomcloud/ansible-collection-gitcontrol.git
+  pipenv run ansible-galaxy collection install git+https://github.com/opentelekomcloud/ansible-collection-gitcontrol.git
   ```
 * Create a [personal access token - classic (PAT)](https://github.com/settings/tokens)
   This should only have a short validity and must be renewed regularly.
