@@ -47,7 +47,8 @@ jobs:
         env:
           API_TOKEN: ${{ secrets[format('GHP_{0}', github.actor)] }}
 
-# TODO - to be clarified: Whats this?
+# TODO, to be clarified: Whats this?
+#
 #      - name: Manage github repositories with Python
 #        run: |
 #          pipenv run python3 manage.py --keep_labels TRUE
