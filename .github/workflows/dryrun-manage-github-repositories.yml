@@ -1,0 +1,55 @@
+---
+name: Manage github repositories
+
+"on":
+  workflow_dispatch:
+  pull_request:
+    branches-ignore:
+      - main
+
+jobs:
+  manage-github-repositories:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check token permissions
+        run: |
+          if [ -z "${{ secrets[format('GHP_{0}', github.actor)] }}" ]; then
+            echo "No valid PAT found for ${{github.actor}}"
+            exit 1
+          else
+            echo "Found valid PAT for ${{github.actor}}"
+          fi
+
+      - name: Checkout repo
+        uses: actions/checkout@v3
+        with:
+          submodules: true
+
+      - name: Setup python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+          cache: 'pipenv'
+
+      - name: Install dependencies
+        run: |
+          python3 -m pip install --upgrade pip
+          python3 -m pip install pipenv wheel
+          pipenv install
+
+      - name: Install ansible collection
+        run: |
+          ansible-galaxy collection install git+https://github.com/opentelekomcloud/ansible-collection-gitcontrol.git
+
+      - name: Manage github repositories with Ansible
+        run: |
+          pipenv run ansible-playbook playbook.yaml -e api_token=$API_TOKEN --check
+        env:
+          API_TOKEN: ${{ secrets[format('GHP_{0}', github.actor)] }}
+
+# TODO - to be clarified: Whats this?
+#      - name: Manage github repositories with Python
+#        run: |
+#          pipenv run python3 manage.py --keep_labels TRUE
+#        env:
+#          API_TOKEN: ${{ secrets[format('GHP_{0}', github.actor)] }}
