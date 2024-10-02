@@ -44,16 +44,8 @@ jobs:
         run: |
           ansible-galaxy collection install git+https://github.com/opentelekomcloud/ansible-collection-gitcontrol.git
 
-      - name: Manage github repositories with Ansible
+      - name: Test the management of github repositories with Ansible
         run: |
           pipenv run ansible-playbook playbook.yaml -e api_token=$API_TOKEN --check --diff
         env:
           API_TOKEN: ${{ secrets[format('GHP_{0}', github.actor)] }}
-
-# TODO, to be clarified: Whats this?
-#
-#      - name: Manage github repositories with Python
-#        run: |
-#          pipenv run python3 manage.py --keep_labels TRUE
-#        env:
-#          API_TOKEN: ${{ secrets[format('GHP_{0}', github.actor)] }}
