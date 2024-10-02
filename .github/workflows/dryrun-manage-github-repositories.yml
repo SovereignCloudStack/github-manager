@@ -46,7 +46,7 @@ jobs:
 
       - name: Manage github repositories with Ansible
         run: |
-          pipenv run ansible-playbook playbook.yaml -e api_token=$API_TOKEN --check
+          pipenv run ansible-playbook playbook.yaml -e api_token=$API_TOKEN --check --diff
         env:
           API_TOKEN: ${{ secrets[format('GHP_{0}', github.actor)] }}
 
