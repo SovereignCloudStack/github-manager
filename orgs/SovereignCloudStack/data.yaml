@@ -509,11 +509,9 @@ teams:
     description: "Networking"
     privacy: closed
     maintainer:
-      - fdobrovolny
-    member:
       - matofeder
-      - akafazov
-      - ignatov17
+    member:
+      - fdobrovolny
       - MatusJenca2
       - OgarOgarovic
   - slug: "VP05"

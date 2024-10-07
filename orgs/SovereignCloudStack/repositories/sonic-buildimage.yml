@@ -1,0 +1,24 @@
+---
+sonic-buildimage:
+  default_branch: main
+  description: 'A fork of the offical sonic repo'
+  homepage: 'https://scs.community/'
+  topics:
+    - landscape
+    - vp04
+  archived: false
+  has_issues: false
+  has_projects: false
+  has_wiki: false
+  private: false
+  delete_branch_on_merge: true
+  allow_merge_commit: false
+  allow_squash_merge: true
+  allow_rebase_merge: true
+  teams:
+    - slug: "vp04"
+      permission: "admin"
+  collaborators: []
+  branch_protections:
+    - branch: "main"
+      template: "main"
