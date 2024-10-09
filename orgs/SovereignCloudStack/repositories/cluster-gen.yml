@@ -1,12 +1,10 @@
 ---
-openstack-vyos-image:
+cluster-gen:
   default_branch: main
-  description: VyOS on OpenStack
-  homepage: 'https://scs.community/'
+  description: Generate Cluster objects based on SCS Cluster Stacks
+  homepage: 'https://cluster-gen.moin.k8s.scs.community'
   topics:
-    - openstack
-    - openstack-environment
-    - openstack-glance
+    - k8s
   archived: false
   has_issues: true
   has_projects: false

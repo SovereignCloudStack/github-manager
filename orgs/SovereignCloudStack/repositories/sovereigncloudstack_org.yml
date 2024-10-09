@@ -1,8 +1,8 @@
 ---
-slides:
+sovereigncloudstack.org:
   default_branch: main
-  description: Slides presented within SCS community
-  homepage: 'https://scs.community/'
+  description: Base content for sovereigncloudstack.org
+  homepage: 'https://sovereigncloudstack.org'
   topics:
     - community
   archived: false
@@ -18,4 +18,4 @@ slides:
   collaborators: []
   branch_protections:
     - branch: "main"
-      template: "main"
+      template: "owner_bypass"

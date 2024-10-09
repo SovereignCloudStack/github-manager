@@ -5,7 +5,7 @@ k8s-operator-scylla:
   homepage: 'https://scs.community/'
   topics:
     - k8s
-  archived: false
+  archived: true
   has_issues: true
   has_projects: false
   has_wiki: false

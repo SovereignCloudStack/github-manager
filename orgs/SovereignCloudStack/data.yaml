@@ -1,4 +1,8 @@
 ---
+
+# This removes automatically all users which are not defined here
+exclusive: true
+
 members:
   - name: Freerk-Ole Zakfeld
     login: fzakfeld
@@ -12,8 +16,6 @@ members:
     login: RLeibJH
   - name: Daniel Mack
     login: DMackJH
-  - name: Andrej Friesen
-    login: ajfriesen
   - name: Sven Batista Steinbach
     login: batistein
   - name: Christian Berendt
@@ -21,17 +23,13 @@ members:
     role: member
   - name: Christian Otto Stelter
     login: costelter
-  - name: Stephan Ilaender
-    login: coro1404
-  - name: Thorsten Schifferdecker
-    login: curx
   - name: Felix Kronlage-Dammers
     login: fkr
     role: admin
   - name: Ralf Heiringhoff
     login: frosty-geek
-  - name: Kilian Ischtschuk
-    login: kilianischtschuk
+  - name: Marc Vorwerk
+    login: marcvorwerk
   - name: Saif Bilal
     login: saifbilal81
   - name: Christian Stein
@@ -53,8 +51,6 @@ members:
     login: cah-link
   - name: Philipp Westphal
     login: isaacintactile
-  - name: Ibrahim Takouna
-    login: itakouna
   - name: Janis Kemper
     login: janiskemper
   - name: Aniruddha Basak
@@ -63,8 +59,6 @@ members:
     login: nitisht
   - name: Jan Klippel
     login: jklippel
-  - name: Anurag
-    login: kranurag7
   - name: Jeff
     login: jnull
   - name: Joshua Mühlfort
@@ -81,12 +75,14 @@ members:
     login: manuela-urban
   - name: Bianca Hollery-Pfister
     login: BiancaHollery
-  - name: Mark Goddard
-    login: markgoddard
   - name: Mathias Fechner
     login: matfechner
-  - name: ""
+  - name: Matthias Haag
     login: mauhau
+  - name: Andreas Schrogl
+    login: belgeron
+  - name: Volker Arendt
+    login: varkeen
   - name: Malte Münch
     login: mxmxchere
   - name: Mario Minners
@@ -109,20 +105,14 @@ members:
     login: osfrickler
   - name: René Lipkowsky
     login: PSwatchmen
-  - name: ra-beer
-    login: ra-beer
   - name: Arvid Requate
     login: reqa
   - name: stunivention
     login: stunivention
   - name: Florian Winkler
     login: tinguin
-  - name: Tobias Rydberg
-    login: tobberydberg
   - name: Thierry Carrez
     login: ttx
-  - name: Vadim Bauer
-    login: Vad1mo
   - name: Sebastian Wenner
     login: wenners
   - name: Cemil
@@ -133,8 +123,6 @@ members:
     login: pjsinka
   - name: Stefan Schmidt
     login: ZaphodB
-  - name: Wolodja Wentland
-    login: wwentland
   - name: Nancy Buntfuss
     login: nbuntfuss
   - name: Juan Pedro Torres
@@ -151,8 +139,6 @@ members:
     role: admin
   - name: Paul-Philipp Kuschy
     login: ppkuschy
-  - name: Larissa
-    login: aeroflydesign
   - name: Enrico Kern
     login: flyersa
   - name: Dirk Loßack
@@ -198,8 +184,6 @@ members:
     login: NotTheEvilOne
   - name: Danny Eiselt
     login: DEiselt
-  - name: Martin Loschwitz
-    login: madkiss
   - name: Christian Schwaller
     login: chrisschwa
   - name: Benjamin Fischer
@@ -249,12 +233,15 @@ members:
     login: fraugabel
   - name: Lubomir Dobrovodsky
     login: dobrovodskydnation
+  - name: Erik Kostelanský
+    login: erik-kostelansky-dnation
   - name: Antonio Juanilla
     login: spectertj
   - name: Ivan Vnučko
     login: OgarOgarovic
   - name: Artem Goncharov
     login: gtema
+    role: admin
   - name: Ilja Shmelkin
     login: shmelkin
   - name: Tomas Smado
@@ -265,10 +252,16 @@ members:
     login: securitykernel
   - name: Thorsten Rossner
     login: thorsten-frlncr
+  - name: Silke Meyer
+    login: slkmeyer
+  - name: Tim Breidenbach
+    login: tbreiden
   - name: Johannes Hübner
     login: b1-huebner
   - name: Axel Lender
     login: b1-lender
+  - name: Adrien Cunin
+    login: Adri2000
 
 # ==========================
 teams:
@@ -280,17 +273,16 @@ teams:
     member:
       - jschoone
       - paulphys
-  - slug: "moin-cluster-playground1"
-    description: "Members of this team have access to tenant namespace playground1 moin-cluster"
-    privacy: closed
-    maintainer:
-      - mxmxchere
-    member:
-      - DEiselt
+      - martinmo
+      - gtema
       - chess-knight
+      - DEiselt
+      - matofeder
       - garloff
       - fkr
       - scoopex
+      - curx
+      - joshmue
   - slug: "23technologies"
     description: "23technologies GmbH"
     privacy: closed
@@ -298,12 +290,6 @@ teams:
       - berendt
     member:
       - fynluk
-  - slug: "8gears"
-    description: "8gears Ltd."
-    privacy: closed
-    maintainer:
-      - Vad1mo
-    member: []
   - slug: "b1-systems"
     description: "B1 Systems GmbH"
     privacy: closed
@@ -338,6 +324,7 @@ teams:
       - martinmo
       - markus-hentsch
       - shmelkin
+      - fraugabel
   - slug: "gonicus"
     description: "GONICUS GmbH"
     privacy: closed
@@ -348,13 +335,6 @@ teams:
       - JoshuaI96
       - snkaupe
       - PixelPhantomX
-  - slug: "gridscale"
-    description: "gridscale GmbH"
-    privacy: closed
-    maintainer:
-      - ajfriesen
-    member:
-      - itakouna
   - slug: "openinfra"
     description: "OpenInfra Foundation"
     privacy: closed
@@ -387,19 +367,17 @@ teams:
       - berendt
     member:
       - osfrickler
-      - aeroflydesign
       - artificial-intelligence
       - gndrmnn
       - lindenb1
       - sbstnnmnn
-      - madkiss
   - slug: "plusserver"
     description: "plusserver GmbH"
     privacy: closed
     maintainer:
       - frosty-geek
-    member:
       - neuroserve
+    member:
       - maliblatt
       - nerdicbynature
       - costelter
@@ -410,7 +388,7 @@ teams:
       - alexgesser
       - Keyboardinterrupt
       - saifbila81
-      - kilianischtschuk
+      - marcvorwerk
   - slug: "syself"
     description: "Syself GmbH"
     privacy: closed
@@ -421,7 +399,6 @@ teams:
       - guettli
       - nitisht
       - aniruddha2000
-      - kranurag7
   - slug: "uhurutec"
     description: "UhuruTec AG"
     privacy: closed
@@ -437,10 +414,12 @@ teams:
     privacy: closed
     maintainer:
       - reqa
+      - JuanPTM
     member:
       - stunivention
-      - JuanPTM
       - nbuntfuss
+      - slkmeyer
+      - tbreiden
   - slug: "scaleup"
     description: "ScaleUp Technologies GmbH & Co. KG"
     privacy: closed
@@ -458,32 +437,7 @@ teams:
       - cedegi
       - pjsinka
       - chschilling
-      - flyersa
-      - wwentland
       - matfechner
-  - slug: "stackhpc"
-    description: "StackHPC"
-    privacy: closed
-    maintainer:
-      - markgoddard
-    member: []
-  - slug: "cleura"
-    description: "Cleura"
-    privacy: closed
-    maintainer:
-      - tobberydberg
-    member: []
-  - slug: "tsystems"
-    description: "T-Systems"
-    privacy: closed
-    maintainer:
-      - wenners
-    member: []
-  - slug: "cloudical"
-    description: "Cloudical"
-    privacy: closed
-    maintainer: []
-    member: []
   - slug: "dnation"
     description: "dNation"
     privacy: closed
@@ -496,13 +450,8 @@ teams:
       - MatusJenca2
       - michal-gubricky
       - OgarOgarovic
-  - slug: "secustack"
-    description: "SecuNet"
-    privacy: closed
-    maintainer:
-      - markus-hentsch
-    member:
-      - josephineSei
+      - piobig2871
+      - tsmado
   - slug: "proventa"
     description: "Proventa AG"
     privacy: closed
@@ -560,11 +509,9 @@ teams:
     description: "Networking"
     privacy: closed
     maintainer:
-      - fdobrovolny
-    member:
       - matofeder
-      - akafazov
-      - ignatov17
+    member:
+      - fdobrovolny
       - MatusJenca2
       - OgarOgarovic
   - slug: "VP05"
@@ -576,7 +523,6 @@ teams:
     member:
       - guettli
       - aniruddha2000
-      - kranurag7
   - slug: "VP06a"
     description: "Container Network and Storage Integration"
     privacy: closed
@@ -610,6 +556,8 @@ teams:
       - reqa
     member:
       - JuanPTM
+      - tbreiden
+      - slkmeyer
   - slug: "VP09c"
     description: "Penetration Testing"
     privacy: closed
@@ -633,6 +581,10 @@ teams:
       - martinmo
       - kgube
       - shmelkin
+      - fraugabel
+      - piobig2871
+      - michal-gubricky
+      - tsmado
   - slug: "VP12"
     description: "Cloud/Containerplatform Health Monitoring"
     privacy: closed
@@ -680,6 +632,7 @@ teams:
       - fkr
       - garloff
       - scoopex
+      - joshmue
   - slug: "zendis"
     description: "Colleagues from Zendis"
     privacy: closed
@@ -699,6 +652,12 @@ teams:
       - fkr
       - matofeder
       - scoopex
+  - slug: "SysEleven"
+    description: "Colleagues from SysEleven"
+    privacy: closed
+    maintainer:
+      - Adri2000
+    member: []
 
 # ==========================
 branch_protection_templates:
@@ -716,8 +675,7 @@ branch_protection_templates:
       dismiss_stale_reviews: false
       require_code_owner_reviews: false
       required_approving_review_count: 1
-    restrictions:
-      allow_org_members: true
+    restrictions: null
     required_linear_history: false
     allow_force_pushes: false
     allow_deletions: false
@@ -756,8 +714,7 @@ branch_protection_templates:
       dismiss_stale_reviews: false
       require_code_owner_reviews: false
       required_approving_review_count: 1
-    restrictions:
-      allow_org_members: true
+    restrictions: null
     required_linear_history: false
     allow_force_pushes: false
     allow_deletions: false

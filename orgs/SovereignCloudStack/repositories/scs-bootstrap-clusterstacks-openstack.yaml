@@ -1,10 +1,11 @@
 ---
-zuul_sandbox:
+scs-bootstrap-clusterstacks-openstack:
   default_branch: main
-  description: Repo for testing the Zuul-CI
-  homepage: 'https://zuul.scs.community'
+  description: Bootstrapping script to deploy a Cluster Stacks Kubernetes cluster on OpenStack
+  homepage: 'https://scs.community/'
   topics:
-    - zuul
+    - k8s
+    - cluster-stacks
   archived: false
   has_issues: true
   has_projects: false
