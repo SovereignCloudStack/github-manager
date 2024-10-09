@@ -1,8 +1,8 @@
 ---
-csmctl:
+csctl:
   default_branch: main
-  description: csmctl
-  homepage: 'https://github.com/SovereignCloudStack/csmctl'
+  description: csctl
+  homepage: "https://github.com/SovereignCloudStack/csctl"
   topics:
     - k8s
   archived: false

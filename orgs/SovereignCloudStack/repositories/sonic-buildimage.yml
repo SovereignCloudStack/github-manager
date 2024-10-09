@@ -1,12 +1,13 @@
 ---
-gx-scs-identity-provider:
+sonic-buildimage:
   default_branch: main
-  description: IdP and Federation Work for Gaia-X and SCS
+  description: 'A fork of the offical sonic repo'
   homepage: 'https://scs.community/'
   topics:
-    - gaia-x
+    - landscape
+    - vp04
   archived: false
-  has_issues: true
+  has_issues: false
   has_projects: false
   has_wiki: false
   private: false
@@ -14,7 +15,9 @@ gx-scs-identity-provider:
   allow_merge_commit: false
   allow_squash_merge: true
   allow_rebase_merge: true
-  teams: []
+  teams:
+    - slug: "vp04"
+      permission: "admin"
   collaborators: []
   branch_protections:
     - branch: "main"
