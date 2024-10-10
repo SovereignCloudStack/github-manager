@@ -262,6 +262,8 @@ members:
     login: b1-lender
   - name: Adrien Cunin
     login: Adri2000
+  - name: Tobias Anker
+    login: kitsudaiki
 
 # ==========================
 teams:
@@ -325,6 +327,7 @@ teams:
       - markus-hentsch
       - shmelkin
       - fraugabel
+      - kitsudaiki
   - slug: "gonicus"
     description: "GONICUS GmbH"
     privacy: closed
@@ -585,6 +588,7 @@ teams:
       - piobig2871
       - michal-gubricky
       - tsmado
+      - kitsudaiki
   - slug: "VP12"
     description: "Cloud/Containerplatform Health Monitoring"
     privacy: closed
