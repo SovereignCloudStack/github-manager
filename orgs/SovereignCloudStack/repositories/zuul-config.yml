@@ -1,7 +1,7 @@
 ---
 zuul-config:
   default_branch: main
-  description: The configuration of our zuul instances
+  description: The configuration of our SCS tenant in zuul
   homepage: 'https://scs.community/contribute/'
   topics:
     - zuul

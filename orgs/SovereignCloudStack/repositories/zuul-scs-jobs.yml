@@ -1,11 +1,11 @@
 ---
-zuul:
+zuul-scs-jobs:
   default_branch: main
-  description: Deploy Zuul for SCS
-  homepage: 'https://zuul.scs.community/'
+  description: The configuration of our zuul instances
+  homepage: 'https://scs.community/contribute/'
   topics:
     - zuul
-  archived: true
+  archived: false
   has_issues: true
   has_projects: false
   has_wiki: false
@@ -15,7 +15,6 @@ zuul:
   allow_squash_merge: true
   allow_rebase_merge: true
   teams: []
-  collaborators: []
   branch_protections:
     - branch: "main"
       template: "main"
