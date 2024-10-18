@@ -1,0 +1,21 @@
+---
+opendesk-on-scs:
+  default_branch: main
+  description: Docs for openDesk on SCS
+  homepage: "https://docs.scs.community/user-docs/application-examples/opendesk-on-scs/overview"
+  topics:
+    - documentation
+  archived: true
+  has_issues: true
+  has_projects: false
+  has_wiki: false
+  private: false
+  delete_branch_on_merge: true
+  allow_merge_commit: false
+  allow_squash_merge: true
+  allow_rebase_merge: true
+  teams: []
+  collaborators: []
+  branch_protections:
+    - branch: "main"
+      template: "owner_bypass"
