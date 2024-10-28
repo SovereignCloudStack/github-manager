@@ -5,8 +5,8 @@ cluster-stackathon:
   homepage: 'https://scs.community/'
   topics:
     - k8s
-  archived: false
-  has_issues: true
+  archived: true
+  has_issues: false
   has_projects: false
   has_wiki: false
   private: false
