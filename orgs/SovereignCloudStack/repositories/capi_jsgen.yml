@@ -1,12 +1,12 @@
 ---
-cluster-stackathon:
+capi-jsgen:
   default_branch: main
-  description: Collection for everything we hack on KaaS during the SCS Hackathon @ GONICUS
-  homepage: 'https://scs.community/'
+  description: CAPI json-schema generator, part of SovereignCloudStack/cluster-gen
+  homepage: "https://cluster-gen.moin.k8s.scs.community"
   topics:
     - k8s
-  archived: true
-  has_issues: false
+  archived: false
+  has_issues: true
   has_projects: false
   has_wiki: false
   private: false
