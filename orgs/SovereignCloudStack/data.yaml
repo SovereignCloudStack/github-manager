@@ -264,6 +264,8 @@ members:
     login: Adri2000
   - name: Tobias Anker
     login: kitsudaiki
+  - name: Marius Quabeck
+    login: MariusQuabeck
 
 # ==========================
 teams:
@@ -363,6 +365,7 @@ teams:
       - bitkeks
       - BiancaHollery
       - gtema
+      - MariusQuabeck
   - slug: "osism"
     description: "OSISM GmbH"
     privacy: closed
