@@ -1,6 +1,6 @@
 ---
 sonic-buildimage:
-  default_branch: main
+  default_branch: master
   description: 'A fork of the offical sonic repo'
   homepage: 'https://scs.community/'
   topics:
