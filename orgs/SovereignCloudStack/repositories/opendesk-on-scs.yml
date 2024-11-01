@@ -5,7 +5,7 @@ opendesk-on-scs:
   homepage: "https://docs.scs.community/user-docs/application-examples/opendesk-on-scs/overview"
   topics:
     - documentation
-  archived: true
+  archived: false
   has_issues: true
   has_projects: false
   has_wiki: false
