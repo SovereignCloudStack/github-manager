@@ -4,6 +4,10 @@
 exclusive: true
 
 members:
+  - name: Melvin Ziemann
+    login: cloucs
+  - name: Moritz Jannasch
+    login: mojansch
   - name: Freerk-Ole Zakfeld
     login: fzakfeld
   - name: Josefine Kipke
@@ -431,6 +435,8 @@ teams:
     privacy: closed
     member:
       - fzakfeld
+      - cloucs
+      - mojansch
   - slug: "wavecon"
     description: "Wavecon GmbH"
     privacy: closed
