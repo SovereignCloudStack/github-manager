@@ -1,0 +1,26 @@
+---
+rookify:
+  default_branch: main
+  description: 'A tool to generate domain and project structures in openstack for testing purposes'
+  homepage: 'https://scs.community/'
+  topics:
+    - openstack
+    - testing
+  archived: false
+  has_issues: true
+  has_projects: false
+  has_wiki: true
+  private: false
+  delete_branch_on_merge: true
+  allow_merge_commit: false
+  allow_squash_merge: true
+  allow_rebase_merge: true
+  maintainer:
+    - scoopex
+  teams:
+    - slug: "osba"
+      permission: "admin"
+  collaborators: []
+  branch_protections:
+    - branch: "main"
+      template: "main"
