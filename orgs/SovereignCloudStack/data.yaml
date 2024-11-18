@@ -291,6 +291,10 @@ teams:
       - scoopex
       - curx
       - joshmue
+      - michal-gubricky
+      - cah-patrickthiem
+      - mbuechse
+      - tonifinger
   - slug: "23technologies"
     description: "23technologies GmbH"
     privacy: closed
