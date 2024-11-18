@@ -1,5 +1,5 @@
 ---
-rookify:
+openstack-workload-generator:
   default_branch: main
   description: 'A tool to generate domain and project structures in openstack for testing purposes'
   homepage: 'https://scs.community/'
