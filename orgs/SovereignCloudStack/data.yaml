@@ -16,10 +16,6 @@ members:
     login: reginametz
   - name: Marc Schoechlin GH Permissions Test
     login: TestingGHPermissions
-  - name: Robin Leib
-    login: RLeibJH
-  - name: Daniel Mack
-    login: DMackJH
   - name: Sven Batista Steinbach
     login: batistein
   - name: Christian Berendt
