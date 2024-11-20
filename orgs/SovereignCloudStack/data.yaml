@@ -14,8 +14,6 @@ members:
     login: zuse-z3
   - name: Regina Metz
     login: reginametz
-  - name: Marc Schoechlin GH Permissions Test
-    login: TestingGHPermissions
   - name: Sven Batista Steinbach
     login: batistein
   - name: Christian Berendt
