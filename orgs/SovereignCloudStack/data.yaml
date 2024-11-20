@@ -14,12 +14,6 @@ members:
     login: zuse-z3
   - name: Regina Metz
     login: reginametz
-  - name: Marc Schoechlin GH Permissions Test
-    login: TestingGHPermissions
-  - name: Robin Leib
-    login: RLeibJH
-  - name: Daniel Mack
-    login: DMackJH
   - name: Sven Batista Steinbach
     login: batistein
   - name: Christian Berendt
@@ -506,7 +500,6 @@ teams:
       - gndrmnn
       - lindenb1
       - sbstnnmnn
-      - madkiss
       - belgeron
       - varkeen
   - slug: "VP03"
