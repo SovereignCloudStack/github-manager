@@ -14,12 +14,6 @@ members:
     login: zuse-z3
   - name: Regina Metz
     login: reginametz
-  - name: Marc Schoechlin GH Permissions Test
-    login: TestingGHPermissions
-  - name: Robin Leib
-    login: RLeibJH
-  - name: Daniel Mack
-    login: DMackJH
   - name: Sven Batista Steinbach
     login: batistein
   - name: Christian Berendt
@@ -291,6 +285,10 @@ teams:
       - scoopex
       - curx
       - joshmue
+      - michal-gubricky
+      - cah-patrickthiem
+      - mbuechse
+      - tonifinger
   - slug: "23technologies"
     description: "23technologies GmbH"
     privacy: closed
@@ -502,7 +500,6 @@ teams:
       - gndrmnn
       - lindenb1
       - sbstnnmnn
-      - madkiss
       - belgeron
       - varkeen
   - slug: "VP03"
@@ -619,21 +616,9 @@ teams:
     privacy: closed
     maintainer:
       - scoopex
-      - bitkeks
-      - berendt
-  - slug: "VP18"
-    description: "The team which manages the scs system landscape or needs information about it"
-    privacy: closed
-    maintainer:
-      - scoopex
+      - fkr
     member:
       - berendt
-      - fkr
-      - BiancaHollery
-      - manuela-urban
-      - DMackJH
-      - RLeibJH
-      - osfrickler
       - zuse-z3
   - slug: "cluster-admins"
     description: "Kubernetes Admins on shared clusters which use GitHub as auth service"
