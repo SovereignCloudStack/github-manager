@@ -1,0 +1,25 @@
+---
+cephadm-rookify-testsetup:
+  default_branch: main
+  description: 'Test the rookification of Cephadm with Rookify'
+  homepage: 'https://scs.community/'
+  topics:
+    - ceph
+    - k8s
+    - rookify
+  archived: false
+  has_issues: true
+  has_projects: false
+  has_wiki: true
+  private: false
+  delete_branch_on_merge: true
+  allow_merge_commit: false
+  allow_squash_merge: true
+  allow_rebase_merge: true
+  teams:
+    - slug: "VP03"
+      permission: "admin"
+  collaborators: []
+  branch_protections:
+    - branch: "main"
+      template: "main"
