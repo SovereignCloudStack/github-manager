@@ -264,6 +264,8 @@ members:
     login: kitsudaiki
   - name: Marius Quabeck
     login: MariusQuabeck
+  - name: Lukas Kraus
+    login: cpt-kernel-afk
 
 # ==========================
 teams:
@@ -654,6 +656,11 @@ teams:
     maintainer:
       - Adri2000
     member: []
+  - slug: "rrze-fau"
+    description: "Colleagues from RRZE / FAU"
+    privacy: closed
+    maintainer:
+      - cpt-kernel-afk
 
 # ==========================
 branch_protection_templates:
