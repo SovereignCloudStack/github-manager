@@ -266,6 +266,8 @@ members:
     login: MariusQuabeck
   - name: Lukas Kraus
     login: cpt-kernel-afk
+  - name: Jan Horstmann
+    login: janhorstmann
 
 # ==========================
 teams:
@@ -381,6 +383,7 @@ teams:
       - gndrmnn
       - lindenb1
       - sbstnnmnn
+      - janhorstmann
   - slug: "plusserver"
     description: "plusserver GmbH"
     privacy: closed
