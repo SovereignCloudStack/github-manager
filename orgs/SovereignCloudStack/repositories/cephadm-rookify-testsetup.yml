@@ -1,11 +1,12 @@
 ---
-openstack-workload-generator:
+cephadm-rookify-testsetup:
   default_branch: main
-  description: 'A tool to generate domain and project structures in openstack for testing purposes'
+  description: 'Test the rookification of Cephadm with Rookify'
   homepage: 'https://scs.community/'
   topics:
-    - openstack
-    - testing
+    - ceph
+    - k8s
+    - rookify
   archived: false
   has_issues: true
   has_projects: false
@@ -15,12 +16,10 @@ openstack-workload-generator:
   allow_merge_commit: false
   allow_squash_merge: true
   allow_rebase_merge: true
-  maintainer:
-    - scoopex
   teams:
-    - slug: "osba"
+    - slug: "VP03"
       permission: "admin"
   collaborators: []
   branch_protections:
     - branch: "main"
-      template: "owner_bypass"
+      template: "main"

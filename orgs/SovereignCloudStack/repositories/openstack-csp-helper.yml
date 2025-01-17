@@ -1,10 +1,9 @@
 ---
-hardware-landscape:
+openstack-csp-helper:
   default_branch: main
-  description: 'The management repo and the documentation of the SCS hardware landscape'
-  homepage: 'https://scs.community/'
+  description: Helper chart for using openstack cluster-stacks
   topics:
-    - landscape
+    - k8s
   archived: false
   has_issues: true
   has_projects: false
@@ -14,10 +13,8 @@ hardware-landscape:
   allow_merge_commit: false
   allow_squash_merge: true
   allow_rebase_merge: true
-  teams:
-    - slug: "hardware-landscape"
-      permission: "maintain"
+  teams: []
   collaborators: []
   branch_protections:
     - branch: "main"
-      template: "owner_bypass"
+      template: "main"
