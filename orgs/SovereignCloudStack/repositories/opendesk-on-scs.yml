@@ -1,13 +1,12 @@
 ---
-sonic-buildimage:
-  default_branch: master
-  description: 'A fork of the offical sonic repo'
-  homepage: 'https://scs.community/'
+opendesk-on-scs:
+  default_branch: main
+  description: Docs for openDesk on SCS
+  homepage: "https://docs.scs.community/user-docs/application-examples/opendesk-on-scs/overview"
   topics:
-    - landscape
-    - vp04
+    - documentation
   archived: false
-  has_issues: false
+  has_issues: true
   has_projects: false
   has_wiki: false
   private: false
@@ -15,10 +14,8 @@ sonic-buildimage:
   allow_merge_commit: false
   allow_squash_merge: true
   allow_rebase_merge: true
-  teams:
-    - slug: "vp04"
-      permission: "admin"
+  teams: []
   collaborators: []
   branch_protections:
     - branch: "main"
-      template: "main"
+      template: "owner_bypass"

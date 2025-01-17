@@ -4,18 +4,16 @@
 exclusive: true
 
 members:
+  - name: Melvin Ziemann
+    login: cloucs
+  - name: Moritz Jannasch
+    login: mojansch
   - name: Freerk-Ole Zakfeld
     login: fzakfeld
   - name: Josefine Kipke
     login: zuse-z3
   - name: Regina Metz
     login: reginametz
-  - name: Marc Schoechlin GH Permissions Test
-    login: TestingGHPermissions
-  - name: Robin Leib
-    login: RLeibJH
-  - name: Daniel Mack
-    login: DMackJH
   - name: Sven Batista Steinbach
     login: batistein
   - name: Christian Berendt
@@ -217,7 +215,7 @@ members:
     login: Till769
   - name: Eike Waldt
     login: yeoldegrove
-  - name: Tilman Luetje
+  - name: Tilman Luettje
     login: b1-luettje
   - name: Jan-Marten Brüggemann
     login: brueggemann
@@ -262,6 +260,14 @@ members:
     login: b1-lender
   - name: Adrien Cunin
     login: Adri2000
+  - name: Tobias Anker
+    login: kitsudaiki
+  - name: Marius Quabeck
+    login: MariusQuabeck
+  - name: Lukas Kraus
+    login: cpt-kernel-afk
+  - name: Jan Horstmann
+    login: janhorstmann
 
 # ==========================
 teams:
@@ -283,6 +289,10 @@ teams:
       - scoopex
       - curx
       - joshmue
+      - michal-gubricky
+      - cah-patrickthiem
+      - mbuechse
+      - tonifinger
   - slug: "23technologies"
     description: "23technologies GmbH"
     privacy: closed
@@ -325,6 +335,7 @@ teams:
       - markus-hentsch
       - shmelkin
       - fraugabel
+      - kitsudaiki
   - slug: "gonicus"
     description: "GONICUS GmbH"
     privacy: closed
@@ -360,6 +371,7 @@ teams:
       - bitkeks
       - BiancaHollery
       - gtema
+      - MariusQuabeck
   - slug: "osism"
     description: "OSISM GmbH"
     privacy: closed
@@ -371,6 +383,7 @@ teams:
       - gndrmnn
       - lindenb1
       - sbstnnmnn
+      - janhorstmann
   - slug: "plusserver"
     description: "plusserver GmbH"
     privacy: closed
@@ -425,6 +438,8 @@ teams:
     privacy: closed
     member:
       - fzakfeld
+      - cloucs
+      - mojansch
   - slug: "wavecon"
     description: "Wavecon GmbH"
     privacy: closed
@@ -490,7 +505,6 @@ teams:
       - gndrmnn
       - lindenb1
       - sbstnnmnn
-      - madkiss
       - belgeron
       - varkeen
   - slug: "VP03"
@@ -585,6 +599,7 @@ teams:
       - piobig2871
       - michal-gubricky
       - tsmado
+      - kitsudaiki
   - slug: "VP12"
     description: "Cloud/Containerplatform Health Monitoring"
     privacy: closed
@@ -606,21 +621,10 @@ teams:
     privacy: closed
     maintainer:
       - scoopex
-      - bitkeks
-      - berendt
-  - slug: "VP18"
-    description: "The team which manages the scs system landscape or needs information about it"
-    privacy: closed
-    maintainer:
-      - scoopex
+      - fkr
+      - fzakfeld
     member:
       - berendt
-      - fkr
-      - BiancaHollery
-      - manuela-urban
-      - DMackJH
-      - RLeibJH
-      - osfrickler
       - zuse-z3
   - slug: "cluster-admins"
     description: "Kubernetes Admins on shared clusters which use GitHub as auth service"
@@ -628,11 +632,9 @@ teams:
     maintainer:
       - jschoone
     member:
-      - bitkeks
       - fkr
       - garloff
       - scoopex
-      - joshmue
   - slug: "zendis"
     description: "Colleagues from Zendis"
     privacy: closed
@@ -658,6 +660,11 @@ teams:
     maintainer:
       - Adri2000
     member: []
+  - slug: "rrze-fau"
+    description: "Colleagues from RRZE / FAU"
+    privacy: closed
+    maintainer:
+      - cpt-kernel-afk
 
 # ==========================
 branch_protection_templates:

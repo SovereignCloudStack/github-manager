@@ -1,13 +1,11 @@
 ---
-sonic-buildimage:
-  default_branch: master
-  description: 'A fork of the offical sonic repo'
-  homepage: 'https://scs.community/'
+openstack-csp-helper:
+  default_branch: main
+  description: Helper chart for using openstack cluster-stacks
   topics:
-    - landscape
-    - vp04
+    - k8s
   archived: false
-  has_issues: false
+  has_issues: true
   has_projects: false
   has_wiki: false
   private: false
@@ -15,9 +13,7 @@ sonic-buildimage:
   allow_merge_commit: false
   allow_squash_merge: true
   allow_rebase_merge: true
-  teams:
-    - slug: "vp04"
-      permission: "admin"
+  teams: []
   collaborators: []
   branch_protections:
     - branch: "main"

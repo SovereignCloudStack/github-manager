@@ -1,13 +1,12 @@
 ---
-sonic-buildimage:
-  default_branch: master
-  description: 'A fork of the offical sonic repo'
-  homepage: 'https://scs.community/'
+capi-jsgen:
+  default_branch: main
+  description: CAPI json-schema generator, part of SovereignCloudStack/cluster-gen
+  homepage: "https://cluster-gen.moin.k8s.scs.community"
   topics:
-    - landscape
-    - vp04
+    - k8s
   archived: false
-  has_issues: false
+  has_issues: true
   has_projects: false
   has_wiki: false
   private: false
@@ -15,9 +14,7 @@ sonic-buildimage:
   allow_merge_commit: false
   allow_squash_merge: true
   allow_rebase_merge: true
-  teams:
-    - slug: "vp04"
-      permission: "admin"
+  teams: []
   collaborators: []
   branch_protections:
     - branch: "main"
