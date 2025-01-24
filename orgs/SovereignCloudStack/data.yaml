@@ -129,8 +129,7 @@ members:
     login: chschilling
   - name: Max Wolfs
     login: maxwolfs
-  - name: Dag Dammann
-    login: dagdammann
+    role: admin
   - name: Friederike Zelke
     login: FriederikeZelke
   - name: Paul-Philipp Kuschy
