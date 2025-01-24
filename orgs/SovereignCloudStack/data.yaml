@@ -477,6 +477,12 @@ teams:
     maintainer:
       - Till769
     member: []
+  - slug: "s7n"
+    description: "S7n Cloud Services GmbH"
+    privacy: closed
+    maintainer:
+      - garloff
+    member: []
   - slug: "VP01"
     description: "OpsTooling, CI Tests Infra/IaaS, Metal as a Service, Life Cycle Management"
     privacy: closed
