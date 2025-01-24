@@ -18,7 +18,7 @@ members:
     login: batistein
   - name: Christian Berendt
     login: berendt
-    role: member
+    role: admin
   - name: Christian Otto Stelter
     login: costelter
   - name: Felix Kronlage-Dammers
@@ -132,7 +132,6 @@ members:
     role: admin
   - name: Friederike Zelke
     login: FriederikeZelke
-    role: admin
   - name: Paul-Philipp Kuschy
     login: ppkuschy
   - name: Enrico Kern
@@ -145,6 +144,7 @@ members:
     login: mpilka
   - name: Matej Feder
     login: matofeder
+    role: admin
   - name: Roman Hros
     login: chess-knight
   - name: Jan Schoone
@@ -198,7 +198,6 @@ members:
     login: nadja234
   - name: Marc Schöchlin
     login: scoopex
-    role: admin
   - name: Angel Kafazov
     login: akafazov
   - name: Bozhidar Ignatov
@@ -237,7 +236,6 @@ members:
     login: OgarOgarovic
   - name: Artem Goncharov
     login: gtema
-    role: admin
   - name: Ilja Shmelkin
     login: shmelkin
   - name: Tomas Smado
