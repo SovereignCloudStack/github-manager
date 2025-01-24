@@ -409,6 +409,9 @@ teams:
       - mauhau
       - belgeron
       - varkeen
+      - scoopex
+      - jschoone
+      - maxwolfs
   - slug: "univention"
     description: "Univention GmbH"
     privacy: closed
