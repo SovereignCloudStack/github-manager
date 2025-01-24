@@ -356,21 +356,9 @@ teams:
     description: "Open Source Business Alliance – Bundesverband für digitale Souveränität e.V."
     privacy: closed
     maintainer:
-      - garloff
       - fkr
-      - scoopex
     member:
-      - manuela-urban
-      - alexander-diab
-      - dirklossack
-      - maxwolfs
-      - jschoone
-      - FriederikeZelke
-      - nadja234
-      - reginametz
-      - bitkeks
       - BiancaHollery
-      - gtema
       - MariusQuabeck
   - slug: "osism"
     description: "OSISM GmbH"
