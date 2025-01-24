@@ -352,21 +352,9 @@ teams:
     description: "Open Source Business Alliance – Bundesverband für digitale Souveränität e.V."
     privacy: closed
     maintainer:
-      - garloff
       - fkr
-      - scoopex
     member:
-      - manuela-urban
-      - alexander-diab
-      - dirklossack
-      - maxwolfs
-      - jschoone
-      - FriederikeZelke
-      - nadja234
-      - reginametz
-      - bitkeks
       - BiancaHollery
-      - gtema
       - MariusQuabeck
   - slug: "osism"
     description: "OSISM GmbH"
@@ -375,7 +363,6 @@ teams:
       - berendt
     member:
       - osfrickler
-      - artificial-intelligence
       - gndrmnn
       - lindenb1
       - sbstnnmnn
@@ -418,6 +405,9 @@ teams:
       - mauhau
       - belgeron
       - varkeen
+      - scoopex
+      - jschoone
+      - maxwolfs
   - slug: "univention"
     description: "Univention GmbH"
     privacy: closed
@@ -477,18 +467,17 @@ teams:
     member:
       - seykotron
       - spectertj
-  - slug: "daiteap"
-    description: "Daiteap"
-    privacy: closed
-    maintainer:
-      - akafazov
-    member:
-      - ignatov17
   - slug: "dataport"
     description: "dataport AöR"
     privacy: closed
     maintainer:
       - Till769
+    member: []
+  - slug: "s7n"
+    description: "S7n Cloud Services GmbH"
+    privacy: closed
+    maintainer:
+      - garloff
     member: []
   - slug: "VP01"
     description: "OpsTooling, CI Tests Infra/IaaS, Metal as a Service, Life Cycle Management"
