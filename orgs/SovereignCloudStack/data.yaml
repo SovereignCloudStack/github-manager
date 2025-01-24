@@ -471,13 +471,6 @@ teams:
     member:
       - seykotron
       - spectertj
-  - slug: "daiteap"
-    description: "Daiteap"
-    privacy: closed
-    maintainer:
-      - akafazov
-    member:
-      - ignatov17
   - slug: "dataport"
     description: "dataport AöR"
     privacy: closed
