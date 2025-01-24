@@ -130,8 +130,6 @@ members:
   - name: Max Wolfs
     login: maxwolfs
     role: admin
-  - name: Dag Dammann
-    login: dagdammann
   - name: Friederike Zelke
     login: FriederikeZelke
     role: admin
