@@ -1,0 +1,36 @@
+---
+name: inactive user identifier
+
+"on":
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+      - get_stale  # for testing only - remove!
+  schedule:
+    - cron: "3 2 1 * *"
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  build:
+    name: inactive user identifier
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Analyze User Activity
+        id: analyze_user_activity
+        uses: peter-murray/inactive-users-action@v1
+        with:
+          token: ${{ secrets.GHP_MFEDER }}
+          organization: SovereignCloudStack
+          activity_days: 365
+
+      - name: Save User Activity Report
+        uses: actions/upload-artifact@v4
+        with:
+          name: reports
+          path: |
+            ${{ steps.analyze_user_activity.outputs.report_csv }}
