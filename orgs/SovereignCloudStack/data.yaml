@@ -652,6 +652,15 @@ teams:
     privacy: closed
     maintainer:
       - cpt-kernel-afk
+  - slug: "project-board"
+    description: "Members of  Board"
+    privacy: closed
+    maintainer:
+      - berendt
+      - fkr
+      - garloff
+      - jschoone
+      - matofeder
 
 # ==========================
 branch_protection_templates:
