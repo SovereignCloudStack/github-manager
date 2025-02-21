@@ -373,7 +373,6 @@ teams:
     description: "plusserver GmbH"
     privacy: closed
     maintainer:
-      - frosty-geek
       - neuroserve
     member:
       - maliblatt
