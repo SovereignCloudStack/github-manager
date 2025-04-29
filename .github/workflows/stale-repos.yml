@@ -1,0 +1,98 @@
+---
+# Stale Repository Identifier
+# This GitHub Action implements the repository activity monitoring requirements outlined in the Sovereign Cloud Stack Procedural Standard (SCS-0006).
+# Functionality
+# - Identifies repositories within the SovereignCloudStack organization that have been inactive for 335 or 365 days
+# - Reports stale repositories based on recent pushes, releases, and pull requests
+# - Automatically creates or updates a GitHub issue with the stale repository report
+# - Runs monthly (on the 1st at 01:00 UTC) and can be manually triggered
+#
+# Limitations
+# - The action does not exclude auto-generated PRs (e.g., Renovate, Dependabot)
+# - It does not handle repositories with no remaining codeowners as stale
+#
+# TODO: These limitations must be implemented via post-processing or contributed upstream.
+
+name: stale repo identifier
+"on":
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: "0 1 1 * *"  # Runs monthly: at 01:00 UTC on the 1st day of every month
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  build:
+    name: Stale repo identifier
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        days: [335, 365]
+
+    permissions:
+      contents: read
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run stale_repos tool
+        uses: github/stale-repos@v2.1.3
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ORGANIZATION: SovereignCloudStack
+          INACTIVE_DAYS: ${{ matrix.days }}
+          ACTIVITY_METHOD: "pushed"
+          ADDITIONAL_METRICS: "release,pr"
+
+      - name: Rename report file
+        run: mv stale_repos.md stale_repos_${{ matrix.days }}.md
+
+      - name: Upload stale report artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: stale_repos_report_${{ matrix.days }}
+          path: stale_repos_${{ matrix.days }}.md
+
+  create-issue:
+    name: Create or update stale repo issue
+    runs-on: ubuntu-latest
+    needs: build  # Runs after all matrix jobs finish
+
+    permissions:
+      issues: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download all stale report artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: stale_reports
+
+      - name: Merge reports
+        run: |
+          echo "# Stale Repository Report" > final_stale_repos.md
+          for file in stale_reports/**/stale_repos_*.md; do
+            cat "$file" >> final_stale_repos.md
+            echo "" >> final_stale_repos.md
+          done
+
+      - name: Check for the stale report issue
+        run: |
+          ISSUE_NUMBER=$(gh search issues "Stale repository report" --match title --json number --jq ".[0].number")
+          echo "issue_number=$ISSUE_NUMBER" >> "$GITHUB_ENV"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create or update issue
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          issue-number: ${{ env.issue_number }}
+          title: Stale repository report
+          content-filepath: ./final_stale_repos.md
+          token: ${{ secrets.GITHUB_TOKEN }}
