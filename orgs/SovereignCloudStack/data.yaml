@@ -266,6 +266,8 @@ members:
     login: janhorstmann
   - name: Karsten Samaschke
     login: ksamaschke
+  - name: Vinicius Zavam
+    login: egypcio
 
 # ==========================
 teams:
@@ -660,6 +662,15 @@ teams:
       - garloff
       - jschoone
       - matofeder
+  - slug: "ECO-DIGIT"
+    description: "Colleagues from ECO:DIGIT project"
+    privacy: closed
+    maintainer:
+      - zuse-z3
+    member:
+      - fkr
+      - egypcio
+
 
 # ==========================
 branch_protection_templates:
