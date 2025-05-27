@@ -94,7 +94,7 @@ members:
   - name: Toens Bueker
     login: neuroserve
   - name: Oliver Kautz
-    login: o-otte
+    login: okautz
   - name: Sebastian Kaupe
     login: snkaupe
   - name: Roy Farrell
@@ -340,7 +340,7 @@ teams:
     description: "GONICUS GmbH"
     privacy: closed
     maintainer:
-      - o-otte
+      - okautz
     member:
       - joshmue
       - JoshuaI96
@@ -545,7 +545,7 @@ teams:
     description: "Container Monitoring / IaC / CI / Deployment Automation"
     privacy: closed
     maintainer:
-      - o-otte
+      - okautz
     member:
       - joshmue
       - JoshuaI96
@@ -635,7 +635,7 @@ teams:
     description: "Admins of the Zuul CI System"
     privacy: closed
     maintainer:
-      - o-otte
+      - okautz
       - PixelPhantomX
     member:
       - bitkeks
