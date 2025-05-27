@@ -403,12 +403,12 @@ teams:
     privacy: closed
     maintainer:
       - jklippel
+      - scoopex
     member:
       - harmathy
       - mauhau
       - belgeron
       - varkeen
-      - scoopex
       - jschoone
       - maxwolfs
   - slug: "univention"
