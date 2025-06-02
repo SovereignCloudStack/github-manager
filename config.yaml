@@ -208,6 +208,9 @@ labels:
   - name: "kaas-hackathon"
     description: ""
     color: "0dce67"
+  - name: "hackathon"
+    description: ""
+    color: "8d3ef6"
   # Sprint names
   - name: "Sprint Amsterdam"
     description: "Sprint Amsterdam (2023, cwk 16+17)"
