@@ -270,6 +270,8 @@ members:
     login: egypcio
   - name: Marvin Frommhold
     login: depressiveRobot
+  - name: Michel Raabe
+    login: rrmichel
 
 # ==========================
 teams:
@@ -319,6 +321,7 @@ teams:
       - b1-luettje
       - brueggemann
       - boekhorstb1
+      - rrmichel
   - slug: "cloud-and-heat"
     description: "Cloud&Heat Technologies GmbH"
     privacy: closed
@@ -614,6 +617,7 @@ teams:
       - scoopex
       - fkr
       - fzakfeld
+      - rrmichel
     member:
       - berendt
       - zuse-z3
