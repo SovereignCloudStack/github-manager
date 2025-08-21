@@ -679,8 +679,8 @@ teams:
     member:
       - fkr
       - egypcio
-  - slug: "alasca"
-    description: "Colleagues from ALASCA"
+  - slug: "alasca-focis"
+    description: "Colleagues from ALASCA FOCIS"
     privacy: closed
     maintainer:
       - mbuechse
