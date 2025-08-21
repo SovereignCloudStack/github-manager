@@ -272,6 +272,8 @@ members:
     login: depressiveRobot
   - name: Michel Raabe
     login: rrmichel
+  - name: Daniel Gerber
+    login: gerbsen
 
 # ==========================
 teams:
@@ -677,6 +679,13 @@ teams:
     member:
       - fkr
       - egypcio
+  - slug: "alasca-focis"
+    description: "Colleagues from ALASCA FOCIS"
+    privacy: closed
+    maintainer:
+      - mbuechse
+    member:
+      - gerbsen
 
 
 # ==========================
