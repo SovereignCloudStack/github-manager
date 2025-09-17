@@ -274,6 +274,8 @@ members:
     login: rrmichel
   - name: Daniel Gerber
     login: gerbsen
+  - name: Friedrich Zahn
+    login: toothstone
 
 # ==========================
 teams:
@@ -686,6 +688,7 @@ teams:
       - mbuechse
     member:
       - gerbsen
+      - toothstone
 
 
 # ==========================
