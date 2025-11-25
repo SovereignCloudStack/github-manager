@@ -276,6 +276,8 @@ members:
     login: gerbsen
   - name: Friedrich Zahn
     login: toothstone
+  - name: Jan Klare
+    login: jklare
 
 # ==========================
 teams:
@@ -381,6 +383,7 @@ teams:
       - lindenb1
       - sbstnnmnn
       - janhorstmann
+      - jklare
   - slug: "plusserver"
     description: "plusserver GmbH"
     privacy: closed
