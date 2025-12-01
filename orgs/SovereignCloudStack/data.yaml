@@ -85,8 +85,6 @@ members:
     login: mxmxchere
   - name: Mario Minners
     login: mario-minners
-  - name: Paul Hildebrandt
-    login: paulphys
   - name: Andre Machowiak
     login: nerdicbynature
   - name: Aleksandr Gerasimenko
@@ -94,7 +92,7 @@ members:
   - name: Toens Bueker
     login: neuroserve
   - name: Oliver Kautz
-    login: o-otte
+    login: okautz
   - name: Sebastian Kaupe
     login: snkaupe
   - name: Roy Farrell
@@ -266,6 +264,20 @@ members:
     login: janhorstmann
   - name: Karsten Samaschke
     login: ksamaschke
+  - name: Vinicius Zavam
+    login: egypcio
+  - name: Marvin Frommhold
+    login: depressiveRobot
+  - name: Michel Raabe
+    login: rrmichel
+  - name: Daniel Gerber
+    login: gerbsen
+  - name: Friedrich Zahn
+    login: toothstone
+  - name: Jan Klare
+    login: jklare
+  - name: Arno Schneider
+    login: arnoschneidunia
 
 # ==========================
 teams:
@@ -315,6 +327,7 @@ teams:
       - b1-luettje
       - brueggemann
       - boekhorstb1
+      - rrmichel
   - slug: "cloud-and-heat"
     description: "Cloud&Heat Technologies GmbH"
     privacy: closed
@@ -338,7 +351,7 @@ teams:
     description: "GONICUS GmbH"
     privacy: closed
     maintainer:
-      - o-otte
+      - okautz
     member:
       - joshmue
       - JoshuaI96
@@ -358,6 +371,7 @@ teams:
     member:
       - BiancaHollery
       - MariusQuabeck
+      - depressiveRobot
   - slug: "osism"
     description: "OSISM GmbH"
     privacy: closed
@@ -369,11 +383,11 @@ teams:
       - lindenb1
       - sbstnnmnn
       - janhorstmann
+      - jklare
   - slug: "plusserver"
     description: "plusserver GmbH"
     privacy: closed
     maintainer:
-      - frosty-geek
       - neuroserve
     member:
       - maliblatt
@@ -402,12 +416,12 @@ teams:
     privacy: closed
     maintainer:
       - jklippel
+      - scoopex
     member:
       - harmathy
       - mauhau
       - belgeron
       - varkeen
-      - scoopex
       - jschoone
       - maxwolfs
   - slug: "univention"
@@ -544,7 +558,7 @@ teams:
     description: "Container Monitoring / IaC / CI / Deployment Automation"
     privacy: closed
     maintainer:
-      - o-otte
+      - okautz
     member:
       - joshmue
       - JoshuaI96
@@ -610,6 +624,7 @@ teams:
       - scoopex
       - fkr
       - fzakfeld
+      - rrmichel
     member:
       - berendt
       - zuse-z3
@@ -634,7 +649,7 @@ teams:
     description: "Admins of the Zuul CI System"
     privacy: closed
     maintainer:
-      - o-otte
+      - okautz
       - PixelPhantomX
     member:
       - bitkeks
@@ -652,6 +667,32 @@ teams:
     privacy: closed
     maintainer:
       - cpt-kernel-afk
+  - slug: "project-board"
+    description: "Members of  Board"
+    privacy: closed
+    maintainer:
+      - berendt
+      - fkr
+      - garloff
+      - jschoone
+      - matofeder
+  - slug: "ECO-DIGIT"
+    description: "Colleagues from ECO:DIGIT project"
+    privacy: closed
+    maintainer:
+      - zuse-z3
+    member:
+      - fkr
+      - egypcio
+  - slug: "alasca-focis"
+    description: "Colleagues from ALASCA FOCIS"
+    privacy: closed
+    maintainer:
+      - mbuechse
+    member:
+      - gerbsen
+      - toothstone
+
 
 # ==========================
 branch_protection_templates:
@@ -685,7 +726,7 @@ branch_protection_templates:
         users: []  # list of members or empty list
         teams: []  # list of teams or empty list
       dismiss_stale_reviews: false
-      require_code_owner_reviews: false
+      require_code_owner_reviews: true
       required_approving_review_count: 1
     restrictions:
       users: []  # list of members or empty list
