@@ -1,5 +1,7 @@
 ---
 name: Test the management of github repositories
+permissions:
+  contents: read
 
 "on":
   workflow_dispatch:
