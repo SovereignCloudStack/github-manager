@@ -1,12 +1,13 @@
 ---
 milestones:
-  - 'R2 (v3.0.0)'
-  - 'R3 (v4.0.0)'
-  - 'R4 (v5.0.0)'
-  - 'R5 (v6.0.0)'
-  - 'R6 (v7.0.0)'
-  - 'R7 (v8.0.0)'
-  - 'R8 (v9.0.0)'
+  - "R2 (v3.0.0)"
+  - "R3 (v4.0.0)"
+  - "R4 (v5.0.0)"
+  - "R5 (v6.0.0)"
+  - "R6 (v7.0.0)"
+  - "R7 (v8.0.0)"
+  - "R8 (v9.0.0)"
+  - "R9 (v10.0.0)"
 
 labels:
   - name: bug
@@ -207,6 +208,9 @@ labels:
   - name: "kaas-hackathon"
     description: ""
     color: "0dce67"
+  - name: "hackathon"
+    description: ""
+    color: "8d3ef6"
   # Sprint names
   - name: "Sprint Amsterdam"
     description: "Sprint Amsterdam (2023, cwk 16+17)"

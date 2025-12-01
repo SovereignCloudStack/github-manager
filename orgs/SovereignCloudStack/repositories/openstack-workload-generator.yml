@@ -20,6 +20,9 @@ openstack-workload-generator:
   teams:
     - slug: "osba"
       permission: "admin"
+    - slug: "uhurutec"
+      permission: "maintain"
+
   collaborators: []
   branch_protections:
     - branch: "main"
