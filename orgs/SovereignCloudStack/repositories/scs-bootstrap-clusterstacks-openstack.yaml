@@ -6,7 +6,7 @@ scs-bootstrap-clusterstacks-openstack:
   topics:
     - k8s
     - cluster-stacks
-  archived: false
+  archived: true
   has_issues: true
   has_projects: false
   has_wiki: false
