@@ -5,7 +5,7 @@ newsletter:
   homepage: 'https://sovereigncloudstack.github.io/newsletter/digest/'
   topics:
     - community
-  archived: false
+  archived: true
   has_issues: true
   has_projects: false
   has_wiki: false

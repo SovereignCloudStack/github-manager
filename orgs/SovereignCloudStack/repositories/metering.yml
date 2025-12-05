@@ -4,7 +4,7 @@ metering:
   description: Metering for the purpose of billing
   homepage: 'https://scs.community/'
   topics: []
-  archived: false
+  archived: true
   has_issues: true
   has_projects: false
   has_wiki: false

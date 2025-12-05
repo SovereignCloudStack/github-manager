@@ -4,7 +4,7 @@ scs-did-creator:
   description: Tools for managing did:web DIDs for SCS clouds.
   homepage: 'https://scs.community/'
   topics: []
-  archived: false
+  archived: true
   has_issues: true
   has_projects: false
   has_wiki: false
