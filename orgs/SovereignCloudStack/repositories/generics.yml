@@ -4,7 +4,7 @@ generics:
   description: Central place for our CI scripts and unified templates like README files
   homepage: 'https://scs.community/'
   topics: []
-  archived: false
+  archived: true
   has_issues: true
   has_projects: false
   has_wiki: false
