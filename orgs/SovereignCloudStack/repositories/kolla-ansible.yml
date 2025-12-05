@@ -6,7 +6,7 @@ kolla-ansible:
   topics:
     - openstack-environment
     - openstack
-  archived: false
+  archived: true
   has_issues: true
   has_projects: false
   has_wiki: false
