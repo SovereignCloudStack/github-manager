@@ -5,7 +5,7 @@ security-infra-scan-pipeline:
   homepage: 'https://scs.community/'
   topics:
     - security
-  archived: false
+  archived: true
   has_issues: true
   has_projects: false
   has_wiki: false
