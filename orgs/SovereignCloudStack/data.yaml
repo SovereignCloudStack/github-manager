@@ -278,6 +278,8 @@ members:
     login: jklare
   - name: Arno Schneider
     login: arnoschneidunia
+  - name: Lisa Seifert
+    login: selis-osba
 
 # ==========================
 teams:
@@ -369,9 +371,9 @@ teams:
     maintainer:
       - fkr
     member:
-      - BiancaHollery
       - MariusQuabeck
       - depressiveRobot
+      - selis-osba
   - slug: "osism"
     description: "OSISM GmbH"
     privacy: closed
