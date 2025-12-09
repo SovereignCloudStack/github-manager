@@ -4,7 +4,7 @@ status-page-openapi:
   description: OpenAPI spec for the status page api
   homepage: 'https://scs.community/'
   topics: []
-  archived: false
+  archived: true
   has_issues: true
   has_projects: false
   has_wiki: false
