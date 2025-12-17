@@ -7,7 +7,7 @@ docker-horizon:
     - docker-image
     - openstack-environment
     - openstack-horizon
-  archived: false
+  archived: true
   has_issues: true
   has_projects: false
   has_wiki: false

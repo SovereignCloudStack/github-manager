@@ -5,7 +5,7 @@ events:
   homepage: 'https://scs.community/news/'
   topics:
     - community
-  archived: false
+  archived: true
   has_issues: true
   has_projects: false
   has_wiki: false
