@@ -670,7 +670,7 @@ teams:
     maintainer:
       - cpt-kernel-afk
   - slug: "project-board"
-    description: "Members of  Board"
+    description: "Members of the project board"
     privacy: closed
     maintainer:
       - fkr
