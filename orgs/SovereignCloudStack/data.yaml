@@ -670,14 +670,14 @@ teams:
     maintainer:
       - cpt-kernel-afk
   - slug: "project-board"
-    description: "Members of  Board"
+    description: "Members of the project board"
     privacy: closed
     maintainer:
-      - berendt
       - fkr
       - garloff
+      - jklare
       - jschoone
-      - matofeder
+      - michaelbayr
   - slug: "ECO-DIGIT"
     description: "Colleagues from ECO:DIGIT project"
     privacy: closed
