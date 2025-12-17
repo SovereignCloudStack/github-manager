@@ -673,11 +673,11 @@ teams:
     description: "Members of  Board"
     privacy: closed
     maintainer:
-      - berendt
       - fkr
       - garloff
+      - jklare
       - jschoone
-      - matofeder
+      - michaelbayr
   - slug: "ECO-DIGIT"
     description: "Colleagues from ECO:DIGIT project"
     privacy: closed
