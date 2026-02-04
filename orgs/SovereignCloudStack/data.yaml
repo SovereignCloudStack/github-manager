@@ -158,24 +158,6 @@ members:
 
 # ==========================
 teams:
-  - slug: "moin-cluster-all-playgrounds"
-    description: "Members of this team have access to all tenant namespaces in the moin-cluster"
-    privacy: closed
-    maintainer:
-      - mxmxchere
-    member:
-      - jschoone
-      - martinmo
-      - gtema
-      - chess-knight
-      - matofeder
-      - garloff
-      - fkr
-      - scoopex
-      - michal-gubricky
-      - cah-patrickthiem
-      - mbuechse
-      - tonifinger
   - slug: "23technologies"
     description: "23technologies GmbH"
     privacy: closed
@@ -281,7 +263,6 @@ teams:
     maintainer:
       - mpilka
     member:
-      - matofeder
       - chess-knight
       - MatusJenca2
       - michal-gubricky
