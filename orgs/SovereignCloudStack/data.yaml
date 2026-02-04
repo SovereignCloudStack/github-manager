@@ -18,7 +18,6 @@ members:
     login: batistein
   - name: Christian Berendt
     login: berendt
-    role: admin
   - name: Christian Otto Stelter
     login: costelter
   - name: Felix Kronlage-Dammers
@@ -127,7 +126,6 @@ members:
     login: chschilling
   - name: Max Wolfs
     login: maxwolfs
-    role: admin
   - name: Friederike Zelke
     login: FriederikeZelke
   - name: Paul-Philipp Kuschy
@@ -142,7 +140,6 @@ members:
     login: mpilka
   - name: Matej Feder
     login: matofeder
-    role: admin
   - name: Roman Hros
     login: chess-knight
   - name: Jan Schoone
@@ -184,6 +181,7 @@ members:
     login: befisch
   - name: Michael Bayr
     login: michaelbayr
+    role: admin
   - name: Robert Holling
     login: rholling
   - name: David Rodriguez Regueira
@@ -276,6 +274,7 @@ members:
     login: toothstone
   - name: Jan Klare
     login: jklare
+    role: admin
   - name: Arno Schneider
     login: schneidarno
   - name: Lisa Seifert
@@ -670,14 +669,14 @@ teams:
     maintainer:
       - cpt-kernel-afk
   - slug: "project-board"
-    description: "Members of  Board"
+    description: "Members of the project board"
     privacy: closed
     maintainer:
-      - berendt
       - fkr
       - garloff
+      - jklare
       - jschoone
-      - matofeder
+      - michaelbayr
   - slug: "ECO-DIGIT"
     description: "Colleagues from ECO:DIGIT project"
     privacy: closed
