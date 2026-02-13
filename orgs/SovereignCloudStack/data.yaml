@@ -279,6 +279,8 @@ members:
     login: schneidarno
   - name: Lisa Seifert
     login: selis-osba
+  - name: Stefan Hoffmann
+    login: mrhopeman
 
 # ==========================
 teams:
@@ -348,6 +350,7 @@ teams:
       - shmelkin
       - fraugabel
       - kitsudaiki
+      - mrhopeman
   - slug: "gonicus"
     description: "GONICUS GmbH"
     privacy: closed
