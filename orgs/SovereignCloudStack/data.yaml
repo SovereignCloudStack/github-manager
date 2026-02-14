@@ -155,6 +155,8 @@ members:
     login: schneidarno
   - name: Lisa Seifert
     login: selis-osba
+  - name: Stefan Hoffmann
+    login: mrhopeman
 
 # ==========================
 teams:
@@ -189,6 +191,7 @@ teams:
       - martinmo
       - markus-hentsch
       - shmelkin
+      - mrhopeman
   - slug: "osba"
     description: "Open Source Business Alliance – Bundesverband für digitale Souveränität e.V."
     privacy: closed
