@@ -161,6 +161,8 @@ members:
     login: selis-osba
   - name: Stefan Hoffmann
     login: mrhopeman
+  - name: Thorsten Schifferdecker
+    login: curx
 
 # ==========================
 teams:
