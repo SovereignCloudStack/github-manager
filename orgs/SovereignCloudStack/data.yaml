@@ -130,6 +130,8 @@ members:
     login: shmelkin
   - name: Tomas Smado
     login: tsmado
+  - name: Dominik Kaminski
+    login: dominikkaminski
   - name: Thorsten Rossner
     login: thorsten-frlncr
   - name: Marius Quabeck
@@ -310,9 +312,9 @@ teams:
     description: "Colleagues from Zendis"
     privacy: closed
     maintainer:
-      - thorsten-frlncr
     member:
-      []
+      - thorsten-frlncr
+      - dominikkaminski
   - slug: "Zuul-Admins"
     description: "Admins of the Zuul CI System"
     privacy: closed
