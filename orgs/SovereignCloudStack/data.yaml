@@ -130,6 +130,8 @@ members:
     login: shmelkin
   - name: Tomas Smado
     login: tsmado
+  - name: Thorsten Rossner
+    login: thorsten-frlncr
   - name: Marius Quabeck
     login: MariusQuabeck
   - name: Lukas Kraus
@@ -304,6 +306,13 @@ teams:
       - fkr
       - garloff
       - scoopex
+  - slug: "zendis"
+    description: "Colleagues from Zendis"
+    privacy: closed
+    maintainer:
+      - thorsten-frlncr
+    member:
+      []
   - slug: "Zuul-Admins"
     description: "Admins of the Zuul CI System"
     privacy: closed
