@@ -4,6 +4,8 @@
 exclusive: true
 
 members:
+  - name: Melvin Ziemann
+    login: cloucs
   - name: Moritz Jannasch
     login: mojansch
   - name: Freerk-Ole Zakfeld
@@ -66,6 +68,8 @@ members:
     login: neuroserve
   - name: Dr. Jens Harbott
     login: osfrickler
+  - name: Sebastian Wenner
+    login: wenners
   - name: Cemil Degirmenci
     login: cedegi
   - name: Juan Pedro Torres
