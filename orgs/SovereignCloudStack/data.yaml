@@ -62,6 +62,8 @@ members:
     login: mxmxchere
   - name: Mario Minners
     login: mario-minners
+  - name: Aleksandr Gerasimenko
+    login: alexgesser
   - name: Toens Bueker
     login: neuroserve
   - name: Dr. Jens Harbott
@@ -105,8 +107,14 @@ members:
     login: guettli
   - name: Matthias Büchse
     login: mbuechse
+  - name: Nils Gondermann
+    login: gndrmnn
+  - name: Sebastian Neumann
+    login: sbstnnmnn
   - name: Tobias Wolf
     login: NotTheEvilOne
+  - name: Danny Eiselt
+    login: DEiselt
   - name: Christian Schwaller
     login: chrisschwa
   - name: Michael Bayr
@@ -126,6 +134,8 @@ members:
     login: mleberec
   - name: Till Raubaum
     login: Till769
+  - name: Rafael te Boekhorst
+    login: boekhorstb1
   - name: Patrick Thiem
     login: cah-patrickthiem
   - name: Martin Morgenstern
@@ -140,6 +150,10 @@ members:
     login: dominikkaminski
   - name: Thorsten Rossner
     login: thorsten-frlncr
+  - name: Johannes Hübner
+    login: b1-huebner
+  - name: Axel Lender
+    login: b1-lender
   - name: Marius Quabeck
     login: MariusQuabeck
   - name: Lukas Kraus
