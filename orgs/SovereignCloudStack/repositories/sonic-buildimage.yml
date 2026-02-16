@@ -6,7 +6,7 @@ sonic-buildimage:
   topics:
     - landscape
     - vp04
-  archived: false
+  archived: true
   has_issues: false
   has_projects: false
   has_wiki: false

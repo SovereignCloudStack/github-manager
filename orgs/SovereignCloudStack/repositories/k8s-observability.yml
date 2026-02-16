@@ -6,7 +6,7 @@ k8s-observability:
   topics:
     - k8s
     - observability
-  archived: false
+  archived: true
   has_issues: true
   has_projects: false
   has_wiki: false
