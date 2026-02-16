@@ -36,6 +36,8 @@ members:
   - name: Kurt Garloff
     login: garloff
     role: admin
+  - name: Christian Rost
+    login: grischdian
   - name: Max Harmathy
     login: harmathy
   - name: Jonas Schäfer
