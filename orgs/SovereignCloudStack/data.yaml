@@ -70,6 +70,8 @@ members:
     login: neuroserve
   - name: Dr. Jens Harbott
     login: osfrickler
+  - name: Florian Winkler
+    login: tinguin
   - name: Sebastian Wenner
     login: wenners
   - name: Cemil Degirmenci
@@ -136,6 +138,8 @@ members:
     login: mleberec
   - name: Till Raubaum
     login: Till769
+  - name: Tilman Luettje
+    login: b1-luettje
   - name: Rafael te Boekhorst
     login: boekhorstb1
   - name: Patrick Thiem
