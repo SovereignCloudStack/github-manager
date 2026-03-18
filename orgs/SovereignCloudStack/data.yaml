@@ -124,6 +124,8 @@ members:
     role: admin
   - name: Robert Holling
     login: rholling
+  - name: David Rodriguez Regueira
+    login: 90n20
   - name: Dominik Pataky
     login: bitkeks
   - name: Marc Schöchlin
