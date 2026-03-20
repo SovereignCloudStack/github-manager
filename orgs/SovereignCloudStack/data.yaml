@@ -703,14 +703,14 @@ teams:
       - @depressiveRobot
     member:
       - @fkr
-      -
+      - @janiskemper
   - slug: "Team KaaS Standards"
     description: "People that care for the standardization of KaaS"
     privacy: closed
     maintainer:
       -
     member:
-      -
+      - @janiskemper
   - slug: "Team IaaS Standards"
     description: "People that care for the standardization of IaaS"
     privacy: closed
