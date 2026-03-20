@@ -696,7 +696,7 @@ teams:
     member:
       - gerbsen
       - toothstone
-  - slug: "Team Global-Procedural Standards"
+  - slug: "team-global-procedural-standards"
     description: "People that care for the global track of standardization"
     privacy: closed
     maintainer:
@@ -704,14 +704,14 @@ teams:
     member:
       - @fkr
       - @janiskemper
-  - slug: "Team KaaS Standards"
+  - slug: "team-kaas-standards"
     description: "People that care for the standardization of KaaS"
     privacy: closed
     maintainer:
       -
     member:
       - @janiskemper
-  - slug: "Team IaaS Standards"
+  - slug: "team-iaas-standards"
     description: "People that care for the standardization of IaaS"
     privacy: closed
     maintainer:
