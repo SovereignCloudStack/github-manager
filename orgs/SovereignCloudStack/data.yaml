@@ -704,6 +704,7 @@ teams:
     member:
       - @fkr
       - @janiskemper
+      - @fzakfeld
   - slug: "team-kaas-standards"
     description: "People that care for the standardization of KaaS"
     privacy: closed
@@ -717,7 +718,7 @@ teams:
     maintainer:
       -
     member:
-      -
+      - @fzakfeld
 
 # ==========================
 branch_protection_templates:
