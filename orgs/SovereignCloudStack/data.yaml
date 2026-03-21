@@ -700,25 +700,25 @@ teams:
     description: "People that care for the global track of standardization"
     privacy: closed
     maintainer:
-      - @depressiveRobot
+      - depressiveRobot
     member:
-      - @fkr
-      - @janiskemper
-      - @fzakfeld
+      - fkr
+      - janiskemper
+      - fzakfeld
   - slug: "team-kaas-standards"
     description: "People that care for the standardization of KaaS"
     privacy: closed
     maintainer:
-      -
+      - fkr
     member:
-      - @janiskemper
+      - janiskemper
   - slug: "team-iaas-standards"
     description: "People that care for the standardization of IaaS"
     privacy: closed
     maintainer:
-      -
+      - fkr
     member:
-      - @fzakfeld
+      - fzakfeld
 
 # ==========================
 branch_protection_templates:
