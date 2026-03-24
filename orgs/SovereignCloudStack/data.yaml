@@ -207,10 +207,13 @@ teams:
     description: "B1 Systems GmbH"
     privacy: closed
     maintainer:
-      - mxmxchere
+      - b1-luettje
     member:
       - NotTheEvilOne
       - rrmichel
+      - b1-huebner
+      - b1-lender
+      - boekhorstb1
   - slug: "cloud-and-heat"
     description: "Cloud&Heat Technologies GmbH"
     privacy: closed
@@ -273,7 +276,6 @@ teams:
     member:
       - harmathy
       - mauhau
-      - belgeron
       - varkeen
       - jschoone
       - maxwolfs
@@ -292,7 +294,6 @@ teams:
       - jnull
     member:
       - linwalth
-      - cedegi
       - cedegi
       - chschilling
       - matfechner
