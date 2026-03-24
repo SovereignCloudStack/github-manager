@@ -345,6 +345,7 @@ teams:
     description: "Colleagues from Zendis"
     privacy: closed
     maintainer:
+      []
     member:
       - thorsten-frlncr
       - dominikkaminski
