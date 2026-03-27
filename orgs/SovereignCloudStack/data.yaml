@@ -193,6 +193,8 @@ members:
     login: mrhopeman
   - name: Thorsten Schifferdecker
     login: curx
+  - name: Benedikt Haug
+    login: benedikt-haug
 
 # ==========================
 teams:
@@ -321,6 +323,13 @@ teams:
       - garloff
     member:
       []
+  - slug: "noris"
+    description: "noris network AG"
+    privacy: closed
+    maintainer:
+      []
+    member:
+      - benedikt-haug
   - slug: "hardware-landscape"
     description: "The team which manages the scs system landscape or needs information about it"
     privacy: closed
