@@ -187,6 +187,8 @@ members:
     role: admin
   - name: Arno Schneider
     login: schneidarno
+  - name: Axel Schmidt
+    login: schmidax
   - name: Lisa Seifert
     login: selis-osba
   - name: Stefan Hoffmann
