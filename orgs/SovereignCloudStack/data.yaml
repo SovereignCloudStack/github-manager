@@ -404,7 +404,29 @@ teams:
     member:
       - gerbsen
       - toothstone
-
+  - slug: "team-global-procedural-standards"
+    description: "People that care for the global track of standardization"
+    privacy: closed
+    maintainer:
+      - depressiveRobot
+    member:
+      - fkr
+      - janiskemper
+      - fzakfeld
+  - slug: "team-kaas-standards"
+    description: "People that care for the standardization of KaaS"
+    privacy: closed
+    maintainer:
+      - fkr
+    member:
+      - janiskemper
+  - slug: "team-iaas-standards"
+    description: "People that care for the standardization of IaaS"
+    privacy: closed
+    maintainer:
+      - fkr
+    member:
+      - fzakfeld
 
 # ==========================
 branch_protection_templates:
