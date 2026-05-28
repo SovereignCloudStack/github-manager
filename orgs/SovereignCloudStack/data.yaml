@@ -197,6 +197,8 @@ members:
     login: curx
   - name: Benedikt Haug
     login: benedikt-haug
+  - name: Johannes Meyer
+    login: meyerjom
 
 # ==========================
 teams:
@@ -301,6 +303,14 @@ teams:
       - cedegi
       - chschilling
       - matfechner
+  - slug: "noris"
+    description: "noris network AG"
+    privacy: closed
+    maintainer:
+      []
+    member:
+      - benedikt-haug
+      - meyerjom
   - slug: "dnation"
     description: "dNation"
     privacy: closed
@@ -325,13 +335,6 @@ teams:
       - garloff
     member:
       []
-  - slug: "noris"
-    description: "noris network AG"
-    privacy: closed
-    maintainer:
-      []
-    member:
-      - benedikt-haug
   - slug: "hardware-landscape"
     description: "The team which manages the scs system landscape or needs information about it"
     privacy: closed
