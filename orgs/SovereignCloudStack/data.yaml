@@ -187,12 +187,16 @@ members:
     role: admin
   - name: Arno Schneider
     login: schneidarno
+  - name: Axel Schmidt
+    login: schmidax
   - name: Lisa Seifert
     login: selis-osba
   - name: Stefan Hoffmann
     login: mrhopeman
   - name: Thorsten Schifferdecker
     login: curx
+  - name: Benedikt Haug
+    login: benedikt-haug
 
 # ==========================
 teams:
@@ -321,6 +325,13 @@ teams:
       - garloff
     member:
       []
+  - slug: "noris"
+    description: "noris network AG"
+    privacy: closed
+    maintainer:
+      []
+    member:
+      - benedikt-haug
   - slug: "hardware-landscape"
     description: "The team which manages the scs system landscape or needs information about it"
     privacy: closed
@@ -345,6 +356,7 @@ teams:
     description: "Colleagues from Zendis"
     privacy: closed
     maintainer:
+      []
     member:
       - thorsten-frlncr
       - dominikkaminski
@@ -371,6 +383,7 @@ teams:
     maintainer:
       - fkr
       - garloff
+      - janiskemper
       - jklare
       - jschoone
       - michaelbayr
