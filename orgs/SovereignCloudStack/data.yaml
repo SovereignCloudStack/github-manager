@@ -293,16 +293,6 @@ teams:
     member:
       - fzakfeld
       - mojansch
-  - slug: "wavecon"
-    description: "Wavecon GmbH"
-    privacy: closed
-    maintainer:
-      - jnull
-    member:
-      - linwalth
-      - cedegi
-      - chschilling
-      - matfechner
   - slug: "noris"
     description: "noris network AG"
     privacy: closed
@@ -311,6 +301,11 @@ teams:
     member:
       - benedikt-haug
       - meyerjom
+      - jnull
+      - linwalth
+      - cedegi
+      - chschilling
+      - matfechner
   - slug: "dnation"
     description: "dNation"
     privacy: closed
