@@ -51,3 +51,9 @@ jobs:
           pipenv run ansible-playbook playbook.yaml -e api_token=$API_TOKEN --check --diff
         env:
           API_TOKEN: ${{ secrets[format('GHP_{0}', github.actor)] }}
+
+      - name: Dry-run removal of members no longer defined in data.yaml
+        run: |
+          pipenv run python3 remove_members.py --dry-run
+        env:
+          API_TOKEN: ${{ secrets[format('GHP_{0}', github.actor)] }}
