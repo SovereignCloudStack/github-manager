@@ -199,6 +199,12 @@ members:
     login: benedikt-haug
   - name: Johannes Meyer
     login: meyerjom
+  - name: Chris Werner Rau
+    login: cwrau
+  - name: Sven Krings
+    login: tasches
+  - name: Marvin Wolff
+    login: marvinWolff
 
 # ==========================
 teams:
@@ -403,6 +409,15 @@ teams:
     member:
       - gerbsen
       - toothstone
+  - slug: "teutonet"
+    description: "teuto.net Netzdienste GmbH"
+    privacy: closed
+    maintainer:
+      []
+    member:
+      - cwrau
+      - tasches
+      - marvinWolff
 
 
 # ==========================
