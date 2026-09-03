@@ -205,6 +205,8 @@ members:
     login: tasches
   - name: Marvin Wolff
     login: marvinWolff
+  - name: Dominic Hößl
+    login: dhoessl
 
 # ==========================
 teams:
@@ -312,6 +314,7 @@ teams:
       - cedegi
       - chschilling
       - matfechner
+      - dhoessl
   - slug: "dnation"
     description: "dNation"
     privacy: closed
