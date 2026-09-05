@@ -199,6 +199,14 @@ members:
     login: benedikt-haug
   - name: Johannes Meyer
     login: meyerjom
+  - name: Chris Werner Rau
+    login: cwrau
+  - name: Sven Krings
+    login: tasches
+  - name: Marvin Wolff
+    login: marvinWolff
+  - name: Dominic Hößl
+    login: dhoessl
 
 # ==========================
 teams:
@@ -306,6 +314,7 @@ teams:
       - cedegi
       - chschilling
       - matfechner
+      - dhoessl
   - slug: "dnation"
     description: "dNation"
     privacy: closed
@@ -403,6 +412,15 @@ teams:
     member:
       - gerbsen
       - toothstone
+  - slug: "teutonet"
+    description: "teuto.net Netzdienste GmbH"
+    privacy: closed
+    maintainer:
+      []
+    member:
+      - cwrau
+      - tasches
+      - marvinWolff
 
 
 # ==========================
