@@ -35,16 +35,23 @@ You can use the following procedure to test, debug or improve github manager on 
   ```
   pipenv run ./check_consistency.py
   ```
+* Remove members no longer in data.yaml (dry run first)
+  ```sh
+  pipenv run python3 remove_members.py --dry-run
+  pipenv run python3 remove_members.py
+  ```
 
 ## Limitiations
 
 * It is not possible to add already created, but still empty, repositories here. Before this is possible,
 at least one commit must have been made on the main branch.
 
-* It is not possible to remove members from the organization or any team. Please first delete the corresponding
-lines in `data.yaml` here in this repository and delete the user afterwards via the GitHub UI.
+* To remove a member from the organization or a team, delete the corresponding lines in `data.yaml`
+and push to main. The `remove_members.py` script will automatically remove them from GitHub on the
+next workflow run. `exclusive: true` must be set in `data.yaml` (it is set by default) for removals
+to take effect.
 
-We're working on these issues upstream: <https://github.com/opentelekomcloud/ansible-collection-gitcontrol> and
+We're working on upstream improvements: <https://github.com/opentelekomcloud/ansible-collection-gitcontrol> and
 <https://github.com/opentelekomcloud-infra/gitstyring>
 
 ## Github Actions

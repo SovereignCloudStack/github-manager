@@ -52,3 +52,9 @@ jobs:
           pipenv run python3 manage.py --keep_labels TRUE
         env:
           API_TOKEN: ${{ secrets[format('GHP_{0}', github.actor)] }}
+
+      - name: Remove members no longer defined in data.yaml
+        run: |
+          pipenv run python3 remove_members.py
+        env:
+          API_TOKEN: ${{ secrets[format('GHP_{0}', github.actor)] }}
