@@ -20,7 +20,6 @@ members:
     login: costelter
   - name: Felix Kronlage-Dammers
     login: fkr
-    role: admin
   - name: Ralf Heiringhoff
     login: frosty-geek
   - name: Marc Vorwerk
@@ -44,6 +43,7 @@ members:
     login: horazont
   - name: Janis Kemper
     login: janiskemper
+    role: admin
   - name: Jan Klippel
     login: jklippel
   - name: Jeff Chousterman
@@ -249,11 +249,10 @@ teams:
     description: "Open Source Business Alliance – Bundesverband für digitale Souveränität e.V."
     privacy: closed
     maintainer:
-      - fkr
+      - selis-osba
     member:
       - MariusQuabeck
       - depressiveRobot
-      - selis-osba
   - slug: "osism"
     description: "OSISM GmbH"
     privacy: closed
@@ -344,7 +343,6 @@ teams:
     privacy: closed
     maintainer:
       - scoopex
-      - fkr
       - fzakfeld
       - rrmichel
     member:
@@ -374,7 +372,6 @@ teams:
       []
     member:
       - bitkeks
-      - fkr
       - matofeder
       - scoopex
   - slug: "rrze-fau"
@@ -388,7 +385,6 @@ teams:
     description: "Members of the project board"
     privacy: closed
     maintainer:
-      - fkr
       - garloff
       - janiskemper
       - jklare
