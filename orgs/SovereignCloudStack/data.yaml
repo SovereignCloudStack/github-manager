@@ -207,6 +207,8 @@ members:
     login: marvinWolff
   - name: Dominic Hößl
     login: dhoessl
+  - name: Fabian Mutzbauer
+    login: famuhuru
 
 # ==========================
 teams:
@@ -285,7 +287,7 @@ teams:
     privacy: closed
     maintainer:
       - jklippel
-      - scoopex
+      - famuhuru
     member:
       - harmathy
       - mauhau
