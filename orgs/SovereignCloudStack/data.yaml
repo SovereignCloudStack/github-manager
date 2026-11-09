@@ -255,6 +255,7 @@ teams:
     member:
       - MariusQuabeck
       - depressiveRobot
+      - gerbsen
   - slug: "osism"
     description: "OSISM GmbH"
     privacy: closed
@@ -408,7 +409,6 @@ teams:
     maintainer:
       - mbuechse
     member:
-      - gerbsen
       - toothstone
   - slug: "teutonet"
     description: "teuto.net Netzdienste GmbH"
