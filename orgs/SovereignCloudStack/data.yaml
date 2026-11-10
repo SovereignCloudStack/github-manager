@@ -84,6 +84,8 @@ members:
     login: FriederikeZelke
   - name: Enrico Kern
     login: flyersa
+  - name: Jan Mußmann
+    login: jmussmann
   - name: Martin Pilka
     login: mpilka
   - name: Matej Feder
@@ -419,6 +421,14 @@ teams:
       - cwrau
       - tasches
       - marvinWolff
+  - slug: "uponu"
+    description: "UPONU GmbH"
+    privacy: closed
+    maintainer:
+      []
+    member:
+      - flyersa
+      - jmussmann
 
 
 # ==========================
