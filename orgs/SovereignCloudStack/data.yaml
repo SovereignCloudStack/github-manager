@@ -119,6 +119,8 @@ members:
     login: DEiselt
   - name: Christian Schwaller
     login: chrisschwa
+  - name: Sebastian Rupp
+    login: serupp
   - name: Michael Bayr
     login: michaelbayr
     role: admin
@@ -419,6 +421,14 @@ teams:
       - cwrau
       - tasches
       - marvinWolff
+  - slug: "artcodix"
+    description: "artcodix GmbH"
+    privacy: closed
+    maintainer:
+      []
+    member:
+      - chrisschwa
+      - serupp
 
 
 # ==========================
